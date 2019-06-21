@@ -7,7 +7,7 @@ categories: blog
 
 A little backstory for this. I developed an app that plays a sword unsheathing sound whenever the person takes his phone out of the pocket. I searched the web for a way to detect whether or not the device is in a pocket, but didn't find any explicit implementation. So here we are.
 
-The link to the project: https://github.com/IvanLudvig/SwordSoundApp
+The link to the project: [https://github.com/IvanLudvig/SwordSoundApp](https://github.com/IvanLudvig/SwordSoundApp)
 
 ## How to detect if the device is in a pocket
 
