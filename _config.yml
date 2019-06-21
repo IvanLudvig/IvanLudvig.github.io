@@ -1,10 +1,9 @@
 title: Ivan Ludvig's Blog
 author: IvanLudvig
 email: ivanludvig@list.ru
-description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: 
+	Thanks for checking out my blog. I post articles about my projects and how I implement various features. I mostly program for Android or develop games.
+	Hope this was helpful for you!
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -16,7 +15,7 @@ minima:
   # generate social links in footer
   social_links:
     # twitter: jekyllrb
-    github:  IvanLudvig
+    github: IvanLudvig
     rss: rss
     # dribbble: jekyll
     # facebook: jekyll
