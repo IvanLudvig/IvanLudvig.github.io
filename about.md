@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm a Java programmer and game developer. Just writing some articles about programming. I try to make them as helpful as possible on topics, that can cause confusion without an example.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+You can contact me by email (on the bottom of this page). 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+You can also message me on Telegram. My username is @IvanLudvig.
 
-
-[jekyll-organization]: https://github.com/jekyll
+P.S. I seriously think there are too many occurrences of my name on this website. And I don't know what to do with it.
