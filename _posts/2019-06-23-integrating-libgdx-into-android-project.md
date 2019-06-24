@@ -14,9 +14,9 @@ So, you have an android project.
 
 Update your app's `build.gradle` file: 
 
-1. Add the properties after the line `apply plugin: 'com.android.application'` (alternatively, you can copy them from your libgdx project):
+&nbsp;1. Add the properties after the line `apply plugin: 'com.android.application'` (alternatively, you can copy them from your libgdx project):
 
-```
+```gradle
 ext {
     appName = "AndroidLibgdx"
     gdxVersion = '1.9.9'
@@ -27,11 +27,11 @@ ext {
 }
 
 ```
-2. Inside `android` paste this code:
+&nbsp;2. Inside `android` paste this code:
 
-```
+```gradle
 android{
-	//other code
+    //other code
     sourceSets {
         main {
             jniLibs.srcDirs = ['libs']
@@ -40,14 +40,14 @@ android{
 }
 ```
 
-3. Add this line before `dependecies`:
+&nbsp;3. Add this line before `dependecies`:
 
-```
+```gradle
 configurations { natives }
 ```
-4. Add libgdx dependencies:
+&nbsp;4. Add libgdx dependencies:
 
-```
+```gradle
 dependencies {
     //Other dependencies you have
 
@@ -75,9 +75,9 @@ dependencies {
 
 And look up other dependencies you need by either generating a new libgdx project and copying them or you can look them up [here](https://github.com/libgdx/libgdx/wiki/Dependency-management-with-Gradle).
 
-5. Add this task to the end of your file:
+&nbsp;5. Add this task to the end of your file:
 
-```
+```gradle
 task copyAndroidNatives() {
     file("libs/armeabi/").mkdirs()
     file("libs/armeabi-v7a/").mkdirs()
@@ -103,9 +103,9 @@ task copyAndroidNatives() {
 }
 ```
 
-6. Open your `gradle.properties` file and paste this line:
+&nbsp;6. Open your `gradle.properties` file and paste this line:
 
-```
+```gradle
 org.gradle.configureondemand=false
 ```
 
@@ -113,9 +113,9 @@ Now, you should have libgdx integrated.
 
 ## How to use libgdx in your Android project
 
-1. You should add the android launcher for libgdx. In my demo it looks like this: 
+&nbsp;1. You should add the android launcher for libgdx. In my demo it looks like this: 
 
-```
+```java
 public class Launcher extends AndroidApplication {
     @Override
     protected void onCreate (Bundle savedInstanceState) {
@@ -125,9 +125,9 @@ public class Launcher extends AndroidApplication {
     }
 }
 ```
-2. Then, you should copy your ApplicationAdapter class, which is basically your libgdx game. In my demo I used the default:
+&nbsp;2. Then, you should copy your ApplicationAdapter class, which is basically your libgdx game. In my demo I used the default:
 
-```
+```java
 public class MyGame extends ApplicationAdapter {
     SpriteBatch batch;
     Texture img;
@@ -154,9 +154,9 @@ public class MyGame extends ApplicationAdapter {
     }
 }
 ```
-3. Lauch your libgdx game as an Intent in your main activity:
+&nbsp;3. Lauch your libgdx game as an Intent in your main activity:
 
-```
+```java
 startActivity(new Intent(this, Launcher.class));
 ```
 <br/><br/>
