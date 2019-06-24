@@ -40,12 +40,12 @@ android{
 }
 ```
 
-2. Add this line before `dependecies`:
+3. Add this line before `dependecies`:
 
 ```
 configurations { natives }
 ```
-3. Add libgdx dependencies:
+4. Add libgdx dependencies:
 
 ```
 dependencies {
@@ -75,7 +75,7 @@ dependencies {
 
 And look up other dependencies you need by either generating a new libgdx project and copying them or you can look them up [here](https://github.com/libgdx/libgdx/wiki/Dependency-management-with-Gradle).
 
-4. Add this task to the end of your file:
+5. Add this task to the end of your file:
 
 ```
 task copyAndroidNatives() {
@@ -103,7 +103,7 @@ task copyAndroidNatives() {
 }
 ```
 
-5. Open your `gradle.properties` file and paste this line:
+6. Open your `gradle.properties` file and paste this line:
 
 ```
 org.gradle.configureondemand=false
