@@ -154,7 +154,14 @@ public class MyGame extends ApplicationAdapter {
     }
 }
 ```
-&nbsp;3. Lauch your libgdx game as an Intent in your main activity:
+&nbsp;3. Don't forget to add the launcher to your manifest:
+```xml
+    <application>
+        //other code
+        <activity android:name=".Launcher" />
+    </application>
+```
+&nbsp;4. Lauch your libgdx game as an Intent in your main activity:
 
 ```java
 startActivity(new Intent(this, Launcher.class));
