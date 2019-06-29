@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome my blog!"
+title:  "Welcome to my blog!"
 date:   2019-06-22 01:12:58 +0300
 categories: blog
 ---
