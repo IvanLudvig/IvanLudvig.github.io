@@ -14,7 +14,7 @@ The algorithm is based on the distance between eyes. The further the face, the l
 
 The formula I used is:  
 
-<img src="formula.png" width="600">
+<img src="{{site.baseurl}}/assets/img/formula.png" width="600">
 
 Instead of object height we'll be using width as we are using the distance between eyes as the object. I'm going to explain how to get each of the parameters required.
 
@@ -59,7 +59,7 @@ Image height was declared in the initialisation of the camera source preview. Lo
 
 ### Object width
 Object width in pixels is calculated using the formula of the distance between two points, which uses the Pythagoras theorem. 
-<img src="distance.png" width="300">
+<img src="{{site.baseurl}}/assets/img/distance.png" width="300">
 
 In code it looks rather complicated:
 ```java
