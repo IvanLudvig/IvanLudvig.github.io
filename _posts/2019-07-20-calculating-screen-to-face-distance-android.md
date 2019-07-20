@@ -16,6 +16,8 @@ The formula I used is:
 
 <img src="{{site.baseurl}}/assets/img/formula.png" width="600">
 
+[Full code of MainActivity](https://github.com/IvanLudvig/Screen-to-face-distance/blob/master/app/src/main/java/ru/ivanludvig/screenfacedistance/MainActivity.java)
+
 Instead of object height we'll be using width as we are using the distance between eyes as the object. I'm going to explain how to get each of the parameters required.
 
 ### Using the front camera
@@ -59,7 +61,8 @@ Image height was declared in the initialisation of the camera source preview. Lo
 
 ### Object width
 Object width in pixels is calculated using the formula of the distance between two points, which uses the Pythagoras theorem. 
-<img src="{{site.baseurl}}/assets/img/distance.png" width="300">
+
+<img src="{{site.baseurl}}/assets/img/distance.png" width="259">
 
 In code it looks rather complicated:
 ```java
