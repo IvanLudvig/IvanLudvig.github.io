@@ -5,7 +5,7 @@ date:   2019-07-20 15:15:15 +0300
 categories: blog
 ---
 
-While searchin for a way to detect screen to face distance on Android I found only one open source project but it lacked some explanation and was quite old and complicated. So I did it myself.
+While searching for a way to detect screen to face distance on Android I found only one open source project but it lacked some explanation and was quite old and complicated. So I did it myself.
 
 [Project on GitHub](https://github.com/IvanLudvig/Screen-to-face-distance)  
 [A more advanced project using this algorithm](https://github.com/IvanLudvig/FollowingEye)
