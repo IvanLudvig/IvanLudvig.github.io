@@ -7,7 +7,7 @@ categories: blog
 
 While searchin for a way to detect screen to face distance on Android I found only one open source project but it lacked some explanation and was quite old and complicated. So I did it myself.
 
-[Project on GitHub](https://github.com/IvanLudvig/Screen-to-face-distance)
+[Project on GitHub](https://github.com/IvanLudvig/Screen-to-face-distance)  
 [A more advanced project using this algorithm](https://github.com/IvanLudvig/FollowingEye)
 
 The algorithm is based on the distance between eyes. The further the face, the less the distance between your eyes appears on the camera.  
