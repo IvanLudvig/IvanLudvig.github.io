@@ -1,0 +1,3 @@
+[submodule "message-retrieval-tool"]
+	path = message-retrieval-tool
+	url = https://github.com/IvanLudvig/message-retrieval-tool
