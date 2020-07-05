@@ -20,7 +20,7 @@ jobs:
     - name: Clang Code Formatter
       uses: ivanludvig/clang-format-action@v1.4
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${ { secrets.GITHUB_TOKEN } }
 ```
 
 This will run an action that I setup in a <a href="https://github.com/IvanLudvig/clang-format-action">repository</a>. It will automatically format your code on every push.
@@ -33,6 +33,6 @@ My action uses Microsoft's code style by default. But this can be easily changed
 clang-format -style=microsoft -i $SRC
 ```
 
-You can set the style to a whole bunch of options: LLVM, Google, Chromium, Mozilla, WebKit, GNU. It's up to you.
+You can set the style to a whole bunch of options: LLVM, Google, Chromium, Mozilla, WebKit, GNU. It's up to you. Then, add your action to your repository the same way you added mine.
 
 P.S. I don't actually like Microsoft's C++ formatting, but that's what I had to use.
