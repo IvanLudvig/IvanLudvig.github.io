@@ -4,7 +4,7 @@ email: ivanludvig@list.ru
 description:
 
 show_excerpts: false # set to true to show excerpts on the homepage
-
+google_analytics: UA-173168931-1
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
@@ -12,9 +12,9 @@ minima:
 
   # generate social links in footer
   social_links:
-    # twitter: jekyllrb
+    twitter: IvanLudvigDev
     github: IvanLudvig
-    rss: rss
+    # rss: rss
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
@@ -24,7 +24,7 @@ minima:
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
     # youtube_channel_name: CloudCannon
-    # telegram: jekyll
+    telegram: IvanLudvig
     # googleplus: +jekyll
     # microdotblog: jekyll
 
