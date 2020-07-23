@@ -1,6 +1,6 @@
 title: Ivan Ludvig's Blog
 author: IvanLudvig
-email: ivanludvigdev@gmail.com
+email: ivanludvig@list.ru
 description:
 
 show_excerpts: false # set to true to show excerpts on the homepage
@@ -14,7 +14,7 @@ minima:
   social_links:
     twitter: IvanLudvigDev
     github: IvanLudvig
-    rss: rss
+    # rss: rss
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
