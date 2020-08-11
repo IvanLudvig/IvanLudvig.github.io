@@ -23,32 +23,31 @@ Instead of object height we'll be using width as we are using the distance betwe
 ### Using the front camera
 I got the front camera this way:
 ```java
-    private Camera frontCam() {
-        int cameraCount = 0;
-        Camera cam = null;
-        Camera.CameraInfo cameraInfo = new Camera.CameraInfo();
-        cameraCount = Camera.getNumberOfCameras();
-        for (int camIdx = 0; camIdx < cameraCount; camIdx++) {
-            Camera.getCameraInfo(camIdx, cameraInfo);
-            Log.v("CAMID", camIdx + "");
-            if (cameraInfo.facing == Camera.CameraInfo.CAMERA_FACING_FRONT) {
-                try {
-                    cam = Camera.open(camIdx);
-                } catch (RuntimeException e) {
-                    Log.e("FAIL", "Camera failed to open: " + e.getLocalizedMessage());
-                }
+private Camera frontCam() {
+    int cameraCount = 0;
+    Camera cam = null;
+    Camera.CameraInfo cameraInfo = new Camera.CameraInfo();
+    cameraCount = Camera.getNumberOfCameras();
+    for (int camIdx = 0; camIdx < cameraCount; camIdx++) {
+        Camera.getCameraInfo(camIdx, cameraInfo);
+        if (cameraInfo.facing == Camera.CameraInfo.CAMERA_FACING_FRONT) {
+            try {
+                cam = Camera.open(camIdx);
+            } catch (RuntimeException e) {
+                Log.e("FAIL", "Camera failed to open: " + e.getLocalizedMessage());
             }
         }
-        return cam;
     }
+    return cam;
+}
 ```
 
 ### Focal length
 Focal length (`F`) can be obtained from the CameraParameters:
 
 ```java
-    Camera.Parameters campar = camera.getParameters();
-    F = campar.getFocalLength();
+Camera.Parameters campar = camera.getParameters();
+F = campar.getFocalLength();
 ```
 
 ### Distance between eyes
@@ -61,33 +60,33 @@ Image width and height were declared in the initialisation of the camera source 
 The dimensions of the sensor can be obtained from Camera Parameters:
 
 ```java
-    angleX = campar.getHorizontalViewAngle();
-    angleY = campar.getVerticalViewAngle();
-    sensorX = (float) (Math.tan(Math.toRadians(angleX/2))*2*F);
-    sensorY = (float) (Math.tan(Math.toRadians(angleY/2))*2*F);
+angleX = campar.getHorizontalViewAngle();
+angleY = campar.getVerticalViewAngle();
+sensorX = (float) (Math.tan(Math.toRadians(angleX/2))*2*F);
+sensorY = (float) (Math.tan(Math.toRadians(angleY/2))*2*F);
 ```
 
 ### Object width/height
 The class `Face` stores eyes, ears, etc in a list of `Landmark` objects. The list can be accessed by calling `getLandmarks()`. Then, out of the list we pick the left and right eyes and store their positions. 
 
 ```java
-	PointF leftEyePos = face.getLandmarks().get(LEFT_EYE).getPosition();
-	PointF rightEyePos = face.getLandmarks().get(RIGHT_EYE).getPosition();
+PointF leftEyePos = face.getLandmarks().get(LEFT_EYE).getPosition();
+PointF rightEyePos = face.getLandmarks().get(RIGHT_EYE).getPosition();
 ```
 Then, we calculate the distance between eyes separately for each axis. These values are in abstract units (like pixels). 
 
 ```java
-	float deltaX = Math.abs(leftEyePos.x - rightEyePos.x);
-	float deltaY = Math.abs(leftEyePos.y - rightEyePos.y);
+float deltaX = Math.abs(leftEyePos.x - rightEyePos.x);
+float deltaY = Math.abs(leftEyePos.y - rightEyePos.y);
 ```
 Then, the distance is calculated using the main formula. In order to increase accuracy it's calculated using either width or height depending on the axis along which the difference(`deltaX`, `deltaY`) is bigger.
 
 ```java
-	if (deltaX >= deltaY) {
-		distance = F * (AVERAGE_EYE_DISTANCE / sensorX) * (IMAGE_WIDTH / deltaX);
-    } else {
-        distance = F * (AVERAGE_EYE_DISTANCE / sensorY) * (IMAGE_HEIGHT / deltaY);
-    }
+if (deltaX >= deltaY) {
+    distance = F * (AVERAGE_EYE_DISTANCE / sensorX) * (IMAGE_WIDTH / deltaX);
+} else {
+    distance = F * (AVERAGE_EYE_DISTANCE / sensorY) * (IMAGE_HEIGHT / deltaY);
+}
 ```
 
 That's it! Thanks for reading.
