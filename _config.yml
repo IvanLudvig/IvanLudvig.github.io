@@ -1,20 +1,23 @@
 title: Ivan Ludvig's Blog
-author: IvanLudvig
-email: ivanludvigdev@gmail.com
+author:
+  name: IvanLudvig
+  email: ivanludvigdev@gmail.com
 description:
 
 show_excerpts: false # set to true to show excerpts on the homepage
 google_analytics: UA-173168931-1
+
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
+  skin: dark
   date_format: "%b %-d, %Y"
 
   # generate social links in footer
   social_links:
     twitter: IvanLudvigDev
-    github: IvanLudvig
-    rss: rss
+    github:  IvanLudvig
+    # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
@@ -27,6 +30,7 @@ minima:
     telegram: IvanLudvig
     # googleplus: +jekyll
     # microdotblog: jekyll
+    # keybase: jekyll
 
     # Mastodon instances
     # mastodon:
@@ -35,14 +39,21 @@ minima:
     # - username: jekyll2
     #   instance: example.com
 
+    # GitLab instances
+    # gitlab:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-header_pages:
- - about.md
-include:
-  - message-retrieval-tool
+#header_pages:
+# - about.md
+
 # Build settings
 theme: minima
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
