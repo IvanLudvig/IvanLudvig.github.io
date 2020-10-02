@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  "Clang format GitHub action"
+title:  "How to add a GitHub action to run clang format at every push"
 date:   2020-07-05 21:26:17 +0300
 categories: blog
 ---
-
-## How to add a GitHub action to run clang format at every push
-
 Navigate to your project's "Actions" tab and click "Set up a workflow yourself". Set the file name to `formatter.yml` and paste the following code into the file:
 
 ```yml
@@ -25,7 +22,7 @@ jobs:
 
 This will run an action that I setup in a <a href="https://github.com/IvanLudvig/clang-format-action">repository</a>. It will automatically format your code on every push.
 
-## How to change clang code style
+### How to change clang code style
 
 My action uses Microsoft's code style by default. But this can be easily changed. All you have to do is fork my <a href="https://github.com/IvanLudvig/clang-format-action">repository</a> and change one line of code in `entrypoint.sh`. This one:
 
