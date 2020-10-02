@@ -15,7 +15,7 @@ The algorithm is based on the distance between eyes. The further the face, the l
 
 The formula I used is:  
 
-<img src="{{site.baseurl}}/assets/img/formula.png" width="600">
+<img src="{{site.baseurl}}/assets/img/formula-inverted.png" width="600">
 
 [Full code of MainActivity](https://github.com/IvanLudvig/Screen-to-face-distance/blob/master/app/src/main/java/ru/ivanludvig/screenfacedistance/MainActivity.java)
 
