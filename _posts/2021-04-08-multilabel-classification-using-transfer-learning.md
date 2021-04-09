@@ -6,9 +6,9 @@ categories: blog
 ---
 Full code available <a href="https://github.com/IvanLudvig/mlmipt/blob/master/torchvision/zalando.ipynb">on GitHub</a>.
 ## Data preprocessing
-The dataset used is <a href="https://github.com/zalandoresearch/feidegger">Zalando</a>, consisting of fashion imagesa and descriptions. It's originally in German, but I translated it with a simple script. You can access the already translated dataset <a href="https://drive.google.com/file/d/1ECAJd8KREvdxZ45rkLOFHQyyv5FJvOcI/">here</a>.
+The dataset used is <a href="https://github.com/zalandoresearch/feidegger">Zalando</a>, consisting of fashion images and descriptions. It's originally in German, but I translated it with a simple script. You can access the already translated dataset <a href="https://drive.google.com/file/d/1ECAJd8KREvdxZ45rkLOFHQyyv5FJvOcI/">here</a>.
 <img src="{{site.baseurl}}/assets/img/zalando/0.png">
-
+#### Extracting tags
 As you can see, the dataset contains images of clothes items and their descriptions. We are going to extract tags from these descriptions, nouns and adjectives separately. This can be done using ntlk:
 ```python
 def extract_nouns(text):
@@ -34,7 +34,7 @@ def top_tags(tags):
 
     return np.array(tags)[sorted_ids[:10]]
 ```
-To make training faster, we're going to keep just the 25 most common tags overall (25 nouns and adjs each). Like this
+To make training faster, we're going to keep just the 25 most common tags overall (25 nouns and adjs each).
 ```python
 num_classes = 25
 all_nouns = df['nouns'].to_numpy()
@@ -43,6 +43,7 @@ values, counts = np.unique(all_nouns, return_counts=True)
 ind = np.argpartition(-counts, kth=num_classes)[:num_classes]
 noun_classes = values[ind]
 ```
+#### Encoding
 Next, we need to convert the tags to vectors (similar to OneHotEncoding, but with multiple tags for each item). The vector will be 50 dimensional as there are 50 tags overall. This is done using MultiLabelBinarizer.
 ```python
 mlb = MultiLabelBinarizer()
@@ -86,6 +87,7 @@ class MyDataset(Dataset):
     def __len__(self):
         return len(self.data)
 ```
+#### Splitting data
 Then, the data is split for training and validation.
 
 ```python
@@ -175,7 +177,8 @@ learning_rate = 1e-3
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 criterion = nn.BCELoss()
 ```
-Next, some utility functions. Calculating f1 score (every 10th iteration):
+#### Metrics
+Calculating f1 score (every 10th iteration).
 ```python
 test_freq = 10
 
@@ -187,7 +190,8 @@ def calculate_metrics(pred, target, threshold=0.5):
             'samples/f1': metrics.f1_score(y_true=target, y_pred=pred, average='samples'),
         }
 ```
-And we're going to save checkpoints of our model every epoch. Trust me, it's worth doing.
+#### Saving checkpoints
+We're going to save checkpoints of our model every epoch. Trust me, it's worth doing.
 ```python
 save_freq = 1
 def checkpoint_save(model, epoch):
@@ -255,8 +259,8 @@ while True:
         break
 ```
 Training in Google Colab using a GPU took about 2 hours. 
-## Validating results
-Let's see what we've got.
+## Visualising & validating results
+Let's see what we've gotby displaying the 3 top tags for each item.
 ```python
 def imshow(inputs):
     img = inputs.transpose(1, 2, 0)
@@ -265,7 +269,7 @@ def imshow(inputs):
     img = std * img + mean
     inp = np.clip(img, 0, 1)
     plt.imshow(img)
-    
+
 def visualize_model(model, num_images=6):
     model.eval()
 
@@ -300,6 +304,8 @@ fig, ax = plt.subplots(figsize=(12,8))
 plt.subplots_adjust(hspace=.5, wspace=.5)
 visualize_model(model)
 ```
-<img src="{{site.baseurl}}/assets/img/zalando/1.png">
-
+<center>
+<img src="{{site.baseurl}}/assets/img/zalando/2.png" width='90%'>
+</center>
+<br>
 Nice!
