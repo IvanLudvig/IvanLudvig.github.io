@@ -35,4 +35,11 @@ layout: default
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+	
+	<form style="border:2px solid #c362d4;padding:10px;text-align:center;border-radius: 5px;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=IvanLudvigsBlog', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><b>				<p>Get new posts to your inbox</p>
+		<p><input type="text" style="width:200px; height: 30px; border: 1px solid #ccc; border-radius: 5px" placeholder="Email" name="email"/>&nbsp;
+		<input type="hidden" value="IvanLudvigsBlog" name="uri"/>
+		<input type="hidden" name="loc" value="en_US"/>
+		<input type="submit" style="border: 1px solid #c362d4; background-color: #fff; height: 32px; border-radius: 5px; font-weight: bold;" value="Subscribe" /></p>	</b>
+	</form>
 </article>
