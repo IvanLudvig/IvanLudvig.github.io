@@ -35,7 +35,7 @@
   border: 1px solid $border-color-01;
   border-radius: 5px;
   text-align: right;
-  color: #64ca68;
+  color: #424242;
   .nav-trigger {
     display: none;
   }
@@ -76,7 +76,7 @@
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
-    color: #64ca68;
+    color: #424242;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
