@@ -7,3 +7,6 @@
 [submodule "kmeans"]
 	path = kmeans
 	url = https://github.com/IvanLudvig/kmeans.git
+[submodule "pi-needle"]
+	path = pi-needle
+	url = https://github.com/IvanLudvig/pi-needle.git
