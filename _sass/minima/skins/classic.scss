@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 $brand-color:           #000 !default;
-$brand-color-light:     lighten($brand-color, 40%) !default;
+$brand-color-light:     lighten(#828282, 40%) !default;
 $brand-color-dark:      darken($brand-color, 25%) !default;
 
 $site-title-color:      $brand-color-dark !default;
