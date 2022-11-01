@@ -2,7 +2,7 @@
 layout: post
 title:  "SPH simulation of liquid objects colliding with a surface using PySPH"
 date:   2021-04-09 17:51:00 +0300
-categories: blog
+categories: tech
 ---
 Full code available <a href="https://github.com/IvanLudvig/dropsph">on GitHub</a>.  
 Creating an SPH simulation using PySPH involves defining the particles, equations and the solver. We will simulate how a liquid object falls onto the ground.

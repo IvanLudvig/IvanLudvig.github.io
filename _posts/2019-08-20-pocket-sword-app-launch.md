@@ -2,7 +2,7 @@
 layout: post
 title:  "Pocket Sword App launch"
 date:   2019-08-20 16:07:02 +0300
-categories: blog
+categories: tech
 ---
 
 

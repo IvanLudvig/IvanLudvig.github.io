@@ -2,7 +2,7 @@
 layout: post
 title:  "Multi-label image classification (tagging) using transfer learning with PyTorch and TorchVision"
 date:   2021-04-08 23:56:00 +0300
-categories: blog
+categories: tech
 ---
 Full code available <a href="https://github.com/IvanLudvig/mlmipt/blob/master/torchvision/zalando.ipynb">on GitHub</a>.
 ## Data preprocessing
