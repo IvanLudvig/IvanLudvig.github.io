@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: travel
+title: Ivan Ludvig's Travel Blog
 ---
 
 <div class="home">
@@ -24,7 +25,7 @@ layout: default
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
-      {% if post.categories contains "tech" %}
+      {% if post.categories contains "travel" %}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
