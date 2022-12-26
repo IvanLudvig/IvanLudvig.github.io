@@ -161,3 +161,5 @@ The beach is pretty decent for a city.
     You can take a surfboard this big on the plane with you straight from the beach
     </p>
 </center>
+
+Overall Fuerteventura is an island with unique nature: barren deserts, dunes and wonderful sandy beaches. While the towns lack history, character and culture.

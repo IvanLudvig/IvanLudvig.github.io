@@ -18,8 +18,12 @@ h1 {
 In July I spent 9 days on two of the Canary Islands, flying from Naples to Lanzarote and back from Fuerteventura. 
 
 Thank god I don't collect and carry useless shit and all my stuff fits into Ryanair hand luggage dimensions. Remember, what you own ends up owning you. It was a 4 hour flight and bam, I'm on an island off the coast of Africa in the Atlantic Ocean.
+<center></center>
 
-<h3 id='Arrecife'>Arrecife</h3>
+{%- assign name = 'Arrecife' -%}
+{%- assign verbose-name = 'Arrecife' -%}
+{%- include travel-place-title.html -%}
+
 Arrecife, the capital of Lanzarote, turned out to be a pretty boring place, where most of the people are locals. Nobody on the streets at night except giant tropical cockroaches.
 <center>
 <img src="{{site.baseurl}}/assets/img/lanzarote/1.jpg" />
@@ -79,7 +83,10 @@ I climbed volcanoes near Mancha Blanca & walked along their craters.
 </p>
 </center>
 
-<h3 id='Famara'>Famara</h3>
+{%- assign name = 'Famara' -%}
+{%- assign verbose-name = 'Famara' -%}
+{%- include travel-place-title.html -%}
+
 In the North of the island there's a town called Famara, where surfers come to spend their holidays. It's a dusty town but feels more authentic than any other place on the island.
 <center>
 <img src="{{site.baseurl}}/assets/img/lanzarote/9.jpg" />
@@ -112,7 +119,10 @@ Dusty town.
 </p>
 </center>
 
-<h3 id='Costa-Teguise'>Costa Teguise</h3>
+{%- assign name = 'Costa Teguise' -%}
+{%- assign verbose-name = 'Costa Teguise' -%}
+{%- include travel-place-title.html -%}
+
 From Famara I took one of the few and very infrequent buses to find myself in Costa Teguise. I saw this wrecked ship there. Nothing else to see.
 <center>
 <img src="{{site.baseurl}}/assets/img/lanzarote/16.jpg" />
@@ -120,7 +130,10 @@ From Famara I took one of the few and very infrequent buses to find myself in Co
 </p>
 </center>
 
-<h3 id='Puerto-del-Carmen'>Puerto del Carmen</h3>
+{%- assign name = 'Puerto-del-Carmen' -%}
+{%- assign verbose-name = 'Puerto del Carmen' -%}
+{%- include travel-place-title.html -%}
+
 Puerto del Carmen is the main resort town in Lanzarote. The people you find here are called tourists.
 It has a nicely designed shopping centre. 
 <center>
@@ -131,7 +144,10 @@ It has a nicely designed shopping centre.
     <p class="image-label">Be careful: you might get trapped in Zara</p>
 </center>
 
-<h3 id='Playa-Blanca'>Playa Blanca</h3>
+{%- assign name = 'Playa-Blanca' -%}
+{%- assign verbose-name = 'Playa Blanca' -%}
+{%- include travel-place-title.html -%}
+
 Playa Blanca is another popular resort town. I liked the beaches here the most. Finally a good damn beach with sand and without rocks. 
 <center>
     <div class="side-by-side">
