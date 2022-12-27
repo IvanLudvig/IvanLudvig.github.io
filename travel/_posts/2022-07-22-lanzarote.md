@@ -2,6 +2,7 @@
 layout: travel-post
 title:  "Lanzarote"
 date:   2022-07-22 12:00:00 +0300
+dates: 22 – 26 Jul 2022
 categories: travel
 ---
 <style>
