@@ -11,6 +11,6 @@ function renderMap(containerId, coords, zoom = 5) {
     L.marker(coords, { icon }).addTo(map);
 }
 
-function renderCityMap(containerId, name, zoom = 5) {
-    renderMap(containerId, places[name].coords, zoom);
+function renderCityMap(name) {
+    renderMap(`${name}-map`, places[name].coords, places[name]?.zoom ?? 8);
 }

@@ -335,6 +335,19 @@ table {
   max-width: calc(50% - 2px);
 }
 
+.side-by-side-lp {
+  display: flex;
+  width: 100%;
+  gap: 4px;
+}
+
+.side-by-side-lp>img:first-child {
+  width: calc(65% - 2px);
+}
+.side-by-side-lp>img:last-child {
+  width: calc(35% - 2px);
+}
+
 .new-posts-container {
   border: 1px solid $brand-color-light;
   border-radius: 4px;

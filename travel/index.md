@@ -13,7 +13,8 @@ custom-title: Ivan Ludvig's Travel Blog
 
     const countries = [
         generatePlaceConfig('Lanzarote', 8),
-        generatePlaceConfig('Fuerteventura', 8)
+        generatePlaceConfig('Fuerteventura', 8),
+        generatePlaceConfig('Kaliningrad', 5)
     ];
 
     const countryIcon = L.icon({
