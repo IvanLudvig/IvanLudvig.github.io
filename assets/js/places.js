@@ -61,6 +61,12 @@ const places = {
         link: '/travel/2022/06/04/kaliningrad.html#Curonian-spit',
         zoom: 9
     },
+    'Murmansk': {
+        name: 'Мурманск',
+        coords: [68.97331, 33.08558],
+        link: '/travel/2022/10/14/murmansk.html',
+        zoom: 5
+    },
 }
 
 const cities = {
@@ -72,5 +78,5 @@ const cities = {
 const generatePlaceConfig = (name, minZoom = 8) => ({
     ...places[name],
     minZoom,
-    cities: cities[name].map(city => places[city])
+    cities: cities[name]?.map(city => places[city])
 })

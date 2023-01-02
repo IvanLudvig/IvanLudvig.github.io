@@ -7,14 +7,15 @@ custom-title: Ivan Ludvig's Travel Blog
 </div>
 
 <script>
-    var map = L.map('map', {attributionControl: false}).setView([51, 12], 3);
+    var map = L.map('map', {attributionControl: false}).setView([52, 12], 3);
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
     const countries = [
         generatePlaceConfig('Lanzarote', 8),
         generatePlaceConfig('Fuerteventura', 8),
-        generatePlaceConfig('Kaliningrad', 5)
+        generatePlaceConfig('Kaliningrad', 5),
+        generatePlaceConfig('Murmansk', 5),
     ];
 
     const countryIcon = L.icon({
