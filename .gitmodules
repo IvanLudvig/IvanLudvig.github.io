@@ -10,3 +10,6 @@
 [submodule "pi-needle"]
 	path = pi-needle
 	url = https://github.com/IvanLudvig/pi-needle.git
+[submodule "minimal-btc-client"]
+	path = minimal-btc-client
+	url = https://github.com/IvanLudvig/minimal-btc-client
