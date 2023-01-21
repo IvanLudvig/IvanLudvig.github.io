@@ -6,17 +6,17 @@ dates: 22 – 26 Jul 2022
 categories: travel
 ---
 <style>
-h1 {
+/* h1 {
     font-weight: bold;
     width: fit-content;
     background: #402716;
     background: linear-gradient(to right, #402716 0%, #FF861C 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
 </style>
 
-In July I spent 9 days on two of the Canary Islands, flying from Naples to Lanzarote and back from Fuerteventura. 
+In July I spent 9 days on two of the Canary Islands, flying from Naples to Lanzarote and back from Fuerteventura. The flights cost me €162.
 
 Thank god I don't collect and carry useless shit and all my stuff fits into Ryanair hand luggage dimensions. Remember, what you own ends up owning you. It was a 4 hour flight and bam, I'm on an island off the coast of Africa in the Atlantic Ocean.
 <center></center>
@@ -157,7 +157,7 @@ Playa Blanca is another popular resort town. I liked the beaches here the most. 
     </div>
     <p class="image-label"></p>
 </center>
-The good thing about Playa Blanca is that you can take a ferry to Fuerteventura. That's what I did.
+The good thing about Playa Blanca is that you can take a ferry to [Fuerteventura](/travel/2022/07/26/fuerteventura.html). That's what I did. The ferry costs a whopping €20.
 <center>
     <div class="side-by-side">
         <img src="{{site.baseurl}}/assets/img/lanzarote/23.jpg" />

@@ -151,7 +151,7 @@ categories: travel
 Вид на Куршский залив
 </p>
 </center>
-На берегу Балтийского моря никто из людей не купался, было 5 июня. Вода действительно холодная, но я решил поплавать. Залез в воду, через 3 минуты понял, что к температуре воды я не привыкаю и надо выйти, иначе я умру. Всё равно понравилось.
+На берегу Балтийского моря никто из людей не купался, было 5 июня. Вода действительно холодная, но я решил поплавать. Залез в воду, через 3 минуты понял, что к температуре воды я не привыкаю и надо выйти, иначе я умру. Понравилось.
 <center>
 <img src="{{site.baseurl}}/assets/img/kaliningrad/25.jpg" />
 <p class="image-label">
@@ -196,15 +196,25 @@ categories: travel
 На следующий день летел обратно и видел косу из самолета. Плюс нового маршрута в том, что полет идет вдоль побережья и бывают интересные виды.
 <center>
     <div class="side-by-side">
+    <div>
         <img src="{{site.baseurl}}/assets/img/kaliningrad/34.jpg" />
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/35.jpg" />
+    <p class="image-label">Куршская Коса</p>
     </div>
-    <p class="image-label">Куршская Коса, Таллинн</p>
+    <div>
+        <img src="{{site.baseurl}}/assets/img/kaliningrad/35.jpg" />
+    <p class="image-label">Таллинн</p>
+    </div>
+    </div>
 </center>
 <center>
     <div class="side-by-side">
+    <div>
         <img src="{{site.baseurl}}/assets/img/kaliningrad/36.jpg" />
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/37.jpg" />
+    <p class="image-label">Корабли</p>
     </div>
-    <p class="image-label">Корабли, Москва</p>
+    <div>
+        <img src="{{site.baseurl}}/assets/img/kaliningrad/37.jpg" />
+    <p class="image-label">Москва</p>
+    </div>
+    </div>
 </center>
