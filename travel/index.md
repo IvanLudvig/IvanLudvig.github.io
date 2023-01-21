@@ -16,6 +16,8 @@ custom-title: Ivan Ludvig's Travel Blog
         generatePlaceConfig('Fuerteventura', 8),
         generatePlaceConfig('Kaliningrad', 5),
         generatePlaceConfig('Murmansk', 5),
+        generatePlaceConfig('Malta', 9),
+        generatePlaceConfig('Gozo', 9),
     ];
 
     const countryIcon = L.icon({
@@ -37,7 +39,7 @@ custom-title: Ivan Ludvig's Travel Blog
         generateMarker(country, countryIcon).addTo(map);
 
         const citiesLayer = new L.LayerGroup();
-        country.cities.forEach(city => 
+        country.cities?.forEach(city => 
             generateMarker(city, cityIcon).addTo(citiesLayer)
         );
 

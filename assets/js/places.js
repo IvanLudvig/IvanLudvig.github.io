@@ -67,12 +67,73 @@ const places = {
         link: '/travel/2022/10/14/murmansk.html',
         zoom: 5
     },
+    'Malta': {
+        name: 'Malta',
+        coords: [35.8816, 14.44903],
+        link: '/travel/2022/11/19/malta.html'
+    },
+    'Sliema': {
+        name: 'Sliema',
+        coords: [35.911, 14.5029],
+        link: '/travel/2022/11/19/malta.html#Sliema',
+        zoom: 11
+    },
+    'Valletta': {
+        name: 'Valletta',
+        coords: [35.8989, 14.51455],
+        link: '/travel/2022/11/19/malta.html#Valletta',
+        zoom: 11
+    },
+    'Mdina': {
+        name: 'Mdina',
+        coords: [35.88636, 14.40391],
+        link: '/travel/2022/11/19/malta.html#Mdina',
+        zoom: 11
+    },
+    'Gozo': {
+        name: 'Gozo',
+        coords: [36.04429, 14.25122],
+        link: '/travel/2022/11/21/gozo.html',
+        zoom: 11
+    },
+    'Cirkewwa': {
+        name: 'Ċirkewwa',
+        coords: [35.98777, 14.32861],
+        link: '/travel/2022/11/21/gozo.html#Cirkewwa',
+        zoom: 11
+    },
+    'Mgarr': {
+        name: 'Mgarr',
+        coords: [36.0258, 14.29937],
+        link: '/travel/2022/11/21/gozo.html#Mgarr',
+        zoom: 11
+    },
+    'Xewkija': {
+        name: 'Xewkija',
+        coords: [36.02992, 14.25994],
+        link: '/travel/2022/11/21/gozo.html#Xewkija',
+        zoom: 11
+    },
+    'Victoria': {
+        name: 'Victoria',
+        coords: [36.04268, 14.2425],
+        link: '/travel/2022/11/21/gozo.html#Victoria',
+        zoom: 11
+    },
+    'Ramla-Bay': {
+        name: 'Ramla Bay',
+        coords: [36.06146, 14.28411],
+        link: '/travel/2022/11/21/gozo.html#Ramla-Bay',
+        zoom: 11
+    },
 }
 
 const cities = {
     'Lanzarote': ['Arrecife', 'Famara', 'Costa-Teguise', 'Puerto-del-Carmen', 'Playa-Blanca'],
     'Fuerteventura': ['Corralejo', 'Puerto-del-Rosario'],
-    'Kaliningrad': ['Zelenogradsk', 'Curonian-spit']
+    'Kaliningrad': ['Zelenogradsk', 'Curonian-spit'],
+    'Malta': ['Sliema', 'Valletta', 'Mdina', 'Cirkewwa'],
+    'Gozo': ['Mgarr', 'Xewkija', 'Victoria', 'Ramla-Bay']
 }
 
 const generatePlaceConfig = (name, minZoom = 8) => ({
