@@ -36,21 +36,4 @@ layout: default
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-
-  <form 
-    class="new-posts-container" 
-    action="https://feedburner.google.com/fb/a/mailverify" 
-    method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=IvanLudvigsBlog', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-    <b>
-      <p>Get new posts to your inbox</p> &nbsp;<input type="text" class="new-posts-input"
-          placeholder="Email" name="email" />&nbsp;
-        <input type="hidden" value="IvanLudvigsBlog" name="uri" />
-        <input type="hidden" name="loc" value="en_US" />
-        <input type="submit"
-          class="new-posts-btn"
-          value="Subscribe" />
-      </p>
-  </form>
 </article>

@@ -16,6 +16,9 @@ categories: travel
 } */
 </style>
 
+{%- assign name = 'Lanzarote' -%}
+{%- include travel-country-map.html -%}
+
 In July I spent 9 days on two of the Canary Islands, flying from Naples to Lanzarote and back from Fuerteventura. The flights cost me €162.
 
 Thank god I don't collect and carry useless shit and all my stuff fits into Ryanair hand luggage dimensions. Remember, what you own ends up owning you. It was a 4 hour flight and bam, I'm on an island off the coast of Africa in the Atlantic Ocean.
@@ -165,3 +168,7 @@ The good thing about Playa Blanca is that you can take a ferry to [Fuerteventura
     </div>
     <p class="image-label">Bye bye, Lanzarote</p>
 </center>
+
+<a class="next" href="/travel/2022/07/26/fuerteventura.html">
+Fuerteventura
+</a>

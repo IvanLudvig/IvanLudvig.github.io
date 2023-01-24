@@ -6,6 +6,9 @@ dates: 26 – 30 Jul 2022
 categories: travel
 ---
 
+{%- assign name = 'Fuerteventura' -%}
+{%- include travel-country-map.html -%}
+
 The second island I visited was Fuerteventura. It is not only more deserted than Lanzarote, it's also more deserty.
 <center></center>
 
@@ -164,3 +167,7 @@ The beach is pretty decent for a city.
 </center>
 
 Overall Fuerteventura is an island with unique nature: barren deserts, dunes and wonderful sandy beaches. While the towns lack history, character and culture.
+
+<a class="prev" href="/travel/2022/07/22/lanzarote.html">
+Lanzarote
+</a>

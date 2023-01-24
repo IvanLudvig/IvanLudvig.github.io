@@ -45,18 +45,18 @@ const places = {
         link: '/travel/2022/07/26/fuerteventura.html#Puerto-del-Rosario'
     },
     'Kaliningrad': {
-        name: 'Kaliningrad',
+        name: 'Калининград',
         coords: [54.70638, 20.51204],
         link: '/travel/2022/06/04/kaliningrad.html'
     },
     'Zelenogradsk': {
-        name: 'Zelenogradsk',
+        name: 'Зеленоградск',
         coords: [54.95986, 20.47509],
         link: '/travel/2022/06/04/kaliningrad.html#Zelenogradsk',
         zoom: 9
     },
     'Curonian-spit': {
-        name: 'Curonian spit',
+        name: 'Куршская Коса',
         coords: [55.22113, 20.90644],
         link: '/travel/2022/06/04/kaliningrad.html#Curonian-spit',
         zoom: 9
@@ -70,7 +70,8 @@ const places = {
     'Malta': {
         name: 'Malta',
         coords: [35.8816, 14.44903],
-        link: '/travel/2022/11/19/malta.html'
+        link: '/travel/2022/11/19/malta.html',
+        zoom: 10
     },
     'Sliema': {
         name: 'Sliema',
@@ -126,12 +127,18 @@ const places = {
         link: '/travel/2022/11/21/gozo.html#Ramla-Bay',
         zoom: 11
     },
+    'Dubai': {
+        name: 'Dubai',
+        coords: [25.20484, 55.27078],
+        link: '/travel/2022/01/25/dubai.html',
+        zoom: 8
+    }
 }
 
 const cities = {
     'Lanzarote': ['Arrecife', 'Famara', 'Costa-Teguise', 'Puerto-del-Carmen', 'Playa-Blanca'],
     'Fuerteventura': ['Corralejo', 'Puerto-del-Rosario'],
-    'Kaliningrad': ['Zelenogradsk', 'Curonian-spit'],
+    'Kaliningrad': ['Kaliningrad', 'Zelenogradsk', 'Curonian-spit'],
     'Malta': ['Sliema', 'Valletta', 'Mdina', 'Cirkewwa'],
     'Gozo': ['Mgarr', 'Xewkija', 'Victoria', 'Ramla-Bay']
 }
