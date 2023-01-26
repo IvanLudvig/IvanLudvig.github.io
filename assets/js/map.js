@@ -30,7 +30,7 @@ function renderCountryMap(name) {
         .setView(country.coords, country?.zoom ?? 8);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-    const onClick = point => () => document.getElementById(point.name)
+    const onClick = point => () => document.getElementById(point.key)
         .scrollIntoView({ behavior: 'smooth' });
 
     if(country.cities){

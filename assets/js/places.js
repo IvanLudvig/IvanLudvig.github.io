@@ -132,6 +132,12 @@ const places = {
         coords: [25.20484, 55.27078],
         link: '/travel/2022/01/25/dubai.html',
         zoom: 8
+    },
+    'Tallinn': {
+        name: 'Таллинн',
+        coords: [59.43696, 24.75357],
+        link: '/travel/2022/07/14/tallinn.html',
+        zoom: 6
     }
 }
 
@@ -146,5 +152,5 @@ const cities = {
 const generatePlaceConfig = (name, minZoom = 8) => ({
     ...places[name],
     minZoom,
-    cities: cities[name]?.map(city => places[city])
+    cities: cities[name]?.map(key => ({ ...places[key], key }))
 })
