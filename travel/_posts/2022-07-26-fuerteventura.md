@@ -9,7 +9,7 @@ categories: travel
 {%- assign name = 'Fuerteventura' -%}
 {%- include travel-country-map.html -%}
 
-The second island I visited was Fuerteventura. It is not only more deserted than Lanzarote, it's also more deserty.
+The second island I visited was Fuerteventura. It is not only more deserted than Lanzarote, it's also more _deserty_.
 <center></center>
 
 {%- assign name = 'Corralejo' -%}
@@ -24,7 +24,7 @@ Corralejo is the main resort town on the island.
     </div>
     <p class="image-label">Streets of Corralejo</p>
 </center>
-The town is close to a big desert. I loved that desert and went there every day.
+The town is close to a big desert. I love that desert.
 <center>
 <img src="{{site.baseurl}}/assets/img/fuerteventura/3.jpg" />
 <p class="image-label">
@@ -57,7 +57,7 @@ It was windy. But that's kinda good because you don't feel boiling in the sun. A
     <p class="image-label"></p>
 </center>
 
-If you walk through the desert long enough, you may find yourself on the beach. The blue water nicely contrasts the yellow sand. It's a really big beach with wind and waves. Lots of surfers and kitesurfers in this place.
+If you walk through the desert long enough, you may find yourself on the beach. Sometimes I walked an hour, sometimes two. But I eventually came to the sea. The blue water nicely contrasts the yellow sand. It's a really big beach with wind and waves. Lots of surfers and kitesurfers in this place.
 <center>
     <div class="side-by-side">
         <img src="{{site.baseurl}}/assets/img/fuerteventura/7.jpg" />
@@ -166,7 +166,7 @@ The beach is pretty decent for a city.
     </p>
 </center>
 
-Overall Fuerteventura is an island with unique nature: barren deserts, dunes and wonderful sandy beaches. While the towns lack history, character and culture.
+Overall Fuerteventura is an island with unique nature: barren deserts, dunes and wonderful sandy beaches. Whereas the towns lack history, character and culture.
 
 <a class="prev" href="/travel/2022/07/22/lanzarote.html">
 Lanzarote

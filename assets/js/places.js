@@ -2,7 +2,8 @@ const places = {
     'Lanzarote': {
         name: 'Lanzarote',
         coords: [29.04685, -13.58997],
-        link: '/travel/2022/07/22/lanzarote.html'
+        link: '/travel/2022/07/22/lanzarote.html',
+        zoom: 9
     },
     'Arrecife': {
         name: 'Arrecife',
@@ -32,7 +33,8 @@ const places = {
     'Fuerteventura': {
         name: 'Fuerteventura',
         coords: [28.35874, -14.05367],
-        link: '/travel/2022/07/26/fuerteventura.html'
+        link: '/travel/2022/07/26/fuerteventura.html',
+        zoom: 9
     },
     'Corralejo': {
         name: 'Corralejo',
@@ -91,6 +93,12 @@ const places = {
         link: '/travel/2022/11/19/malta.html#Mdina',
         zoom: 11
     },
+    'St-Julians': {
+        name: 'St Julians',
+        coords: [35.91812, 14.48834],
+        link: '/travel/2022/11/19/malta.html#St-Julians',
+        zoom: 11
+    },
     'Gozo': {
         name: 'Gozo',
         coords: [36.04429, 14.25122],
@@ -138,6 +146,18 @@ const places = {
         coords: [59.43696, 24.75357],
         link: '/travel/2022/07/14/tallinn.html',
         zoom: 6
+    },
+    'Milan': {
+        name: 'Milan',
+        coords: [45.4642, 9.18998],
+        link: '/travel/2022/11/23/milan.html',
+        zoom: 6
+    },
+    'Naples': {
+        name: 'Naples',
+        coords: [40.85177, 14.26812],
+        link: '/travel/2022/07/31/naples.html',
+        zoom: 6
     }
 }
 
@@ -145,7 +165,7 @@ const cities = {
     'Lanzarote': ['Arrecife', 'Famara', 'Costa-Teguise', 'Puerto-del-Carmen', 'Playa-Blanca'],
     'Fuerteventura': ['Corralejo', 'Puerto-del-Rosario'],
     'Kaliningrad': ['Kaliningrad', 'Zelenogradsk', 'Curonian-spit'],
-    'Malta': ['Sliema', 'Valletta', 'Mdina', 'Cirkewwa'],
+    'Malta': ['Sliema', 'Valletta', 'Mdina', 'Cirkewwa', 'St-Julians'],
     'Gozo': ['Mgarr', 'Xewkija', 'Victoria', 'Ramla-Bay']
 }
 

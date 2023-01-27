@@ -331,6 +331,10 @@ table {
   gap: 4px;
 }
 
+.side-by-side>div {
+  max-width: calc(50% - 2px);
+}
+
 .side-by-side>img {
   max-width: calc(50% - 2px);
 }

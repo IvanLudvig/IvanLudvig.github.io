@@ -209,13 +209,13 @@ categories: travel
 </center>
 <center>
     <div class="side-by-side">
-    <div>
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/36.jpg" />
-    <p class="image-label">Корабли</p>
-    </div>
-    <div>
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/37.jpg" />
-    <p class="image-label">Москва</p>
-    </div>
+        <div>
+            <img src="{{site.baseurl}}/assets/img/kaliningrad/36.jpg" />
+            <p class="image-label">Корабли</p>
+        </div>
+        <div>
+            <img src="{{site.baseurl}}/assets/img/kaliningrad/37.jpg" />
+            <p class="image-label">Москва</p>
+        </div>
     </div>
 </center>

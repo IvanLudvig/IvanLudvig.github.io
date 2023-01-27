@@ -28,7 +28,7 @@ Thank god I don't collect and carry useless shit and all my stuff fits into Ryan
 {%- assign verbose-name = 'Arrecife' -%}
 {%- include travel-place-title.html -%}
 
-Arrecife, the capital of Lanzarote, turned out to be a pretty boring place, where most of the people are locals. Nobody on the streets at night except giant tropical cockroaches.
+Arrecife, the capital of Lanzarote, turned out to be a pretty boring place, where most of the people are locals. Nobody on the streets at night except giant tropical cockroaches. In the background you can see volcanoes. We'll get there.
 <center>
 <img src="{{site.baseurl}}/assets/img/lanzarote/1.jpg" />
 <p class="image-label">
@@ -47,15 +47,20 @@ The city architecture mostly looks soulless and bland.
 </center>
 <center>
 <img src="{{site.baseurl}}/assets/img/lanzarote/3.jpg" />
-<p class="image-label"> A nice building in Arrecife</p>
+<p class="image-label">The only nice building in Arrecife</p>
 </center>
 However it is compensated by cheap beer.
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/lanzarote/20.jpg" />
-        <img src="{{site.baseurl}}/assets/img/lanzarote/17.jpg" />
+        <div>
+            <img src="{{site.baseurl}}/assets/img/lanzarote/20.jpg" />
+            <p class="image-label">Who the hell lives here??</p>
+        </div>
+        <div>
+            <img src="{{site.baseurl}}/assets/img/lanzarote/17.jpg" />
+            <p class="image-label">Cheap</p>
+        </div>
     </div>
-    <p class="image-label"></p>
 </center>
 
 <h3 id='Volcanoes'>Volcanoes</h3>
@@ -63,6 +68,7 @@ The island has ~~dozens~~ hundreds of volcanoes. No life there, just volcanic wa
 <center>
 <img src="{{site.baseurl}}/assets/img/lanzarote/4.jpg" />
 <p class="image-label">
+Who the hell lives here??
 </p>
 </center>
 I climbed volcanoes near Mancha Blanca & walked along their craters.
@@ -127,7 +133,7 @@ Dusty town.
 {%- assign verbose-name = 'Costa Teguise' -%}
 {%- include travel-place-title.html -%}
 
-From Famara I took one of the few and very infrequent buses to find myself in Costa Teguise. I saw this wrecked ship there. Nothing else to see.
+I saw this wrecked ship near Costa Teguise. Nothing else to see.
 <center>
 <img src="{{site.baseurl}}/assets/img/lanzarote/16.jpg" />
 <p class="image-label">
