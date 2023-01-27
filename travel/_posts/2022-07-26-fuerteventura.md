@@ -171,3 +171,6 @@ Overall Fuerteventura is an island with unique nature: barren deserts, dunes and
 <a class="prev" href="/travel/2022/07/22/lanzarote.html">
 Lanzarote
 </a>
+<a class="next" href="/travel/2022/07/31/naples.html">
+Naples
+</a>

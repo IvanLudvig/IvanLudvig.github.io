@@ -19,7 +19,9 @@ custom-title: Ivan Ludvig's Travel Blog
         generatePlaceConfig('Malta', 9),
         generatePlaceConfig('Gozo', 9),
         generatePlaceConfig('Dubai'),
-        generatePlaceConfig('Tallinn')
+        generatePlaceConfig('Tallinn'),
+        generatePlaceConfig('Milan'),
+        generatePlaceConfig('Naples')
     ];
 
     const onClick = point => () => window.open(point.link);
