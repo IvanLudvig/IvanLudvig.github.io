@@ -3,7 +3,7 @@ layout: travel-home
 custom-title: Ivan Ludvig's Travel Blog
 ---
 
-<div id="map" style="height: 480px; width: 100%; margin-bottom: 36px; margin-top: -15px;">
+<div id="map" style="height: 480px; width: 100%; margin-bottom: 36px; margin-top: -15px; border-radius: 6px;">
 </div>
 
 <script>

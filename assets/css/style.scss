@@ -18,10 +18,13 @@ h1, h2, h3, h4 {
     font-size: 18px;
     font-weight: 700;
     width: fit-content;
-    min-width: 200px;
+    min-width: 100px;
     float: right;
     color: black !important;
     text-align: center;
+    max-width: calc(50% - 2px);
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .prev {
