@@ -6,12 +6,14 @@
     const modal = document.getElementById("modalPopup");
     const img = document.getElementById("modalImg");
     const modalImg = document.getElementById("modalImg");
-    Array.from(document.getElementsByTagName("img")).forEach(img => {
-        img.onclick = () => {
-            modal.style.display = "flex";
-            modalImg.src = img.src;
-        }
-    })
+    Array.from(document.getElementsByTagName("img"))
+        .filter(img => !img.className.includes('leaflet-marker-icon'))
+        .forEach(img => {
+            img.onclick = () => {
+                modal.style.display = "flex";
+                modalImg.src = img.src;
+            }
+        })
 
     modal.onclick = () => {
         modal.style.display = "none";
@@ -38,12 +40,6 @@
         display: absolute;
         max-height: 95%;
         max-width: 95%;
-    }
-
-    @media only screen and (max-width: 700px) {
-        .modal-content {
-            width: 100%;
-        }
     }
 
     img {
