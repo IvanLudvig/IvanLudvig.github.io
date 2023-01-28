@@ -36,24 +36,9 @@
 
     .modal-content {
         display: absolute;
-        width: 80%;
+        max-height: 95%;
+        max-width: 95%;
     }
-    @keyframes zoom {
-        from {
-            transform: scale(0)
-        }
-
-        to {
-            transform: scale(1)
-        }
-    }
-    
-    .modal-content {
-        animation-name: zoom;
-        animation-duration: 0.2s;
-    }
-
-
 
     @media only screen and (max-width: 700px) {
         .modal-content {
@@ -67,7 +52,7 @@
     }
 
     img:hover {
-        opacity: 0.8;
+        opacity: 0.9;
     }
 
     #modalImg:hover {
