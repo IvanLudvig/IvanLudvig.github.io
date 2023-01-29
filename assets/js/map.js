@@ -26,7 +26,7 @@ const generateMarker = (point, icon, onClick) => L.marker(point.coords, { icon }
 
 function renderCountryMap(name) {
     const country = generatePlaceConfig(name);
-    const map = L.map(`${name}-map`, { attributionControl: false })
+    const map = L.map(`${name}-country-map`, { attributionControl: false })
         .setView(country.coords, country?.zoom ?? 8);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
