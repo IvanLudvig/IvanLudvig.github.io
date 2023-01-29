@@ -19,7 +19,7 @@ categories: travel
 {%- assign name = 'Lanzarote' -%}
 {%- include travel-country-map.html -%}
 
-In July I spent 9 days on two of the Canary Islands, flying from Naples to Lanzarote and back from Fuerteventura. The flights cost me €162.
+I visited two of the Canary islands flying from Naples to Lanzarote and back from Fuerteventura. The flights cost me €162.
 
 Thank god I don't collect and carry useless shit and all my stuff fits into Ryanair hand luggage dimensions. Remember, what you own ends up owning you. It was a 4 hour flight and bam, I'm on an island off the coast of Africa in the Atlantic Ocean.
 <center></center>
