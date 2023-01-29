@@ -158,15 +158,30 @@ const places = {
         coords: [40.85177, 14.26812],
         link: '/travel/2022/07/31/naples.html',
         zoom: 6
+    },
+    'Rome': {
+        name: 'Rome',
+        coords: [41.90278, 12.49636],
+        link: '/travel/2022/08/01/scalea.html#Rome',
+        zoom: 6
+    },
+    'Scalea': {
+        name: 'Scalea',
+        coords: [39.81411, 15.79126],
+        link: '/travel/2022/08/01/scalea.html',
+        zoom: 6
     }
 }
+
+places['Scalea-1'] = places['Scalea']
 
 const cities = {
     'Lanzarote': ['Arrecife', 'Famara', 'Costa-Teguise', 'Puerto-del-Carmen', 'Playa-Blanca'],
     'Fuerteventura': ['Corralejo', 'Puerto-del-Rosario'],
     'Kaliningrad': ['Kaliningrad', 'Zelenogradsk', 'Curonian-spit'],
     'Malta': ['Sliema', 'Valletta', 'Mdina', 'Cirkewwa', 'St-Julians'],
-    'Gozo': ['Mgarr', 'Xewkija', 'Victoria', 'Ramla-Bay']
+    'Gozo': ['Mgarr', 'Xewkija', 'Victoria', 'Ramla-Bay'],
+    'Scalea': ['Rome', 'Scalea']
 }
 
 const generatePlaceConfig = (name, minZoom = 8) => ({

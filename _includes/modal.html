@@ -8,6 +8,7 @@
     const modalImg = document.getElementById("modalImg");
     Array.from(document.getElementsByTagName("img"))
         .filter(img => !img.className.includes('leaflet-marker-icon'))
+        .filter(img => !img.className.includes('no-modal'))
         .forEach(img => {
             img.onclick = () => {
                 modal.style.display = "flex";
