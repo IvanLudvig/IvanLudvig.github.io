@@ -2,7 +2,7 @@
 layout: post
 title:  "Uploading to Google Drive directly from a URL"
 date:   2021-07-16 22:42:00 +0300
-categories: blog
+categories: tech
 ---
 
 &nbsp;1. Open [Google Colab](https://colab.research.google.com/) and click "New notebook".  

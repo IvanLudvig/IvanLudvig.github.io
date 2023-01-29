@@ -9,3 +9,44 @@
 h1, h2, h3, h4 {
     color: #000;
 }
+
+.next, .prev {
+    display: block;
+    border: 2px black solid;
+    padding: 32px 16px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    width: fit-content;
+    min-width: 100px;
+    float: right;
+    color: black !important;
+    text-align: center;
+    max-width: calc(50% - 2px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.prev {
+    float: left;
+}
+
+.next::before {
+    content: ">>";
+    float: left;
+}
+
+.next::after {
+    content: ">>";
+    float: right;
+}
+
+.prev::before {
+    content: "<<";
+    float: left;
+}
+
+.prev::after {
+    content: "<<";
+    float: right;
+}

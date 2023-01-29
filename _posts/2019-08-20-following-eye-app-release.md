@@ -2,7 +2,7 @@
 layout: post
 title:  "Following Eye app release"
 date:   2019-08-20 16:40:18 +0300
-categories: blog
+categories: tech
 ---
 
 <div style="height:200px;">
