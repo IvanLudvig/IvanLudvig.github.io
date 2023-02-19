@@ -13,3 +13,6 @@
 [submodule "minimal-btc-client"]
 	path = minimal-btc-client
 	url = https://github.com/IvanLudvig/minimal-btc-client
+[submodule "pasteface"]
+	path = pasteface
+	url = https://github.com/IvanLudvig/pasteface-web
