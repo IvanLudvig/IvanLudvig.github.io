@@ -1,6 +1,15 @@
 {% comment %}
-  Placeholder to allow defining custom head, in principle, you can add anything here, e.g. favicons:
+Placeholder to allow defining custom head, in principle, you can add anything here, e.g. favicons:
 
-  1. Head over to https://realfavicongenerator.net/ to add your own favicons.
-  2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
+1. Head over to https://realfavicongenerator.net/ to add your own favicons.
+2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
+
+<script type="text/javascript">
+  if (window.location.href.includes('/blog/')) {
+    location = window.location.href.replace('/blog/', '/tech/');
+  }
+  if (window.location.href.includes('/blog/2022/02/02/expo-2020.html')) {
+    location = window.location.href.replace('/blog/', '/travel/');
+  }
+</script>
