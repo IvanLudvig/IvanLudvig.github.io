@@ -9,7 +9,7 @@ categories: tech
 
 
 Have you ever sent a 🤣 with a completely straight face? 
-My idea is to make an app to analyze your face and suggest a relevant emoji. Pressing a key combination will paste your face as an emoji. This will undoubtly bring us closer to achieving the peak of human communication. We'll call it _Pasteface_.
+My idea is to make an app to analyze your face and suggest a relevant emoji. Pressing a key combination will paste your face as an emoji. This will bring us closer to achieving the peak of human communication. We'll call it _Pasteface_.
 
 
 The [deepface](https://github.com/serengil/deepface) Python library lets us analyze a face for emotions. Just like this:
