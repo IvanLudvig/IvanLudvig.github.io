@@ -3,6 +3,8 @@ layout: post
 title:  "Calculating screen to face distance (Android)"
 date:   2019-07-20 15:15:15 +0300
 categories: tech
+redirect_from:
+  - /blog/2019/07/20/calculating-screen-to-face-distance-android.html
 ---
 
 While searching for a way to detect screen to face distance on Android I found only one open source project but it lacked some explanation and was quite old and complicated. So I did it myself.

@@ -3,6 +3,8 @@ layout: post
 title:  "How to add a GitHub action to run clang format at every push"
 date:   2020-07-05 21:26:17 +0300
 categories: tech
+redirect_from:
+  - /blog/2020/07/05/clang-fromat-github-action.html
 ---
 Navigate to your project's "Actions" tab and click "Set up a workflow yourself". Set the file name to `formatter.yml` and paste the following code into the file:
 
