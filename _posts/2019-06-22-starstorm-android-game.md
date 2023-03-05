@@ -3,6 +3,8 @@ layout: post
 title:  "StarStorm: my best game for android"
 date:   2019-06-22 01:16:02 +0300
 categories: tech
+redirect_from:
+  - /blog/2019/06/21/starstorm-android-game.html
 ---
 
 I have developed games for quite a long time. Out of all my games, I'm mostly proud about [StarStorm](https://play.google.com/store/apps/details?id=ru.ivanludvig.starstorm).
