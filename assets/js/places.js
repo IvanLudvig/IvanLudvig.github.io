@@ -194,6 +194,12 @@ const places = {
         coords: [46.00367, 8.95105],
         link: '/travel/2022/11/25/lugano.html',
         zoom: 6
+    },
+    'Kazan': {
+        name: 'Казань',
+        coords: [55.78789, 49.12332],
+        link: '/travel/2022/12/24/kazan.html',
+        zoom: 5
     }
 }
 

@@ -22,7 +22,8 @@ custom-title: Ivan Ludvig's Travel Blog
         generatePlaceConfig('Tallinn'),
         generatePlaceConfig('Naples'),
         generatePlaceConfig('Scalea', 4),
-        generatePlaceConfig('Northern-Italy', 6)
+        generatePlaceConfig('Northern-Italy', 6),
+        generatePlaceConfig('Kazan')
     ];
 
     const onClick = point => () => window.open(point.link);
