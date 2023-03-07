@@ -170,10 +170,35 @@ const places = {
         coords: [39.81411, 15.79126],
         link: '/travel/2022/08/01/scalea.html',
         zoom: 6
+    },
+    'Varenna': {
+        name: 'Varenna',
+        coords: [46.00909, 9.28511],
+        link: '/travel/2022/11/24/como.html',
+        zoom: 8
+    },
+    'Menaggio': {
+        name: 'Menaggio',
+        coords: [46.0217, 9.23882],
+        link: '/travel/2022/11/24/como.html',
+        zoom: 8
+    },
+    'Como': {
+        name: 'Como',
+        coords: [45.80805, 9.08517],
+        link: '/travel/2022/11/24/como.html',
+        zoom: 9
+    },
+    'Lugano': {
+        name: 'Lugano',
+        coords: [46.00367, 8.95105],
+        link: '/travel/2022/11/25/lugano.html',
+        zoom: 6
     }
 }
 
 places['Scalea-1'] = places['Scalea']
+places['Northern-Italy'] = places['Milan']
 
 const cities = {
     'Lanzarote': ['Arrecife', 'Famara', 'Costa-Teguise', 'Puerto-del-Carmen', 'Playa-Blanca'],
@@ -181,7 +206,9 @@ const cities = {
     'Kaliningrad': ['Kaliningrad', 'Zelenogradsk', 'Curonian-spit'],
     'Malta': ['Sliema', 'Valletta', 'Mdina', 'Cirkewwa', 'St-Julians'],
     'Gozo': ['Mgarr', 'Xewkija', 'Victoria', 'Ramla-Bay'],
-    'Scalea': ['Rome', 'Scalea']
+    'Scalea': ['Rome', 'Scalea'],
+    'Como': ['Varenna', 'Menaggio', 'Como'],
+    'Northern-Italy': ['Milan', 'Lugano', 'Varenna', 'Menaggio', 'Como']
 }
 
 const generatePlaceConfig = (name, minZoom = 8) => ({
