@@ -4,6 +4,8 @@ title:  "Android: detecting device presence in a pocket"
 date:   2019-06-22 01:24:02 +0300
 categories: tech
 permalink: /blog/2019/06/22/detecting-device-in-a-pocket-android.html
+redirect_from:
+  - /tech/2019/06/22/detecting-device-in-a-pocket-android.html
 ---
 
 A little backstory for this. I developed an app that plays a sword unsheathing sound whenever the person takes his phone out of the pocket. I searched the web for a way to detect whether or not the device is in a pocket, but didn't find any explicit implementation. So here we are.

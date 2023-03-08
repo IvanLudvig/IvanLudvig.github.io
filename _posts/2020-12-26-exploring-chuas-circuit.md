@@ -4,6 +4,8 @@ title:  "Exploring Chua's Circuit"
 date:   2020-12-26 22:18:26 +0300
 categories: tech
 permalink: /blog/2020/12/26/exploring-chuas-circuit.html
+redirect_from:
+  - /tech/2020/12/26/exploring-chuas-circuit.html
 ---
 Equations for Chua's Circuit:  
 <img src="{{site.baseurl}}/assets/img/chua/system.png" width="300">  
