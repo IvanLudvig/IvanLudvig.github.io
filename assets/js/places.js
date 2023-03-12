@@ -200,6 +200,18 @@ const places = {
         coords: [55.78789, 49.12332],
         link: '/travel/2022/12/24/kazan.html',
         zoom: 5
+    },
+    'Iran': {
+        name: 'Iran',
+        coords: [32.4279, 53.68804],
+        link: '/travel/2023/02/24/tehran.html',
+        zoom: 3
+    },
+    'Tehran': {
+        name: 'Tehran',
+        coords: [35.72185, 51.33469],
+        link: '/travel/2023/02/24/tehran.html',
+        zoom: 5
     }
 }
 
@@ -214,7 +226,8 @@ const cities = {
     'Gozo': ['Mgarr', 'Xewkija', 'Victoria', 'Ramla-Bay'],
     'Scalea': ['Rome', 'Scalea'],
     'Como': ['Varenna', 'Menaggio', 'Como'],
-    'Northern-Italy': ['Milan', 'Lugano', 'Varenna', 'Menaggio', 'Como']
+    'Northern-Italy': ['Milan', 'Lugano', 'Varenna', 'Menaggio', 'Como'],
+    'Iran': ['Tehran']
 }
 
 const generatePlaceConfig = (name, minZoom = 8) => ({
