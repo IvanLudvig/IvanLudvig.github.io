@@ -3,7 +3,8 @@ layout: post
 title:  "Pocket Sword App launch"
 date:   2019-08-20 16:07:02 +0300
 categories: tech
-permalink: /blog/2019/08/20/pocket-sword-app-launch.html
+redirect_from:
+  - /blog/2019/08/20/pocket-sword-app-launch.html
 ---
 
 

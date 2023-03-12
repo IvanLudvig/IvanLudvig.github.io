@@ -3,7 +3,8 @@ layout: post
 title:  "Following Eye app release"
 date:   2019-08-20 16:40:18 +0300
 categories: tech
-permalink: /blog/2019/08/20/following-eye-app-release.html
+redirect_from:
+  - /blog/2019/08/20/following-eye-app-release.html
 ---
 
 <div style="height:200px;">

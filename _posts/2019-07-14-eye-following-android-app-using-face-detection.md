@@ -3,7 +3,8 @@ layout: post
 title:  "Eye following android app using face detection"
 date:   2019-07-14 14:07:06 +0300
 categories: tech
-permalink: /blog/2019/07/14/eye-following-android-app-using-face-detection.html
+redirect_from:
+  - /blog/2019/07/14/eye-following-android-app-using-face-detection.html
 ---
 
 I have previously done an [app](https://github.com/IvanLudvig/Screen-to-face-distance) that detects the distance between the users face and the phone. It basically uses the distance between the user's eyes to do so. The further the user is, the shorter the distance appers. It uses this formula:
