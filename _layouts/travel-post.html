@@ -3,9 +3,12 @@ layout: travel
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <script src='/assets/js/map.js'></script>
+  <script src='/assets/js/getFlagEmoji.js'></script>
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title p-name" itemprop="name headline">
+      {{ page.title | escape }} <script>document.write(getFlagEmoji('{{page.country}}') ?? '')</script>
+    </h1>
     <p class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <span class="dt-published" itemprop="datePublished">

@@ -4,6 +4,7 @@ title:  "Fuerteventura"
 date:   2022-07-26 12:00:00 +0300
 dates: 26 – 30 Jul 2022
 categories: travel
+country: es
 ---
 
 {%- assign name = 'Fuerteventura' -%}
