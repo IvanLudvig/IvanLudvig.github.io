@@ -4,6 +4,7 @@ title:  "Калининград, Зеленоградск, Куршская ко
 date:   2022-06-04 12:00:00 +0300
 dates: 4 – 6 Jun 2022
 categories: travel
+country: ru
 ---
 
 {%- assign name = 'Kaliningrad' -%}
