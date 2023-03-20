@@ -176,6 +176,6 @@ The good thing about Playa Blanca is that you can take a ferry to [Fuerteventura
     <p class="image-label">Bye bye, Lanzarote</p>
 </center>
 
-<a class="next" href="/travel/2022/07/26/fuerteventura.html">
+<a class="next" href="/travel/2022/fuerteventura">
 Fuerteventura
 </a>
