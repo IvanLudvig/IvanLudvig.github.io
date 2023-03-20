@@ -169,9 +169,9 @@ The beach is pretty decent for a city.
 
 Overall Fuerteventura is an island with unique nature: barren deserts, dunes and wonderful sandy beaches. Whereas the towns lack history, character and culture.
 
-<a class="prev" href="/travel/2022/07/22/lanzarote.html">
+<a class="prev" href="/travel/2022/lanzarote">
 Lanzarote
 </a>
-<a class="next" href="/travel/2022/07/31/naples.html">
+<a class="next" href="/travel/2022/naples">
 Naples
 </a>
