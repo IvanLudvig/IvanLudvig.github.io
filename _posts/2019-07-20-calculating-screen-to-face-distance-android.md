@@ -4,6 +4,7 @@ title:  "Calculating screen to face distance (Android)"
 date:   2019-07-20 15:15:15 +0300
 categories: tech
 redirect_from:
+  - /tech/2019/07/20/calculating-screen-to-face-distance-android.html
   - /blog/2019/07/20/calculating-screen-to-face-distance-android.html
 ---
 

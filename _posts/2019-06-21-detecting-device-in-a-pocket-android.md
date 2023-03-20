@@ -5,6 +5,7 @@ date:   2019-06-21 01:24:02 +0300
 categories: tech
 redirect_from:
   - /tech/2019/06/22/detecting-device-in-a-pocket-android.html
+  - /tech/2019/06/21/detecting-device-in-a-pocket-android.html
   - /blog/2019/06/22/detecting-device-in-a-pocket-android.html
   - /blog/2019/06/21/detecting-device-in-a-pocket-android.html
 ---

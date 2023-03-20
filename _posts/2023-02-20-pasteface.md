@@ -3,6 +3,8 @@ layout: post
 title:  "Turning faces into emojis using Deepface with ChatGPT's help"
 date:   2023-02-20 12:00:00 +0300
 categories: tech
+redirect_from:
+  - /tech/2023/02/20/pasteface.html
 ---
 <b>[Web demo](https://ivanludvig.github.io/pasteface)</b>  
 <b>[Code on GitHub](https://github.com/IvanLudvig/pasteface)</b>

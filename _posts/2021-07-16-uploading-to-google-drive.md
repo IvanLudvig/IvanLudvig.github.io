@@ -4,6 +4,7 @@ title:  "Uploading to Google Drive directly from a URL"
 date:   2021-07-16 22:42:00 +0300
 categories: tech
 redirect_from:
+  - /tech/2021/07/16/uploading-to-google-drive.html
   - /blog/2021/07/16/uploading-to-google-drive.html
 ---
 

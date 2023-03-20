@@ -4,6 +4,7 @@ title:  "Following Eye app release"
 date:   2019-08-20 16:40:18 +0300
 categories: tech
 redirect_from:
+  - /tech/2019/08/20/following-eye-app-release.html
   - /blog/2019/08/20/following-eye-app-release.html
 ---
 

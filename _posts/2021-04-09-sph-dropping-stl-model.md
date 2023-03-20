@@ -4,6 +4,7 @@ title:  "SPH simulation of liquid objects colliding with a surface using PySPH"
 date:   2021-04-09 17:51:00 +0300
 categories: tech
 redirect_from:
+  - /tech/2021/04/09/sph-dropping-stl-model.html
   - /blog/2021/04/09/sph-dropping-stl-model.html
 ---
 Full code available <a href="https://github.com/IvanLudvig/dropsph">on GitHub</a>.  

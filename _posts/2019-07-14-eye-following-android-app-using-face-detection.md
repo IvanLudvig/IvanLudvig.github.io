@@ -4,6 +4,7 @@ title:  "Eye following android app using face detection"
 date:   2019-07-14 14:07:06 +0300
 categories: tech
 redirect_from:
+  - /tech/2019/07/14/eye-following-android-app-using-face-detection.html
   - /blog/2019/07/14/eye-following-android-app-using-face-detection.html
 ---
 
