@@ -4,20 +4,31 @@ author:
   email: ivanludvigdev@gmail.com
 description:
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: false
 google_analytics: UA-173168931-1
 
-# permalink: /:categories/:year/:month/:day/:title:output_ext
+permalink: /:categories/:title
 
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+defaults:
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      permalink: /:categories/:title
+  - scope:
+      path: "travel/_posts"
+      type: posts
+    values:
+      permalink: /:categories/:year/:title
+      categories: travel
+
 minima:
   skin: classic
   date_format: "%b %-d, %Y"
 
   # generate social links in footer
   social_links:
-    twitter: IvanLudvigDev
+    # twitter: IvanLudvigDev
     github:  IvanLudvig
     # devto: jekyll
     # dribbble: jekyll

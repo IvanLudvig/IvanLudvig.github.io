@@ -4,6 +4,7 @@ title:  "StarStorm: my best game for android"
 date:   2019-06-22 01:16:02 +0300
 categories: tech
 redirect_from:
+  - /tech/2019/06/21/starstorm-android-game.html
   - /blog/2019/06/21/starstorm-android-game.html
 ---
 

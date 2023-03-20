@@ -4,6 +4,7 @@ title:  "Integrating libgdx into an android project"
 date:   2019-06-23 20:44:02 +0300
 categories: tech
 redirect_from:
+  - /tech/2019/06/23/integrating-libgdx-into-android-project.html
   - /blog/2019/06/23/integrating-libgdx-into-android-project.html
 ---
 
