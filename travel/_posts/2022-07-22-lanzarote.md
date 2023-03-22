@@ -167,7 +167,7 @@ Playa Blanca is another popular resort town. I liked the beaches here the most. 
     </div>
     <p class="image-label"></p>
 </center>
-The good thing about Playa Blanca is that you can take a ferry to [Fuerteventura](/travel/2022/07/26/fuerteventura.html). That's what I did. The ferry costs a whopping €20.
+The good thing about Playa Blanca is that you can take a ferry to [Fuerteventura](/travel/2022/fuerteventura.html). That's what I did. The ferry costs a whopping €20.
 <center>
     <div class="side-by-side">
         <img src="{{site.baseurl}}/assets/img/lanzarote/23.jpg" />
