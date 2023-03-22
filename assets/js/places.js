@@ -235,13 +235,13 @@ const places = {
         name: 'Hormuz',
         coords: [27.05927, 56.46079],
         link: '/travel/2023/hormuz',
-        zoom: 5
+        zoom: 7
     },
     'Bandar-Abbas': {
         name: 'Bandar Abbas',
         coords: [27.19625, 56.28836],
         link: '/travel/2023/hormuz',
-        zoom: 5
+        zoom: 7
     }
 }
 
@@ -259,7 +259,7 @@ const cities = {
     'Northern-Italy': ['Milan', 'Lugano', 'Varenna', 'Menaggio', 'Como'],
     'Iran': ['Tehran', 'Isfahan', 'Shiraz', 'Persepolis', 'Hormuz', 'Bandar-Abbas'],
     'Shiraz': ['Shiraz', 'Persepolis'],
-
+    'Hormuz': ['Bandar-Abbas', 'Hormuz']
 }
 
 const generatePlaceConfig = (name, minZoom = 8) => ({
