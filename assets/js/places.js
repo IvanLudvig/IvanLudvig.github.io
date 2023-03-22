@@ -228,13 +228,13 @@ const places = {
     'Persepolis': {
         name: 'Persepolis',
         coords: [29.93552, 52.89156],
-        link: '/travel/2023/shiraz',
+        link: '/travel/2023/shiraz#Persepolis',
         zoom: 6
     },
     'Hormuz': {
         name: 'Hormuz',
         coords: [27.05927, 56.46079],
-        link: '/travel/2023/hormuz',
+        link: '/travel/2023/hormuz#Hormuz',
         zoom: 7
     },
     'Bandar-Abbas': {
