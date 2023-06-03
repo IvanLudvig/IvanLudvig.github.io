@@ -242,6 +242,18 @@ const places = {
         coords: [27.19625, 56.28836],
         link: '/travel/2023/hormuz',
         zoom: 7
+    },
+    'Svetlogorsk': {
+        name: 'Светлогорск',
+        coords: [54.94407, 20.14663],
+        link: '/travel/2023/svetlogorsk',
+        zoom: 9
+    },
+    'Pionersky': {
+        name: 'Пионерский',
+        coords: [54.94968, 20.22451],
+        link: '/travel/2023/svetlogorsk#Pionersky',
+        zoom: 9
     }
 }
 
@@ -251,7 +263,7 @@ places['Northern-Italy'] = places['Milan']
 const cities = {
     'Lanzarote': ['Arrecife', 'Famara', 'Costa-Teguise', 'Puerto-del-Carmen', 'Playa-Blanca'],
     'Fuerteventura': ['Corralejo', 'Puerto-del-Rosario'],
-    'Kaliningrad': ['Kaliningrad', 'Zelenogradsk', 'Curonian-spit'],
+    'Kaliningrad': ['Kaliningrad', 'Zelenogradsk', 'Curonian-spit', 'Svetlogorsk', 'Pionersky'],
     'Malta': ['Sliema', 'Valletta', 'Mdina', 'Cirkewwa', 'St-Julians'],
     'Gozo': ['Mgarr', 'Xewkija', 'Victoria', 'Ramla-Bay'],
     'Scalea': ['Rome', 'Scalea'],
