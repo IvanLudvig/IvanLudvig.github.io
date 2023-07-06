@@ -11,7 +11,7 @@ categories: tech
 > The danger is to the body, and it can kill.   
 
 
-The great Pyramids of Giza were built around 4,500 years ago by the Ancient Egyptians. Since then, civilizations have undergone transformations, languages and religions have changed. Despite the fact that Egyptian hieroglyphs were successfuly deciphered, there is still no elaborate explanation why the pyramids were built with the prevaling explanation of religious purposes. Even though multiple warnings about curses were encountered, the tombs of Pharaohs that were once sealed never to be opened again, were disturbed.
+The great Pyramids of Giza were built about 4,500 years ago by the Ancient Egyptians. Since then, civilizations have undergone transformations, languages and religions have changed. Despite the fact that Egyptian hieroglyphs were successfuly deciphered, there is still no elaborate explanation why the pyramids were built with the prevaling explanation of religious purposes. Even though multiple warnings about curses were encountered, the tombs of Pharaohs that were once sealed never to be opened again, were disturbed.
 <center>
     <img src="{{site.baseurl}}/assets/img/nuclearwaste/egyptian1.png" width="500px" />
 <p class="image-label"></p>
