@@ -26,7 +26,6 @@ Spent fuel from nuclear reactors remains hazardous for over 10,000 years. Deep g
 
 
 ## Message
-
 The report outlines four levels of complexity for conveying the message:
 <ol style="list-style-type: upper-roman">
 <li> Rudimentary Information: "Something manmade is here"
@@ -57,9 +56,9 @@ The report outlines four levels of complexity for conveying the message:
 </li>
 </ol>
 
-The messages are repeated seven times: in the six languages of the United Nations (Arabic, English, Spanish, French, Russian, and Chinese), Navajo and blank. The blank area is so the message can be inscribed in another language when these grow too ancient to read comfortably.
+The messages are repeated seven times: in the six languages of the United Nations (Arabic, English, Spanish, French, Russian, and Chinese), Navajo and blank. The blank area is so the message can be inscribed in another language when these grow too ancient to read comfortably. Apart from conveying information lingiustically, the message should be represented by the most universally understood symbols using physical features and pictograms. The warnings, diagrams and graphs should appear unambiguous and as clear as possible.
 
-Levels I, II can be faciliated using physical markers by designing relevant architecture. The Level III, IV information will be contained in rooms buried chambers.
+Levels I, II can be faciliated using physical markers by designing relevant architecture. The Level III, IV information will be contained in rooms and buried chambers.
 
 ## Above-ground structures
 
