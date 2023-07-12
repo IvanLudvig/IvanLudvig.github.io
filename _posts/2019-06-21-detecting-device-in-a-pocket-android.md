@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Android: detecting device presence in a pocket"
-date:   2019-06-21 01:24:02 +0300
+date:   2019-06-23 01:24:02 +0300
 categories: tech
 redirect_from:
   - /tech/2019/06/22/detecting-device-in-a-pocket-android.html

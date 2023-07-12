@@ -152,7 +152,10 @@
 }
 
 .footer-col {
-  margin-bottom: $spacing-unit / 2;
+  display: flex;
+  gap: 8px;
+  justify-content: space-evenly;
+  align-items: baseline;
 }
 
 .footer-col-1,
