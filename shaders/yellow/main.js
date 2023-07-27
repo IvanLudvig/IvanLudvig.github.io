@@ -2,6 +2,7 @@ window.onload = () => {
     const code = document.getElementById('code');
     const canvas = new GlslCanvas(document.getElementById('glsl-canvas'));
     const codeContainer = document.getElementById('code-container');
+    const resetCodeBtn = document.getElementById('reset-code-button');
 
     const file = new XMLHttpRequest();
     file.open('GET', './yellow.glsl');
@@ -25,7 +26,7 @@ window.onload = () => {
         toggleVisibility(codeContainer)
     };
 
-    document.getElementById('reset-code-button').onclick = () => {
+    resetCodeBtn.onclick = () => {
         code.innerText = file.responseText;
         canvas.load(file.responseText);
         toggleVisibility(resetCodeBtn);
