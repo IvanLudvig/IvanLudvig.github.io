@@ -254,10 +254,29 @@ const places = {
         coords: [54.94968, 20.22451],
         link: '/travel/2023/svetlogorsk#Pionersky',
         zoom: 9
-    }
+    },
+    'Fethiye': {
+        name: 'Fethiye',
+        coords: [36.62183, 29.11512],
+        link: '/travel/2023/fethiye',
+        zoom: 6
+    },
+    'Oludeniz': {
+        name: 'Ölüdeniz',
+        coords: [36.54659, 29.12269],
+        link: '/travel/2023/fethiye#Oludeniz',
+        zoom: 11
+    },
+    'Babadag': {
+        name: 'Babadağ',
+        coords: [36.52833, 29.185],
+        link: '/travel/2023/fethiye#Babadag',
+        zoom: 11
+    },
 }
 
 places['Scalea-1'] = places['Scalea']
+places['Fethiye-1'] = places['Fethiye']
 places['Northern-Italy'] = places['Milan']
 
 const cities = {
@@ -271,7 +290,8 @@ const cities = {
     'Northern-Italy': ['Milan', 'Lugano', 'Varenna', 'Menaggio', 'Como'],
     'Iran': ['Tehran', 'Isfahan', 'Shiraz', 'Persepolis', 'Hormuz', 'Bandar-Abbas'],
     'Shiraz': ['Shiraz', 'Persepolis'],
-    'Hormuz': ['Bandar-Abbas', 'Hormuz']
+    'Hormuz': ['Bandar-Abbas', 'Hormuz'],
+    'Fethiye': ['Fethiye', 'Oludeniz', 'Babadag']
 }
 
 const generatePlaceConfig = (name, minZoom = 8) => ({
