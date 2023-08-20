@@ -273,6 +273,12 @@ const places = {
         link: '/travel/2023/fethiye#Babadag',
         zoom: 11
     },
+    'Antalya': {
+        name: 'Antalya',
+        coords: [36.89689, 30.71332],
+        link: '/travel/2023/antalya',
+        zoom: 6
+    }
 }
 
 places['Scalea-1'] = places['Scalea']
