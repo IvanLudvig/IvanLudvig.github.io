@@ -278,6 +278,12 @@ const places = {
         coords: [36.89689, 30.71332],
         link: '/travel/2023/antalya',
         zoom: 6
+    },
+    'Istanbul': {
+        name: 'Istanbul',
+        coords: [41.00823, 28.97835],
+        link: '/travel/2023/istanbul',
+        zoom: 6
     }
 }
 

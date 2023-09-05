@@ -27,6 +27,7 @@ custom-title: Ivan Ludvig's Travel Blog
         generatePlaceConfig('Iran', 3),
         generatePlaceConfig('Fethiye', 8),
         generatePlaceConfig('Antalya'),
+        generatePlaceConfig('Istanbul'),
     ];
 
     const onClick = point => () => window.open(point.link);
