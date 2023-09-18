@@ -162,7 +162,7 @@ Finally, we can predict the unpredictable. I have set the limits to `min = 1` an
 <iframe width="90%" height="400" src="https://www.youtube.com/embed/iw0sJTmulSw?si=GI1RzjrGbNqqM1j1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 
-As a web developer interested in cryptocurrency I have heard about `Math.random()` being unsafe, and today I finally saw and tested a specific example. Conclusion: please be aware that the Google random number generator is an unreliable source of entropy especially for people familiar with bitwise operations.
+As a web developer interested in cryptocurrency I have heard about `Math.random()` being unsafe, and today I finally saw and tested a specific example proving this fact. Conclusion: please be aware that the Google random number generator is an unreliable source of entropy especially for people familiar with bitwise operations.
 
 Code: [https://github.com/IvanLudvig/google-rng-hack](https://github.com/IvanLudvig/google-rng-hack)
 
