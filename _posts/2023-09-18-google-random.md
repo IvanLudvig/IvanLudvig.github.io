@@ -159,7 +159,7 @@ if solver.check() == z3.sat:
 Finally, we can predict the unpredictable. I have set the limits to `min = 1` and `max = 100000`. The bigger the range the fewer values are required to restore the seed because more information is preserved (a hefty chunk of bits is lost after `math.floor`). It required 10 generated values to work out the correct seed and predict the next value. It works! 
 
 <center>
-<iframe width="640" height="400" src="https://www.youtube.com/embed/iw0sJTmulSw?si=GI1RzjrGbNqqM1j1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="90%" height="400" src="https://www.youtube.com/embed/iw0sJTmulSw?si=GI1RzjrGbNqqM1j1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 
 As a web developer interested in cryptocurrency I have heard about `Math.random()` being unsafe, and today I finally saw and tested a specific example. Conclusion: please be aware that the Google random number generator is an unreliable source of entropy especially for people familiar with bitwise operations.
