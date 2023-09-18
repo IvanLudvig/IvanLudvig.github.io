@@ -83,7 +83,7 @@ def from_double(val):
     return struct.unpack('<Q', struct.pack('d', val + 1))[0] & 0x3FFFFFFFFFFFFFFF
 ```
 
-In the loop over each known output `point` first the symbolic xorshift is executed. Then `state0` is right shifted by 12 bits as in the `ToDouble` function which produces the symbolic mantissa
+In the loop over each known output `point` first the symbolic xorshift is executed. Then `state0` is right shifted by 12 bits like in the `ToDouble` function which produces the symbolic mantissa
 ```python
 points = points[::-1]
 for point in points:
