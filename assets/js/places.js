@@ -309,6 +309,12 @@ const places = {
         link: '/travel/2023/sochi',
         zoom: 9
     },
+    'Tula': {
+        name: 'Тула',
+        coords: [54.19527, 37.61989],
+        link: '/travel/2023/tula',
+        zoom: 9
+    },
 }
 
 places['Scalea-1'] = places['Scalea']

@@ -29,6 +29,7 @@ custom-title: Ivan Ludvig's Travel Blog
         generatePlaceConfig('Antalya'),
         generatePlaceConfig('Istanbul'),
         generatePlaceConfig('Sochi', 6),
+        generatePlaceConfig('Tula')
     ];
 
     const onClick = point => () => window.open(point.link);
