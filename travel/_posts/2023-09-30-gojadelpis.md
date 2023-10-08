@@ -106,7 +106,7 @@ I went for a swim. The water was freezing & fresh. I imagined the ice caps of th
     </div>
     <p class="image-label">Going for a dip</p>
 </center>
-In these places I feel a connection to nature, like this waterfall is where I should be.
+In places like this I feel a connection to nature, as if this waterfall is where I should be.
 <center>
 <img src="{{site.baseurl}}/assets/img/gojadelpis/18.jpg" />
 <p class="image-label">Stream</p>
