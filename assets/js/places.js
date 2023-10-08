@@ -315,11 +315,30 @@ const places = {
         link: '/travel/2023/tula',
         zoom: 9
     },
+    'Goja-del-Pis': {
+        name: 'Goja del Pis',
+        coords: [45.12875, 7.39885],
+        link: '/travel/2023/gojadelpis',
+        zoom: 10.5
+    },
+    'Almese': {
+        name: 'Almese',
+        coords: [45.11737, 7.39507],
+        link: '/travel/2023/gojadelpis',
+        zoom: 11
+    },
+    'Avigliana': {
+        name: 'Avigliana',
+        coords: [45.08507, 7.40091],
+        link: '/travel/2023/gojadelpis',
+        zoom: 11
+    }
 }
 
 places['Scalea-1'] = places['Scalea']
 places['Fethiye-1'] = places['Fethiye']
 places['Northern-Italy'] = places['Milan']
+places['Goja-del-Pis-1'] = places['Goja-del-Pis']
 
 const cities = {
     'Lanzarote': ['Arrecife', 'Famara', 'Costa-Teguise', 'Puerto-del-Carmen', 'Playa-Blanca'],
@@ -334,7 +353,8 @@ const cities = {
     'Shiraz': ['Shiraz', 'Persepolis'],
     'Hormuz': ['Bandar-Abbas', 'Hormuz'],
     'Fethiye': ['Fethiye', 'Oludeniz', 'Babadag'],
-    'Sochi': ['Sochi', 'Adler', 'Sirius', 'Krasnaya-polyana']
+    'Sochi': ['Sochi', 'Adler', 'Sirius', 'Krasnaya-polyana'],
+    'Goja-del-Pis': ['Goja-del-Pis', 'Almese', 'Avigliana']
 }
 
 const generatePlaceConfig = (name, minZoom = 8) => ({
