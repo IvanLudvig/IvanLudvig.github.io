@@ -31,6 +31,7 @@ custom-title: Ivan Ludvig's Travel Blog
         generatePlaceConfig('Sochi', 6),
         generatePlaceConfig('Tula'),
         generatePlaceConfig('Goja-del-Pis', 9),
+        generatePlaceConfig('Genoa')
     ];
 
     const onClick = point => () => window.open(point.link);

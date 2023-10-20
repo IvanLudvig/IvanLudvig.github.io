@@ -332,6 +332,12 @@ const places = {
         coords: [45.08507, 7.40091],
         link: '/travel/2023/gojadelpis',
         zoom: 11
+    },
+    'Genoa': {
+        name: 'Genoa',
+        coords: [44.40564, 8.94625],
+        link: '/travel/2023/genoa',
+        zoom: 6
     }
 }
 
