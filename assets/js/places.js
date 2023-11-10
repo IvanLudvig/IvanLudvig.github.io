@@ -338,6 +338,36 @@ const places = {
         coords: [44.40564, 8.94625],
         link: '/travel/2023/genoa',
         zoom: 6
+    },
+    'Nice': {
+        name: 'Nice',
+        coords: [43.71017, 7.26195],
+        link: '/travel/2023/nice',
+        zoom: 7
+    },
+    'Monaco': {
+        name: 'Monaco',
+        coords: [43.73841, 7.42461],
+        link: '/travel/2023/monaco',
+        zoom: 11
+    },
+    'Cape-Martin': {
+        name: 'Cape Martin',
+        coords: [43.75077, 7.48388],
+        link: '/travel/2023/menton',
+        zoom: 11
+    },
+    'Menton': {
+        name: 'Menton',
+        coords: [43.77448, 7.49754],
+        link: '/travel/2023/menton',
+        zoom: 11
+    },
+    'Ventimiglia': {
+        name: 'Ventimiglia',
+        coords: [43.79123, 7.60758],
+        link: '/travel/2023/menton',
+        zoom: 11
     }
 }
 
@@ -345,6 +375,8 @@ places['Scalea-1'] = places['Scalea']
 places['Fethiye-1'] = places['Fethiye']
 places['Northern-Italy'] = places['Milan']
 places['Goja-del-Pis-1'] = places['Goja-del-Pis']
+places['Azure-Menton'] = places['Cape-Martin']
+places['Azure'] = places['Nice']
 
 const cities = {
     'Lanzarote': ['Arrecife', 'Famara', 'Costa-Teguise', 'Puerto-del-Carmen', 'Playa-Blanca'],
@@ -360,7 +392,9 @@ const cities = {
     'Hormuz': ['Bandar-Abbas', 'Hormuz'],
     'Fethiye': ['Fethiye', 'Oludeniz', 'Babadag'],
     'Sochi': ['Sochi', 'Adler', 'Sirius', 'Krasnaya-polyana'],
-    'Goja-del-Pis': ['Goja-del-Pis', 'Almese', 'Avigliana']
+    'Goja-del-Pis': ['Goja-del-Pis', 'Almese', 'Avigliana'],
+    'Azure': ['Nice', 'Monaco', 'Cape-Martin', 'Menton', 'Ventimiglia'],
+    'Azure-Menton': ['Monaco', 'Cape-Martin', 'Menton', 'Ventimiglia']
 }
 
 const generatePlaceConfig = (name, minZoom = 8) => ({

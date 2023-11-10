@@ -43,7 +43,7 @@ Doubles consist of 64 bits: 1 bit sign, 11 bit exponent, 52 bit mantissa.
     <img width="500px" src="{{site.baseurl}}/assets/img/google-rng/double-formula.png" />
     <p class="image-label"></p>
 </center>
-The end result is a double in the [0, 1) range. It is derived by manipulating the `state0` value which is right shifted by 12 bits and ORed with `0x3FF0000000000000` setting the exponent to 01111111111 in binary, which is 1023. This produces a value between 1 and 2. Finally, 1 is subtracted to obtain a value in the range (0, 1].
+The end result is a double in the [0, 1) range. It is derived by manipulating the `state0` value which is right shifted by 12 bits and ORed with `0x3FF0000000000000` setting the exponent to 01111111111 in binary, which is 1023. This produces a value between 1 and 2. Finally, 1 is subtracted to obtain a value in the range [0, 1).
 
 ```cpp
 static inline double ToDouble(uint64_t state0) {
