@@ -30,7 +30,7 @@ custom-title: Ivan Ludvig's Travel Blog
         generatePlaceConfig('Istanbul'),
         generatePlaceConfig('Sochi', 6),
         generatePlaceConfig('Tula'),
-        generatePlaceConfig('Goja-del-Pis', 9),
+        generatePlaceConfig('Turin', 7),
         generatePlaceConfig('Genoa'),
         generatePlaceConfig('Azure')
     ];

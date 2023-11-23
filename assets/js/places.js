@@ -318,19 +318,19 @@ const places = {
     'Goja-del-Pis': {
         name: 'Goja del Pis',
         coords: [45.12875, 7.39885],
-        link: '/travel/2023/gojadelpis',
+        link: '/travel/2023/gojadelpis#Goja-del-Pis-1',
         zoom: 10.5
     },
     'Almese': {
         name: 'Almese',
         coords: [45.11737, 7.39507],
-        link: '/travel/2023/gojadelpis',
+        link: '/travel/2023/gojadelpis#Almese',
         zoom: 11
     },
     'Avigliana': {
         name: 'Avigliana',
         coords: [45.08507, 7.40091],
-        link: '/travel/2023/gojadelpis',
+        link: '/travel/2023/gojadelpis#Avigliana',
         zoom: 11
     },
     'Genoa': {
@@ -354,7 +354,7 @@ const places = {
     'Cape-Martin': {
         name: 'Cape Martin',
         coords: [43.75077, 7.48388],
-        link: '/travel/2023/menton',
+        link: '/travel/2023/menton#Cape-Martin',
         zoom: 11
     },
     'Menton': {
@@ -366,13 +366,20 @@ const places = {
     'Ventimiglia': {
         name: 'Ventimiglia',
         coords: [43.79123, 7.60758],
-        link: '/travel/2023/menton',
+        link: '/travel/2023/menton#Ventimiglia',
         zoom: 11
+    },
+    'Turin': {
+        name: 'Turin',
+        coords: [45.07031, 7.68685],
+        link: '/travel/2023/turin',
+        zoom: 7
     }
 }
 
 places['Scalea-1'] = places['Scalea']
 places['Fethiye-1'] = places['Fethiye']
+places['Turin-1'] = places['Turin']
 places['Northern-Italy'] = places['Milan']
 places['Goja-del-Pis-1'] = places['Goja-del-Pis']
 places['Azure-Menton'] = places['Cape-Martin']
@@ -392,7 +399,7 @@ const cities = {
     'Hormuz': ['Bandar-Abbas', 'Hormuz'],
     'Fethiye': ['Fethiye', 'Oludeniz', 'Babadag'],
     'Sochi': ['Sochi', 'Adler', 'Sirius', 'Krasnaya-polyana'],
-    'Goja-del-Pis': ['Goja-del-Pis', 'Almese', 'Avigliana'],
+    'Turin': ['Goja-del-Pis', 'Almese', 'Avigliana'],
     'Azure': ['Nice', 'Monaco', 'Cape-Martin', 'Menton', 'Ventimiglia'],
     'Azure-Menton': ['Monaco', 'Cape-Martin', 'Menton', 'Ventimiglia']
 }
