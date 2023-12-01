@@ -375,6 +375,13 @@ const places = {
         link: '/travel/2023/turin',
         zoom: 7
     }
+    ,
+    'Budapest': {
+        name: 'Budapest',
+        coords: [47.4995, 19.04667],
+        link: '/travel/2023/budapest',
+        zoom: 7
+    }
 }
 
 places['Scalea-1'] = places['Scalea']

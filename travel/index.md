@@ -32,7 +32,8 @@ custom-title: Ivan Ludvig's Travel Blog
         generatePlaceConfig('Tula'),
         generatePlaceConfig('Turin', 7),
         generatePlaceConfig('Genoa'),
-        generatePlaceConfig('Azure')
+        generatePlaceConfig('Azure'),
+        generatePlaceConfig('Budapest')
     ];
 
     const onClick = point => () => window.open(point.link);
