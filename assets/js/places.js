@@ -168,7 +168,7 @@ const places = {
     'Scalea': {
         name: 'Scalea',
         coords: [39.81411, 15.79126],
-        link: '/travel/2022/scalea',
+        link: '/travel/?city=scalea',
         zoom: 6
     },
     'Varenna': {
@@ -384,12 +384,12 @@ const places = {
     }
 }
 
-places['Scalea-1'] = places['Scalea']
 places['Fethiye-1'] = places['Fethiye']
 places['Turin-1'] = places['Turin']
 places['Northern-Italy'] = places['Milan']
 places['Goja-del-Pis-1'] = places['Goja-del-Pis']
 places['Azure-Menton'] = places['Cape-Martin']
+places['Scalea-Rome'] = places['Scalea']
 places['Azure'] = places['Nice']
 
 const cities = {
@@ -398,7 +398,7 @@ const cities = {
     'Kaliningrad': ['Kaliningrad', 'Zelenogradsk', 'Curonian-spit', 'Svetlogorsk', 'Pionersky'],
     'Malta': ['Sliema', 'Valletta', 'Mdina', 'Cirkewwa', 'St-Julians'],
     'Gozo': ['Mgarr', 'Xewkija', 'Victoria', 'Ramla-Bay'],
-    'Scalea': ['Rome', 'Scalea'],
+    'Scalea-Rome': ['Rome', 'Scalea'],
     'Como': ['Varenna', 'Menaggio', 'Como'],
     'Northern-Italy': ['Milan', 'Lugano', 'Varenna', 'Menaggio', 'Como'],
     'Iran': ['Tehran', 'Isfahan', 'Shiraz', 'Persepolis', 'Hormuz', 'Bandar-Abbas'],

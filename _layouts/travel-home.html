@@ -7,28 +7,29 @@ title: Ivan Ludvig's Travel Blog
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+  <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
 
   {% if site.paginate %}
-    {% assign posts = paginator.posts %}
+  {% assign posts = paginator.posts %}
   {% else %}
-    {% assign posts = site.posts %}
+  {% assign posts = site.posts %}
   {% endif %}
 
 
   {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
+  {%- if page.list_title -%}
+  <h2 class="post-list-heading">{{ page.list_title }}</h2>
+  {%- endif -%}
+
+    <ul id="travel-posts-list" class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       {% if post.categories contains "travel" %}
-      <li>
+      <li data-title="{{ post.title }}">
         <span class="post-meta">{{ post.dates }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
