@@ -374,12 +374,17 @@ const places = {
         coords: [45.07031, 7.68685],
         link: '/travel/2023/turin',
         zoom: 7
-    }
-    ,
+    },
     'Budapest': {
         name: 'Budapest',
         coords: [47.4995, 19.04667],
         link: '/travel/2023/budapest',
+        zoom: 7
+    },
+    'Athens': {
+        name: 'Athens',
+        coords: [37.9838, 23.72753],
+        link: '/travel/2023/athens',
         zoom: 7
     }
 }
