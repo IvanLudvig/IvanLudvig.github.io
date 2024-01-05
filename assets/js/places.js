@@ -386,6 +386,12 @@ const places = {
         coords: [37.9838, 23.72753],
         link: '/travel/2023/athens',
         zoom: 7
+    },
+    'Catania': {
+        name: 'Catania',
+        coords: [37.50382, 15.09013],
+        link: '/travel/2023/catania',
+        zoom: 7
     }
 }
 

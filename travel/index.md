@@ -41,7 +41,8 @@ custom-title: Ivan Ludvig's Travel Blog
             generatePlaceConfig('Genoa'),
             generatePlaceConfig('Azure'),
             generatePlaceConfig('Budapest'),
-            generatePlaceConfig('Athens')
+            generatePlaceConfig('Athens'),
+            generatePlaceConfig('Catania')
         ];
 
         const onClick = point => () => window.open(point.link);
