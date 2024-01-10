@@ -24,7 +24,6 @@ window.onload = () => {
     const play = document.getElementById('audio-toggle');
     const audio = new Audio('audio.mp3');
     play.onclick = () => {
-        console.log(audio);
         if (audio.paused) {
             audio.play();
             audio.loop = true;
