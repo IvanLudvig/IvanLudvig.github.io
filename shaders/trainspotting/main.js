@@ -8,22 +8,29 @@ window.onload = () => {
     file.send();
 
     const title = document.getElementById('title');
-    const flicker = () => {
-        setTimeout(() => {
-            title.style.color = '#fff';
-            setTimeout(() => {
-                title.style.color = '#000';
-            }, 150);
 
+    const flicker = () => {
+        title.style.color = '#fff';
+        setTimeout(() => {
+            title.style.color = '#000';
+        }, 150);
+    };
+
+    const flickerLoop = () => {
+        setTimeout(() => {
             flicker();
+
+            flickerLoop();
         }, 200 + Math.random() * 4000);
     };
 
-    flicker();
+    flickerLoop();
+    document.onclick = flicker;
 
     const play = document.getElementById('audio-toggle');
     const audio = new Audio('audio.mp3');
-    play.onclick = () => {
+    play.onclick = e => {
+        e.stopImmediatePropagation();
         if (audio.paused) {
             audio.play();
             audio.loop = true;
@@ -33,5 +40,4 @@ window.onload = () => {
             audio.loop = false;
         }
     }
-
 }
