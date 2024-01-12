@@ -26,6 +26,7 @@ window.onload = () => {
 
     flickerLoop();
     document.onclick = flicker;
+    document.onkeyup = flicker;
 
     const play = document.getElementById('audio-toggle');
     const audio = new Audio('audio.mp3');
