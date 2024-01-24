@@ -42,7 +42,7 @@ custom-title: Ivan Ludvig's Travel Blog
             generatePlaceConfig('Azure'),
             generatePlaceConfig('Budapest'),
             generatePlaceConfig('Athens'),
-            generatePlaceConfig('Catania')
+            generatePlaceConfig('Sicily-East', 5)
         ];
 
         const onClick = point => () => window.open(point.link);

@@ -392,6 +392,18 @@ const places = {
         coords: [37.50382, 15.09013],
         link: '/travel/2023/catania',
         zoom: 7
+    },
+    'Syracuse': {
+        name: 'Syracuse',
+        coords: [37.07547, 15.28658],
+        link: '/travel/2023/syracuse',
+        zoom: 7
+    },
+    'Etna': {
+        name: 'Etna',
+        coords: [37.751, 14.99343],
+        link: '/travel/2023/etna',
+        zoom: 7
     }
 }
 
@@ -402,6 +414,7 @@ places['Goja-del-Pis-1'] = places['Goja-del-Pis']
 places['Azure-Menton'] = places['Cape-Martin']
 places['Scalea-Rome'] = places['Scalea']
 places['Azure'] = places['Nice']
+places['Sicily-East'] = places['Catania']
 
 const cities = {
     'Lanzarote': ['Arrecife', 'Famara', 'Costa-Teguise', 'Puerto-del-Carmen', 'Playa-Blanca'],
@@ -419,7 +432,8 @@ const cities = {
     'Sochi': ['Sochi', 'Adler', 'Sirius', 'Krasnaya-polyana'],
     'Turin': ['Goja-del-Pis', 'Almese', 'Avigliana'],
     'Azure': ['Nice', 'Monaco', 'Cape-Martin', 'Menton', 'Ventimiglia'],
-    'Azure-Menton': ['Monaco', 'Cape-Martin', 'Menton', 'Ventimiglia']
+    'Azure-Menton': ['Monaco', 'Cape-Martin', 'Menton', 'Ventimiglia'],
+    'Sicily-East': ['Catania', 'Syracuse', 'Etna']
 }
 
 const generatePlaceConfig = (name, minZoom = 8) => ({
