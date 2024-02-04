@@ -29,7 +29,7 @@ custom-title: Ivan Ludvig's Travel Blog
             generatePlaceConfig('Tallinn'),
             generatePlaceConfig('Naples'),
             generatePlaceConfig('Scalea-Rome', 4),
-            generatePlaceConfig('Northern-Italy', 6),
+            generatePlaceConfig('Around-Como', 6),
             generatePlaceConfig('Kazan'),
             generatePlaceConfig('Iran', 3),
             generatePlaceConfig('Fethiye', 8),

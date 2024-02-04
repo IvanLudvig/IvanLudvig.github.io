@@ -409,7 +409,7 @@ const places = {
 
 places['Fethiye-1'] = places['Fethiye']
 places['Turin-1'] = places['Turin']
-places['Northern-Italy'] = places['Milan']
+places['Around-Como'] = places['Como']
 places['Goja-del-Pis-1'] = places['Goja-del-Pis']
 places['Azure-Menton'] = places['Cape-Martin']
 places['Scalea-Rome'] = places['Scalea']
@@ -424,7 +424,7 @@ const cities = {
     'Gozo': ['Mgarr', 'Xewkija', 'Victoria', 'Ramla-Bay'],
     'Scalea-Rome': ['Rome', 'Scalea'],
     'Como': ['Varenna', 'Menaggio', 'Como'],
-    'Northern-Italy': ['Milan', 'Lugano', 'Varenna', 'Menaggio', 'Como'],
+    'Around-Como': ['Lugano', 'Varenna', 'Menaggio', 'Como'],
     'Iran': ['Tehran', 'Isfahan', 'Shiraz', 'Persepolis', 'Hormuz', 'Bandar-Abbas'],
     'Shiraz': ['Shiraz', 'Persepolis'],
     'Hormuz': ['Bandar-Abbas', 'Hormuz'],
