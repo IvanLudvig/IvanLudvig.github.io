@@ -16,3 +16,6 @@
 [submodule "pasteface"]
 	path = pasteface
 	url = https://github.com/IvanLudvig/pasteface-web
+[submodule "cyrillic-clock"]
+	path = cyrillic-clock
+	url = https://github.com/IvanLudvig/cyrillic-clock.git
