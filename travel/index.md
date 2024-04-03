@@ -7,13 +7,45 @@ custom-title: Ivan Ludvig's Travel Blog
 </div>
 
 <script>
-    const filter = window.location.search.split('city=')[1];
-    if (filter) {
-        const placeName = Object.keys(places).find(key => key.toLowerCase() === filter.toLowerCase());
+    const onClick = point => () => window.open(point.link);
+
+    const renderCountry = (country) => {
+        generateMarker(country, countryIcon, onClick).addTo(map);
+
+        const citiesLayer = new L.LayerGroup();
+        country.cities?.filter(city => city.name !== country.name).forEach(city => 
+            generateMarker(city, cityIcon, onClick).addTo(citiesLayer)
+        );
+
+        const onZoom = () => {
+            if (map.getZoom() > country.minZoom) {
+                map.addLayer(citiesLayer);
+            } else {
+                map.removeLayer(citiesLayer);
+            }
+        };
+
+        onZoom();
+        map.on('zoomend', onZoom);
+    }
+
+    const cityFliter = window.location.search.split('city=')[1];
+    const countryFilter = window.location.search.split('country=')[1];
+    if (cityFliter) {
+        const placeName = Object.keys(places).find(key => key.toLowerCase() === cityFliter.toLowerCase());
         if(!placeName) {
             window.location.href = window.location.href.split('?')[0];
         }
         renderMap(`map`, places[placeName].coords, places[placeName]?.zoom ?? 8);
+    } else if (countryFilter) {
+        const maps = countryCodeToMaps[countryFilter].map(placeName => generatePlaceConfig(placeName, 1));
+        const coords = maps.map(m => m.coords)
+                        .reduce((a, b) => [a[0] + b[0], a[1] + b[1]])
+                        .map(x => x / maps.length);
+    
+        var map = L.map('map', {attributionControl: false}).setView(coords, maps[0]?.zoom ?? 8);
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+        maps.map(renderCountry);
     } else {
         var map = L.map('map', {attributionControl: false}).setView([52, 22], 3);
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
@@ -44,25 +76,6 @@ custom-title: Ivan Ludvig's Travel Blog
             generatePlaceConfig('Athens'),
             generatePlaceConfig('Sicily-East', 5)
         ];
-
-        const onClick = point => () => window.open(point.link);
-
-        const renderCountry = (country) => {
-            generateMarker(country, countryIcon, onClick).addTo(map);
-
-            const citiesLayer = new L.LayerGroup();
-            country.cities?.filter(city => city.name !== country.name).forEach(city => 
-                generateMarker(city, cityIcon, onClick).addTo(citiesLayer)
-            );
-
-            map.on('zoomend', () => {
-                if (map.getZoom() > country.minZoom){
-                    map.addLayer(citiesLayer);
-                } else {
-                    map.removeLayer(citiesLayer);
-                }
-            });
-        }
 
         countries.forEach(renderCountry);
     }

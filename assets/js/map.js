@@ -24,21 +24,20 @@ const generateMarker = (point, icon, onClick) => L.marker(point.coords, { icon }
     .bindTooltip(point.name)
     .on('click', onClick(point));
 
-function renderCountryMap(name) {
+function renderCountryMap(name, mapContainer) {
     const country = generatePlaceConfig(name);
-    const map = L.map(`${name}-country-map`, { attributionControl: false })
+    const map = L.map(mapContainer ? mapContainer : `${name}-country-map`, { attributionControl: false })
         .setView(country.coords, country?.zoom ?? 8);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
     const onClick = point => () => document.getElementById(point.key)
         .scrollIntoView({ behavior: 'smooth' });
 
-    if(country.cities){
+    if (country.cities) {
         country.cities?.forEach(city =>
             generateMarker(city, cityIcon, onClick).addTo(map)
         );
-    }else{
-        generateMarker(country, cityIcon, () => {}).addTo(map)
+    } else {
+        generateMarker(country, cityIcon, () => { }).addTo(map)
     }
-
 }

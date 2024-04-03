@@ -337,6 +337,7 @@ table {
 
 .side-by-side>img {
     max-width: calc(50% - 2px);
+    object-fit: contain;
 }
 
 .side-by-side-lp {

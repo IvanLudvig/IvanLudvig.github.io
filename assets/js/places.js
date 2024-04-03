@@ -72,7 +72,7 @@ const places = {
     'Malta': {
         name: 'Malta',
         coords: [35.8816, 14.44903],
-        link: '/travel/2022/malta',
+        link: '/travel?country=mt',
         zoom: 10
     },
     'Sliema': {
@@ -84,7 +84,7 @@ const places = {
     'Valletta': {
         name: 'Valletta',
         coords: [35.8989, 14.51455],
-        link: '/travel/2022/malta#Valletta',
+        link: '/travel/?city=valletta',
         zoom: 11
     },
     'Mdina': {
@@ -404,6 +404,36 @@ const places = {
         coords: [37.751, 14.99343],
         link: '/travel/2023/etna',
         zoom: 7
+    },
+    'Golden-Bay': {
+        name: 'Golden Bay',
+        coords: [35.93386, 14.34446],
+        link: '/travel/2023/golden-bay',
+        zoom: 11
+    },
+    'Birzebbuga': {
+        name: 'Birżebbuġa',
+        coords: [35.82653, 14.52784],
+        link: '/travel/2023/marsaxlokk',
+        zoom: 11
+    },
+    'Marsaxlokk': {
+        name: 'Marsaxlokk',
+        coords: [35.8422, 14.54277],
+        link: '/travel/2023/marsaxlokk',
+        zoom: 11
+    },
+    'St-Peters-Pool': {
+        name: 'St. Peter\'s Pool',
+        coords: [35.83312, 14.56211],
+        link: '/travel/2023/marsaxlokk',
+        zoom: 12
+    },
+    'Senglea': {
+        name: 'Senglea',
+        coords: [35.88788, 14.51674],
+        link: '/travel/2023/senglea',
+        zoom: 12
     }
 }
 
@@ -415,12 +445,16 @@ places['Azure-Menton'] = places['Cape-Martin']
 places['Scalea-Rome'] = places['Scalea']
 places['Azure'] = places['Nice']
 places['Sicily-East'] = places['Catania']
+places['Malta-2022'] = places['Malta']
+places['Around-Marsaxlokk'] = places['Marsaxlokk']
+places['Around-Senglea'] = places['Senglea']
 
 const cities = {
     'Lanzarote': ['Arrecife', 'Famara', 'Costa-Teguise', 'Puerto-del-Carmen', 'Playa-Blanca'],
     'Fuerteventura': ['Corralejo', 'Puerto-del-Rosario'],
     'Kaliningrad': ['Kaliningrad', 'Zelenogradsk', 'Curonian-spit', 'Svetlogorsk', 'Pionersky'],
-    'Malta': ['Sliema', 'Valletta', 'Mdina', 'Cirkewwa', 'St-Julians'],
+    'Malta-2022': ['Sliema', 'Valletta', 'Mdina', 'Cirkewwa', 'St-Julians'],
+    'Malta': ['Sliema', 'Valletta', 'Mdina', 'Cirkewwa', 'St-Julians', 'Golden-Bay', 'Birzebbuga', 'Marsaxlokk', 'St-Peters-Pool', 'Senglea'],
     'Gozo': ['Mgarr', 'Xewkija', 'Victoria', 'Ramla-Bay'],
     'Scalea-Rome': ['Rome', 'Scalea'],
     'Como': ['Varenna', 'Menaggio', 'Como'],
@@ -433,7 +467,9 @@ const cities = {
     'Turin': ['Goja-del-Pis', 'Almese', 'Avigliana'],
     'Azure': ['Nice', 'Monaco', 'Cape-Martin', 'Menton', 'Ventimiglia'],
     'Azure-Menton': ['Monaco', 'Cape-Martin', 'Menton', 'Ventimiglia'],
-    'Sicily-East': ['Catania', 'Syracuse', 'Etna']
+    'Sicily-East': ['Catania', 'Syracuse', 'Etna'],
+    'Around-Marsaxlokk': ['Birzebbuga', 'Marsaxlokk', 'St-Peters-Pool'],
+    'Around-Senglea': ['Senglea', 'Valletta'],
 }
 
 const generatePlaceConfig = (name, minZoom = 8) => ({
@@ -441,3 +477,7 @@ const generatePlaceConfig = (name, minZoom = 8) => ({
     minZoom,
     cities: cities[name]?.map(key => ({ ...places[key], key }))
 })
+
+const countryCodeToMaps = {
+    'mt': ['Malta', 'Gozo']
+}
