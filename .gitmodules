@@ -19,3 +19,6 @@
 [submodule "cyrillic-clock"]
 	path = cyrillic-clock
 	url = https://github.com/IvanLudvig/cyrillic-clock.git
+[submodule "kmeans-webgpu"]
+	path = kmeans-webgpu
+	url = https://github.com/IvanLudvig/kmeans-webgpu.git
