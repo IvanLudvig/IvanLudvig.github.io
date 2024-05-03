@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "K-Means with WebGPU"
+title:  "K-Means WebGPU Implementation Using Compute Shaders"
 date:   2024-05-03 12:00:00 +0100
 categories: tech
+description: Implementing k-means clustering algorithm with computations and rendering done with WebGPU
+image: /assets/img/kmeans-webgpu/1.png
 ---
 
 [Full code](https://github.com/IvanLudvig/kmeans-webgpu){:target="_blank"}  
@@ -11,9 +13,7 @@ categories: tech
 Atwood's Law states:
 > Any application that can be written in JavaScript, will eventually be written in JavaScript.  
 
-Once I had an assignment to implement the k-means clustering algorith with a visualization in any programming language. Considering that I had experience making pretty visualizations with JavaScript, that's what I chose and it turned out [great](/tech/k-means-d3){:target="_blank"}. Naturally, someone told me that JS is slow compared to C++, Python or whatever (Rust wasn't a big thing then). But now, years later, having heard of the trendy and efficient WebGPU, I decided to check it out by implementing k-means with WebGPU. I am especially excited about compute shaders.
-
-I've played around with [shaders](/shaders){:target="_blank"} before, as well as did some [game development](https://github.com/IvanLudvig/StarStorm){:target="_blank"}, so I'm familiar with graphic rendering concepts, but that's it. This post somewhat explains the code and my thought process.
+Once I had an assignment to implement the k-means clustering algorithm with a visualization in any programming language. Considering that I had experience making pretty visualizations with JavaScript, that's what I chose and it turned out [great](/tech/k-means-d3){:target="_blank"}. Naturally, someone told me that JS is slow compared to C++, Python or whatever (Rust wasn't a big thing then). But now, years later, having heard of the trendy and efficient WebGPU, I decided to check it out by implementing k-means with WebGPU. I am especially excited about compute shaders.
 
 ## Setting up
 We start by creating the `index.html` file with a 512x512 canvas and linking a CSS file `styles.css` and JS script `index.js`.
@@ -48,7 +48,7 @@ canvas {
 }
 ```
 
-In the `index.js` file we check for WebGPU support (browser compatability can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API#browser_compatibility){:target="_blank"}).
+In the `index.js` file we check for WebGPU support (browser compatibility can be found [here](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API#browser_compatibility){:target="_blank"}).
 ```js
 const adapter = await navigator.gpu?.requestAdapter();
 const device = await adapter?.requestDevice();
@@ -78,15 +78,38 @@ The data we are working with are the following:
 - `centroids`: array of floats (coordinates) of size 2K
 - `clusters`: array of integers of size N, indicating the id of the assigned cluster for each point
 
-We observe that during running k-means, `points` remains constant, while `centroids` and `clusters` change with each iteration (unless they converge). Our app will be split into two parts: caomputing and rendering. The solution I came up with is shown in the following diagram.
+We observe that during running k-means, `points` remains constant, while `centroids` and `clusters` change with each iteration (unless they converge). Our app will be split into two parts: computing and rendering. The solution I came up with is shown in the following diagram.
 <center>
     <img src='/assets/img/kmeans-webgpu/1.png' alt='scheme' />
 </center>
 
-## Rendering
-First, we will implement just the rendering of the data points as squares and cluster centroids as triangles. Beware: boilerplate ahead.
+## Render
+First, we will implement rendering of the data points as squares and cluster centroids as triangles. 
 
-<h3 style="margin-top: 0px;">Vertex Buffers</h3>
+<div 
+    style="
+        background-color: #fcebb1;
+        border: 2px solid #fad350;
+        border-radius: 20px;
+        font-size: 21px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        font-weight: bold;
+        padding: 24px;
+    "
+    >
+    <div style="font-size: 72px; line-height: 100%;">!</div>
+    <div style="display: flex; flex-direction: column; justify-content: center;">
+        Beware: boilerplate ahead
+        <div style="font-size: 16px; font-weight: normal;">
+            keep junior web developers away from the screen
+        </div>
+    </div>
+</div>
+
+### Vertex Buffers
 To render data points, we first create a vertex buffer with a square (a square is 2 triangles = 6 vertices).
 ```js
 const pointVertices = new Float32Array([
@@ -126,7 +149,7 @@ const vertexBufferLayout = {
 };
 ```
 
-<h3 style="margin-top: 0px;">Storage Buffers</h3>
+### Storage Buffers
 Data point coordinates are generated randomly as 2N floats in the range (0, 1). Storage buffers are used rather than uniform buffers as they can hold more data. Uniform buffers have a minimum maximum (yeah, right) size of 64k. Since we copy data into these buffers, we add the `COPY_DST` usage flag.
 ```js
 const points = new Float32Array(2 * N);
@@ -328,12 +351,12 @@ After all this work, all we get is this. The points are all the same colour, bec
     <img src='/assets/img/kmeans-webgpu/2.png' width='480px' alt='intermediate result' />
 </center>
 
-## Computing
+## Compute
 The computational phase consists of two parts:
 1. assign: assigning clusters to points, outputting `clusters`
-2. update: updating the centroids positions, outputting `centroids`.
+2. update: updating the centroids positions, outputting `centroids`
 
-<h3 style="margin-top: 0px;">Buffers and Bind Groups</h3>
+### Buffers and Bind Groups
 Since storage buffers used in vertex shaders have to be read-only, we create separate read-write storage buffers for the compute phase in a separate bind group. After the computations are done, the results are copied to the read-only buffers and rendered.
 
 ```js
@@ -473,7 +496,7 @@ encoder.copyBufferToBuffer(centroidsBufferComp, 0, centroidsBuffer, 0, centroids
 // ... render pass ...
 ```
 
-And... it works! You can see the clusters being updated until convergence. Efficiency of the implemented code wasn't investigated in this post and a question to look into.
+And... it works! You can see the clusters being updated until convergence. Efficiency of the implemented code wasn't investigated in this post, but it's a question worth looking into.
 <center>
     <img src='/assets/img/kmeans-webgpu/3.png' width='480px' alt='final result' />
 </center>
