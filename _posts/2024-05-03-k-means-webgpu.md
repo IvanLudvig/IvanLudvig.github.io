@@ -3,7 +3,7 @@ layout: post
 title:  "K-Means WebGPU Implementation Using Compute Shaders"
 date:   2024-05-03 12:00:00 +0100
 categories: tech
-description: Implementing k-means clustering algorithm with computations and rendering done with WebGPU
+description: Implementing k-means clustering algorithm with computation and rendering done with WebGPU
 image: /assets/img/kmeans-webgpu/1.png
 ---
 
@@ -13,7 +13,7 @@ image: /assets/img/kmeans-webgpu/1.png
 Atwood's Law states:
 > Any application that can be written in JavaScript, will eventually be written in JavaScript.  
 
-Once I had an assignment to implement the k-means clustering algorithm with a visualization in any programming language. Considering that I had experience making pretty visualizations with JavaScript, that's what I chose and it turned out [great](/tech/k-means-d3){:target="_blank"}. Naturally, someone told me that JS is slow compared to C++, Python or whatever (Rust wasn't a big thing then). But now, years later, having heard of the trendy and efficient WebGPU, I decided to check it out by implementing k-means with WebGPU. I am especially excited about compute shaders.
+Once I had an assignment to implement the k-means clustering algorithm with a visualization in any programming language. Considering that I had experience making pretty visualizations with JavaScript, that's what I chose and it turned out [great](/tech/k-means-d3){:target="_blank"}. Naturally, someone told me that JS is slow compared to C++, Python or whatever (Rust wasn't a big thing then). But now, years later, having heard of the trendy and efficient WebGPU, I decided to check it out by implementing k-means on the GPU with JavaScript. I am especially excited about compute shaders.
 
 ## Setting up
 We start by creating the `index.html` file with a 512x512 canvas and linking a CSS file `styles.css` and JS script `index.js`.
@@ -434,7 +434,7 @@ The update phase is run for each cluster/centroid. We compute the mean position 
 @group(0) @binding(2) var<storage> clusters: array<u32>;
 @group(1) @binding(0) var<storage, read_write> centroids: array<f32>;
 
-@compute @workgroup_size(4)
+@compute @workgroup_size(${WORKGROUP_SIZE})
 fn cs(@builtin(global_invocation_id) id: vec3u) {
     let centroid = id.x;
     var sum = vec2f(0);
@@ -496,7 +496,7 @@ encoder.copyBufferToBuffer(centroidsBufferComp, 0, centroidsBuffer, 0, centroids
 // ... render pass ...
 ```
 
-And... it works! You can see the clusters being updated until convergence. Efficiency of the code wasn't investigated in this post, but it's a question worth looking into.
+And... it works! You can see the clusters being updated until convergence. Efficiency of the code wasn't investigated in this post, but it's a question worth looking into because that's the whole point of performing computations on the GPU.
 <center>
     <img src='/assets/img/kmeans-webgpu/3.png' width='480px' alt='final result' />
 </center>
