@@ -218,7 +218,7 @@ const renderPipelineLayout = device.createPipelineLayout({
 
 
 ### Shaders
-The vertex shader for points runs once for every vertex in the vertex buffer for each data point. It returns a struct containing position (like any vertex shader) and the cluster index of a point, passing it to the fragment shader. By using this design we can use the same fragment shader for both entities. To use storage buffers, we specify their bind group index via `@group()` and binding indices via `@binding()`, which were defined in the bind group layout. Inside the main `vs` function we do a simple transformation, mapping each point position from (0, 1) into the clip space (-1, 1) and stretching the square so it's 4px big.
+The vertex shader for points runs once for every vertex in the vertex buffer for each data point. It returns a struct containing position (like any vertex shader) and the cluster index of a point, passing it to the fragment shader. By using this design, we can use the same fragment shader for both entities. To use storage buffers, we specify their bind group index via `@group()` and binding indices via `@binding()`, which were defined in the bind group layout. Inside the main `vs` function we do a simple transformation, mapping each point position from (0, 1) into the clip space (-1, 1) and stretching the square so it's 4px big.
 ```rust
 struct VertexOutput {
     @builtin(position) position: vec4f,
@@ -316,7 +316,7 @@ const centroidsPipeline = device.createRenderPipeline({
 });
 ```
 
-Almost there! Now, we create a function for running the pipelines, which is called every 500ms. It begins with the computations (TODO), then clearing the view with black. The points pipeline is ran for `pointVertices.length / 2` vertices in `N` instances: one instance per point. Similarly for the centroids pipeline.
+Almost there! Now, we create a function for running the pipelines, which is called every 500ms. It begins with the computations (TODO), then clearing the view with black. The points pipeline is ran for `pointVertices.length / 2` vertices in `N` instances: one instance per point. And similarly for the centroids pipeline.
 ```js
 const update = () => {
     const encoder = device.createCommandEncoder();
@@ -398,7 +398,7 @@ const computePipelineLayout = device.createPipelineLayout({
 ```
 
 ### Compute Shaders
-The assignment phase is ran for each point, indexed by the invocation id. We iterate over the centroids and find the closest one, updating the value in `clusters`. Read only buffers from `@group(0)` are used where possible.
+The assignment phase is run for each point, indexed by the invocation id. We iterate over the centroids and find the closest one, updating the value in `clusters`. Read only buffers from `@group(0)` are used where possible.
 ```rust
 @group(0) @binding(0) var<storage> points: array<f32>;
 @group(0) @binding(1) var<storage> centroids: array<f32>;
@@ -428,7 +428,7 @@ fn cs(@builtin(global_invocation_id) id: vec3u) {
 }
 ```
 
-The update phase is ran for each cluster/centroid. We compute the mean position of points belonging to the current cluster.
+The update phase is run for each cluster/centroid. We compute the mean position of points belonging to the current cluster.
 ```rust
 @group(0) @binding(0) var<storage> points: array<f32>;
 @group(0) @binding(2) var<storage> clusters: array<u32>;
@@ -471,7 +471,7 @@ const updatePipeline = device.createComputePipeline({
 });
 ```
 
-First, the assignment pipeline is ran. The compute shader is ran for each point, hence we need `Math.ceil(N / WORKGROUP_SIZE)` work groups. After this step, the assigned clusters are copied into the read-only buffer. Then, the centroid positions are updated and copied into the corressponding read-only buffer. In both steps we attach both bind groups. After the computations are done, the render pipeline is ran.
+First, the assignment pipeline is run. The compute shader is run for each point, hence we need `Math.ceil(N / WORKGROUP_SIZE)` work groups. After this step, the assigned clusters are copied into the read-only buffer. Then, the centroid positions are updated and copied into the corresponding read-only buffer. In both steps we attach both bind groups. After the computations are done, the render pipeline is run.
 ```js
 const encoder = device.createCommandEncoder();
 
@@ -496,7 +496,7 @@ encoder.copyBufferToBuffer(centroidsBufferComp, 0, centroidsBuffer, 0, centroids
 // ... render pass ...
 ```
 
-And... it works! You can see the clusters being updated until convergence. Efficiency of the implemented code wasn't investigated in this post, but it's a question worth looking into.
+And... it works! You can see the clusters being updated until convergence. Efficiency of the code wasn't investigated in this post, but it's a question worth looking into.
 <center>
     <img src='/assets/img/kmeans-webgpu/3.png' width='480px' alt='final result' />
 </center>
