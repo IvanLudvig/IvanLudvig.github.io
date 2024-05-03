@@ -16,7 +16,7 @@ Once I had an assignment to implement the k-means clustering algorith with a vis
 I've played around with [shaders](/shaders){:target="_blank"} before, as well as did some [game development](https://github.com/IvanLudvig/StarStorm){:target="_blank"}, so I'm familiar with graphic rendering concepts, but that's it. This post somewhat explains the code and my thought process.
 
 ## Setting up
-We start by creating the `index.html` file with a 512x512 canvas and linking a JS script `index.js`.
+We start by creating the `index.html` file with a 512x512 canvas and linking a CSS file `styles.css` and JS script `index.js`.
 ```html
 <!DOCTYPE html>
 <html>
