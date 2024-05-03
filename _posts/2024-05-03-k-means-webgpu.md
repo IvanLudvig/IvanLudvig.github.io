@@ -13,7 +13,7 @@ Atwood's Law states:
 
 Once I had an assignment to implement the k-means clustering algorith with a visualization in any programming language. Considering that I had experience making pretty visualizations with JavaScript, that's what I chose and it turned out [great](/tech/k-means-d3){:target="_blank"}. Naturally, someone told me that JS is slow compared to C++, Python or whatever (Rust wasn't a big thing then). But now, years later, having heard of the trendy and efficient WebGPU, I decided to check it out by implementing k-means with WebGPU. I am especially excited about compute shaders.
 
-I've played around with [shaders](/shaders){:target="_blank"} before, as well as did some [game development](https://github.com/IvanLudvig/StarStorm){:target="_blank"} in the past, so I'm familiar with graphic rendering concepts, but that's it. This post somewhat explains the code and my thought process.
+I've played around with [shaders](/shaders){:target="_blank"} before, as well as did some [game development](https://github.com/IvanLudvig/StarStorm){:target="_blank"}, so I'm familiar with graphic rendering concepts, but that's it. This post somewhat explains the code and my thought process.
 
 ## Setting up
 We start by creating the `index.html` file with a 512x512 canvas and linking a JS script `index.js`.
