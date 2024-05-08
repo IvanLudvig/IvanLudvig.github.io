@@ -75,4 +75,16 @@ const generatePlaceConfig = (name, minZoom = 8) => ({
     cities: cities[name]?.map(key => ({ ...places[key], key }))
 })
 
+const generateCityMarker = (name) => {
+    const children = cities[name].map(x => places[x]);
+    const coords = children.map(m => m.coords)
+        .reduce((a, b) => [a[0] + b[0], a[1] + b[1]])
+        .map(x => x / children.length);
+    return {
+        ...children[0],
+        name: name.replace('-', ' '),
+        coords
+    };
+};
+
 const countryCodeToMaps = {}

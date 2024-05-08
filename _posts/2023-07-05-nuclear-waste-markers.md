@@ -3,6 +3,7 @@ layout: post
 title:  "Markers to Deter Human Intrusion into Nuclear Waste Isolation Plants"
 date:   2023-07-05 12:00:00 +0300
 categories: tech
+image: /assets/img/nuclearwaste/egyptian1.png
 ---
 
 > This place is not a place of honor.  

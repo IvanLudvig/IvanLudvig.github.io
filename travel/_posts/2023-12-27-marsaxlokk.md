@@ -5,6 +5,8 @@ date:   2023-12-27 12:00:00 +0100
 dates: 27 Dec 2023
 categories: travel
 country: mt
+description: Visiting a Maltese fishing village
+image: /assets/img/marsaxlokk/7.jpg
 ---
 {%- assign name = 'Around-Marsaxlokk' -%}
 {%- include travel-country-map.html -%}

@@ -5,6 +5,8 @@ date:   2023-12-26 12:00:00 +0100
 dates: 26 Dec 2023
 categories: travel
 country: mt
+description: Dreamy landscapes
+image: /assets/img/golden-bay/11.jpg
 ---
 {%- assign name = 'Golden-Bay' -%}
 {%- include travel-country-map.html -%}

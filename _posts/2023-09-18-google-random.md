@@ -3,6 +3,7 @@ layout: post
 title:  "Hacking Google Random Number Generator"
 date:   2023-09-18 12:00:00 +0300
 categories: tech
+image: /assets/img/google-rng/google.png
 ---
 
 One of the most widely used random number generators must be the one built into Google. But how random is it? Can you rely on it for your daily dose of entropy? 

@@ -76,6 +76,7 @@ custom-title: Ivan Ludvig's Travel Blog
             generatePlaceConfig('Athens'),
             generatePlaceConfig('Sicily-East', 5),
             generatePlaceConfig('Lisbon'),
+            generatePlaceConfig('Rota-Vicentina', 7),
         ];
 
         countries.forEach(renderCountry);
