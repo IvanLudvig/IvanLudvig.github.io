@@ -123,7 +123,7 @@ I stayed at an eerie hostel, which seemed like a converted hospital. I was alone
     </div>
     <p class="image-label"></p>
 </center>
-As darkness fell, I went for a walk. I admired the clear starry sky and recalled constellations, listening to the ocean and contemplating how I ended up here, all alone. 
+As darkness fell, I went for a walk. I admired the clear starry sky and recalled constellations, listening to the ocean and contemplating how I ended up here, all by myself. 
 <center>
     <img src="/assets/img/rota-vicentina/38.jpg" style="width: 60%;" />
     <p class="image-label"></p>
