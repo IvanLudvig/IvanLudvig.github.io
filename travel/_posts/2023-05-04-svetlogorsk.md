@@ -5,6 +5,7 @@ date:   2023-05-04 12:00:00 +0300
 dates: 4 May 2023
 categories: travel
 country: ru
+image: /assets/img/svetlogorsk/3.jpg
 ---
 {%- assign name = 'Svetlogorsk' -%}
 {%- include travel-country-map.html -%}

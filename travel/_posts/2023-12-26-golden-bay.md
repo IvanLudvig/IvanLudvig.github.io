@@ -89,3 +89,7 @@ Someone keeps their boat (or gold) here.
 <a class="prev" href="/travel/2023/senglea">
     Senglea
 </a>
+
+<a class="next" href="/travel/2023/marsaxlokk">
+    Marsaxlokk
+</a>
