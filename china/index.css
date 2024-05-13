@@ -8,11 +8,7 @@
     height: 100%;
     align-items: center;
     justify-content: center;
-    background: url(bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: #000;
 }
 
 .centered {
@@ -20,13 +16,13 @@
     height: 400px;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 42%;
+    top: 50%;
     left: 50%;
 }
 
 .play {
     border: none;
-    color: black;
+    color: #000;
     text-align: center;
     text-transform: uppercase;
     font-size: 64px;

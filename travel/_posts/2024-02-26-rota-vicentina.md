@@ -1,7 +1,7 @@
 ---
 layout: travel-post
 title:  "Rota Vicentina"
-date:   2024-02-23 12:00:00 +0100
+date:   2024-02-26 12:00:00 +0100
 dates: 26 – 27 Feb 2024
 categories: travel
 country: pt
@@ -14,7 +14,7 @@ image: /assets/img/rota-vicentina/10.jpg
 
 [Rota Vicentina (Fisherman's trail)](https://rotavicentina.com/en/fishermens-trail/#filter=r-fullyTranslatedLangus-){:target="_blank"}  is a coastal trail in Portugal with a total length of 226km, split into 13 steps. I walked 4 steps in 2 days: walking _Porto Covo – Vila Nova de Milfontes – Almograve_ on the first day, and then _Almograve – Zambujeira do Mar – Odeceixe_ on the second. This was my first proper long hike. 
 
-I reached the starting point Porto Covo by bus from Lisbon (Rede Expressos) and started walking the next morning. I didn't book accommodation in advance because I wasn't sure were I would end up at the end of the day and I saw that options were available. I wasn't even sure how long I would be walking for, but presumed 3 days. Since my experience was solitary and quiet, this post will use few words.
+I reached the starting point Porto Covo by bus from Lisbon (Rede Expressos) and started walking the next morning. I didn't book accommodation in advance because I wasn't sure where I would end up at the end of the day and I saw that options were available. I wasn't even sure how long I would be walking for, but presumed 3 days. Since my experience was solitary and quiet, this post will use few words.
 
 At the start of each day I ensured to have equal amounts of water and wine, and proceeded to walk South.
 
@@ -214,5 +214,9 @@ When I started the hike, I thought I would walk for 3 days, but I ended up doing
 Conclusions: I love walking in nature and I can walk all day.
 
 <a class="prev" href="/travel/2024/lisbon">
-    Lisbon
+    Cascais
 </a>
+
+<!-- <a class="next" href="/travel/2024/lagos">
+    Lagos
+</a> -->

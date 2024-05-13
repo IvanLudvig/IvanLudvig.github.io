@@ -6,6 +6,12 @@ places = {
         link: '/travel/2024/lisbon',
         zoom: 6
     },
+    'Cascais': {
+        name: 'Cascais',
+        coords: [38.69705, -9.42229],
+        link: '/travel/2024/cascais',
+        zoom: 9
+    },
     'Porto-Covo': {
         name: 'Porto Covo',
         coords: [37.85111, -8.79312],
@@ -40,7 +46,9 @@ places = {
 
 cities = {
     ...cities,
+    'Around-Lisbon': ['Lisbon', 'Cascais'],
     'Rota-Vicentina': ['Porto-Covo', 'Vila-Nova-de-Milfontes', 'Almograve', 'Zambujeira-do-Mar', 'Odeceixe']
 };
 
 places['Rota-Vicentina'] = generateCityMarker('Rota-Vicentina');
+places['Around-Lisbon'] = places['Lisbon'];

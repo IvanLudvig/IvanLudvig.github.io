@@ -1,6 +1,7 @@
 ---
 layout: travel-home
 custom-title: Ivan Ludvig's Travel Blog
+description: My travels
 ---
 
 <div id="map" style="height: 480px; width: 100%; margin-bottom: 36px; margin-top: -15px; border-radius: 6px;">
@@ -75,7 +76,7 @@ custom-title: Ivan Ludvig's Travel Blog
             generatePlaceConfig('Budapest'),
             generatePlaceConfig('Athens'),
             generatePlaceConfig('Sicily-East', 5),
-            generatePlaceConfig('Lisbon'),
+            generatePlaceConfig('Around-Lisbon', 7),
             generatePlaceConfig('Rota-Vicentina', 7),
         ];
 
