@@ -66,7 +66,7 @@ image: /assets/img/svetlogorsk/3.jpg
 <p class="image-label">Или по ступенькам</p>
 </center>
 
-Раньше город назывался Рауше. Здесь любят старое название, как и в других городах области.
+Раньше город назывался Раушен. Здесь любят старое название, как и в других городах области.
 <center>
 <img src="{{site.baseurl}}/assets/img/svetlogorsk/12.jpg" />
 <p class="image-label"></p>

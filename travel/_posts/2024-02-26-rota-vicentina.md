@@ -213,10 +213,10 @@ When I started the hike, I thought I would walk for 3 days, but I ended up doing
 
 Conclusions: I love walking in nature and I can walk all day.
 
-<a class="prev" href="/travel/2024/lisbon">
+<a class="prev" href="/travel/2024/cascais">
     Cascais
 </a>
 
-<!-- <a class="next" href="/travel/2024/lagos">
+<a class="next" href="/travel/2024/lagos">
     Lagos
-</a> -->
+</a>
