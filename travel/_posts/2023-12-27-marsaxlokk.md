@@ -124,10 +124,10 @@ Between this place and Marsaxlokk, there's a big factory.
     <p class="image-label">Pipes</p>
 </center>
 
-This was my last evening in Malta and I headed to the airport. This was my second time in Malta and I would love to visit again.
+This was my last evening in Malta and I headed to the airport. It was my second time in Malta and I would love to visit again.
 <center>
     <img src="{{site.baseurl}}/assets/img/marsaxlokk/9.jpg" />
-    <p class="image-label">Saying goodbye to the Malta</p>
+    <p class="image-label">Saying goodbye to Malta</p>
 </center>
 
 <a class="prev" href="/travel/2023/golden-bay">
