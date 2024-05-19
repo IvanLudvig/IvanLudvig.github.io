@@ -46,7 +46,19 @@ places = {
         name: 'Lagos',
         coords: [37.10278, -8.67302],
         link: '/travel/2024/lagos',
-        zoom: 6
+        zoom: 8
+    },
+    'Faro': {
+        name: 'Faro',
+        coords: [37.01646, -7.93519],
+        link: '/travel/2024/faro',
+        zoom: 8
+    },
+    'Praia-de-Faro': {
+        name: 'Praia de Faro',
+        coords: [37.00821, -7.99472],
+        link: '/travel/2024/faro',
+        zoom: 12
     }
 };
 
@@ -54,7 +66,7 @@ cities = {
     ...cities,
     'Around-Lisbon': ['Lisbon', 'Cascais'],
     'Rota-Vicentina': ['Porto-Covo', 'Vila-Nova-de-Milfontes', 'Almograve', 'Zambujeira-do-Mar', 'Odeceixe'],
-    'South-Portugal': ['Around-Lisbon', 'Rota-Vicentina', 'Lagos']
+    'South-Portugal': ['Around-Lisbon', 'Rota-Vicentina', 'Lagos', 'Faro']
 };
 
 places['Rota-Vicentina'] = generateCityMarker('Rota-Vicentina', 9, 8);
