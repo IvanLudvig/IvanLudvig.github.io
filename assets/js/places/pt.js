@@ -59,6 +59,18 @@ places = {
         coords: [37.00821, -7.99472],
         link: '/travel/2024/faro',
         zoom: 12
+    },
+    'Porto': {
+        name: 'Porto',
+        coords: [41.15794, -8.6291],
+        link: '/travel/2024/porto',
+        zoom: 8
+    },
+    'Braga': {
+        name: 'Braga',
+        coords: [41.54544, -8.4265],
+        link: '/travel/2024/braga',
+        zoom: 8
     }
 };
 
@@ -66,10 +78,11 @@ cities = {
     ...cities,
     'Around-Lisbon': ['Lisbon', 'Cascais'],
     'Rota-Vicentina': ['Porto-Covo', 'Vila-Nova-de-Milfontes', 'Almograve', 'Zambujeira-do-Mar', 'Odeceixe'],
-    'South-Portugal': ['Around-Lisbon', 'Rota-Vicentina', 'Lagos', 'Faro']
+    'South-Portugal': ['Around-Lisbon', 'Rota-Vicentina', 'Lagos', 'Faro'],
+    'North-Portugal': ['Porto', 'Braga']
 };
 
 places['Rota-Vicentina'] = generateCityMarker('Rota-Vicentina', 9, 8);
 places['Around-Lisbon'] = { ...places['Lisbon'], minZoom: 7 };
 places['South-Portugal'] = { ...generateCityMarker('South-Portugal'), nested: true };
-
+places['North-Portugal'] = { ...generateCityMarker('North-Portugal'), nested: true };

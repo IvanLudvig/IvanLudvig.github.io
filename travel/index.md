@@ -64,11 +64,11 @@ description: My travels
                         .map(x => x / maps.length);
     
         var map = L.map('map', {attributionControl: false}).setView(coords, maps[0]?.zoom ?? 8);
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+        L.tileLayer(MAP_URL).addTo(map);
         maps.map(renderCountry);
     } else {
         var map = L.map('map', {attributionControl: false}).setView([52, 22], 3);
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+        L.tileLayer(MAP_URL).addTo(map);
 
         const countries = [
             generatePlaceConfig('Lanzarote', 9),
@@ -95,7 +95,8 @@ description: My travels
             generatePlaceConfig('Budapest'),
             generatePlaceConfig('Athens'),
             generatePlaceConfig('Sicily-East', 6),
-            generatePlaceConfig('South-Portugal', 6)
+            generatePlaceConfig('South-Portugal', 6),
+            generatePlaceConfig('North-Portugal', 6)
         ];
 
         countries.forEach(renderCountry);

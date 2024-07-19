@@ -40,7 +40,7 @@ As well as a huge port.
 </center>
 
 
-Mysterious cart ruts are found in different parts of Malta, which are supposedly man-made ([wiki](https://en.wikipedia.org/wiki/Misraħ_Għar_il-Kbir)). The fact that some of them lead to the sea, like here, or to cliff edges, suggests that they are prehistoric (~4,000 years ago). It is unclear what civilization utlized them and what kind of heavy goods were transported.
+Mysterious cart ruts are found in different parts of Malta, which are supposedly man-made ([wiki](https://en.wikipedia.org/wiki/Misraħ_Għar_il-Kbir){:target="_blank"}). The fact that some of them lead to the sea, like here, or to cliff edges, suggests that they are prehistoric (~4,000 years ago). It is unclear what civilization utlized them and what kind of heavy goods were transported.
 <center>
     <img src="{{site.baseurl}}/assets/img/marsaxlokk/6.jpg" />
     <p class="image-label">Cart ruts</p>

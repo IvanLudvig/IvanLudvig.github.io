@@ -10,9 +10,11 @@ const cityIcon = L.icon({
     iconSize: new L.Point(16, 24)
 });
 
+const MAP_URL = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+
 function renderMap(containerId, coords, zoom = 5) {
     const map = L.map(containerId, { attributionControl: false }).setView(coords, zoom);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+    L.tileLayer(MAP_URL).addTo(map);
     L.marker(coords, { icon: countryIcon }).addTo(map);
 }
 
@@ -28,7 +30,7 @@ function renderCountryMap(name, mapContainer) {
     const country = generatePlaceConfig(name);
     const map = L.map(mapContainer ? mapContainer : `${name}-country-map`, { attributionControl: false })
         .setView(country.coords, country?.zoom ?? 8);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+    L.tileLayer(MAP_URL).addTo(map);
 
     const onClick = point => () => document.getElementById(point.key)
         .scrollIntoView({ behavior: 'smooth' });
