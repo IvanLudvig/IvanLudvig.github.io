@@ -9,7 +9,7 @@ places = {
     'Naples': {
         name: 'Naples',
         coords: [40.85177, 14.26812],
-        link: '/travel/2022/naples',
+        link: '/travel/?city=naples',
         zoom: 6
     },
     'Rome': {
