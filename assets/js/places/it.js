@@ -89,6 +89,30 @@ places = {
         coords: [37.751, 14.99343],
         link: '/travel/2023/etna',
         zoom: 7
+    },
+    'Pompeii': {
+        name: 'Pompeii',
+        coords: [40.75121, 14.48867],
+        link: '/travel/2024/pompeii',
+        zoom: 9
+    },
+    'Path-of-the-Gods': {
+        name: 'Path of the Gods',
+        coords: [40.62509, 14.53475],
+        link: '/travel/2024/amalfi',
+        zoom: 8
+    },
+    'Positano': {
+        name: 'Positano',
+        coords: [40.62948, 14.48234],
+        link: '/travel/2024/amalfi',
+        zoom: 8
+    },
+    'Sorrento': {
+        name: 'Sorrento',
+        coords: [40.62639, 14.37641],
+        link: '/travel/2024/amalfi',
+        zoom: 8
     }
 };
 
@@ -104,5 +128,11 @@ cities = {
     'Como': ['Varenna', 'Menaggio', 'Como'],
     'Scalea-Rome': ['Rome', 'Scalea'],
     'Turin': ['Goja-del-Pis', 'Almese', 'Avigliana'],
-    'Sicily-East': ['Catania', 'Syracuse', 'Etna']
+    'Sicily-East': ['Catania', 'Syracuse', 'Etna'],
+    'Amalfi': ['Path-of-the-Gods', 'Positano', 'Sorrento'],
+    'Around-Naples': ['Naples', 'Pompeii', 'Amalfi']
 };
+
+places['Amalfi'] = generateCityMarker('Amalfi', 11, 11);
+places['Around-Naples'] = { ...places['Naples'], nested: true };
+// places['Around-Naples'] = { ...generateCityMarker('Around-Naples'), nested: true };

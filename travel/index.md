@@ -79,7 +79,7 @@ description: My travels
             generatePlaceConfig('Gozo', 10),
             generatePlaceConfig('Dubai'),
             generatePlaceConfig('Tallinn'),
-            generatePlaceConfig('Naples'),
+            generatePlaceConfig('Around-Naples'),
             generatePlaceConfig('Scalea-Rome', 5),
             generatePlaceConfig('Around-Como', 7),
             generatePlaceConfig('Kazan'),
@@ -104,12 +104,10 @@ description: My travels
         countries.forEach(country => {
             if (country.nested){
                 country.cities?.forEach(city => {
-                    if (cities[city.key]) {
-                        renderCountry({
-                            ...generatePlaceConfig(city.key, city.minZoom ?? city.zoom),
-                            countryZoom: country.minZoom
+                    renderCountry({
+                        ...generatePlaceConfig(city.key, city.minZoom ?? city.zoom),
+                        countryZoom: country.minZoom
                     });
-                    }
                 });
             }
         });
