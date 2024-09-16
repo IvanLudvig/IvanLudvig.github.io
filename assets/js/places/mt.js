@@ -96,6 +96,12 @@ places = {
         link: '/travel/2023/senglea',
         zoom: 12
     },
+    'Dingli': {
+        name: 'Dingli',
+        coords: [35.85214, 14.38537],
+        link: '/travel/2023/dingli',
+        zoom: 11
+    },
 };
 
 places['Malta-2022'] = places['Malta'];
@@ -104,11 +110,13 @@ places['Around-Senglea'] = places['Senglea'];
 
 cities = {
     ...cities,
-    'Malta': ['Sliema', 'Valletta', 'Mdina', 'Cirkewwa', 'St-Julians', 'Golden-Bay', 'Birzebbuga', 'Marsaxlokk', 'St-Peters-Pool', 'Senglea'],
     'Malta-2022': ['Sliema', 'Valletta', 'Mdina', 'Cirkewwa', 'St-Julians'],
     'Gozo': ['Mgarr', 'Xewkija', 'Victoria', 'Ramla-Bay'],
+    'Malta': ['Sliema', 'Valletta', 'Mdina', 'Cirkewwa', 'St-Julians', 'Golden-Bay', 'Birzebbuga', 'Marsaxlokk', 'St-Peters-Pool', 'Senglea', 'Dingli'],
+    'Malta-country': ['Malta', 'Gozo'],
     'Around-Marsaxlokk': ['Birzebbuga', 'Marsaxlokk', 'St-Peters-Pool'],
     'Around-Senglea': ['Senglea', 'Valletta'],
 };
 
 countryCodeToMaps['mt'] = ['Malta', 'Gozo'];
+places['Malta-country'] = { ...generateCityMarker('Malta-country'), nested: true };

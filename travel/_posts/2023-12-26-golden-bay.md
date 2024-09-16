@@ -86,8 +86,8 @@ Someone keeps their boat (or gold) here.
     <p class="image-label">Road sign</p>
 </center>
 
-<a class="prev" href="/travel/2023/senglea">
-    Senglea
+<a class="prev" href="/travel/2023/dingli">
+    Dingli
 </a>
 
 <a class="next" href="/travel/2023/marsaxlokk">
