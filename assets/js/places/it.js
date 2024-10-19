@@ -135,4 +135,3 @@ cities = {
 
 places['Amalfi'] = generateCityMarker('Amalfi', 11, 11);
 places['Around-Naples'] = { ...places['Naples'], nested: true };
-// places['Around-Naples'] = { ...generateCityMarker('Around-Naples'), nested: true };

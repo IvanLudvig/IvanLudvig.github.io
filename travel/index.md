@@ -95,13 +95,14 @@ description: My travels
             generatePlaceConfig('Athens'),
             generatePlaceConfig('Sicily-East', 6),
             generatePlaceConfig('South-Portugal', 6),
-            generatePlaceConfig('North-Portugal', 6)
+            generatePlaceConfig('North-Portugal', 6),
+            generatePlaceConfig('Albania', 6)
         ];
 
         countries.forEach(renderCountry);
 
         countries.forEach(country => {
-            if (country.nested){
+            if (country.nested) {
                 country.cities?.forEach(city => {
                     renderCountry({
                         ...generatePlaceConfig(city.key, city.minZoom ?? city.zoom),
