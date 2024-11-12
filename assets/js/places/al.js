@@ -6,10 +6,10 @@ places = {
         link: '/travel/2024/tirana',
         zoom: 8
     },
-    'Vlore': {
+    'Vlora': {
         name: 'Vlorë',
         coords: [40.46606, 19.49135],
-        link: '/travel/2024/vlore',
+        link: '/travel/2024/vlora',
         zoom: 10
     },
     'Zvernec': {
@@ -18,17 +18,17 @@ places = {
         link: '/travel/2024/vlore',
         zoom: 12
     },
-    'Himare': {
+    'Himara': {
         name: 'Himarë',
         coords: [40.10347, 19.75023],
         link: '/travel/2024/himare',
-        zoom: 8
+        zoom: 10
     },
     'Dhermi': {
         name: 'Dhërmi',
         coords: [40.15096, 19.64161],
         link: '/travel/2024/himare',
-        zoom: 8
+        zoom: 12
     },
     'Berat': {
         name: 'Berat',
@@ -36,13 +36,20 @@ places = {
         link: '/travel/2024/berat',
         zoom: 8
     },
+    'Elbasan': {
+        name: 'Elbasan',
+        coords: [41.11138, 20.08226],
+        link: '/travel/2024/berat',
+        zoom: 8
+    }
 };
 
 cities = {
     ...cities,
-    'Vlore': ['Vlore', 'Zvernec'],
-    'Himare': ['Himare', 'Dhermi'],
-    'Albania': ['Tirana', 'Vlore', 'Himare', 'Berat']
+    'Vlora': ['Vlora', 'Zvernec'],
+    'Himara': ['Himara', 'Dhermi'],
+    'Berat': ['Berat', 'Elbasan'],
+    'Albania': ['Tirana', 'Vlora', 'Himara', 'Berat']
 };
 
 places['Albania'] = { ...generateCityMarker('Albania'), nested: true };
