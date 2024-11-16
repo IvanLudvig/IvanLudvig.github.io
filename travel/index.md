@@ -83,8 +83,6 @@ description: My travels
             generatePlaceConfig('Around-Como', 7),
             generatePlaceConfig('Kazan'),
             generatePlaceConfig('Iran', 4),
-            generatePlaceConfig('Fethiye', 9),
-            generatePlaceConfig('Antalya'),
             generatePlaceConfig('Istanbul'),
             generatePlaceConfig('Sochi', 7),
             generatePlaceConfig('Tula'),
@@ -96,7 +94,8 @@ description: My travels
             generatePlaceConfig('Sicily-East', 6),
             generatePlaceConfig('South-Portugal', 6),
             generatePlaceConfig('North-Portugal', 6),
-            generatePlaceConfig('Albania', 6)
+            generatePlaceConfig('Albania', 6),
+            generatePlaceConfig('Turkey-South', 6)
         ];
 
         countries.forEach(renderCountry);

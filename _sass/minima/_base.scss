@@ -358,6 +358,20 @@ table {
     width: calc(35% - 2px);
 }
 
+.side-by-side-together {
+    display: flex;
+    width: 100%;
+}
+
+.side-by-side-together>div {
+    max-width: 50%;
+}
+
+.side-by-side-together>img {
+    max-width: 50%;
+    object-fit: contain;
+}
+
 .new-posts-container {
     border: 1px solid $brand-color-light;
     border-radius: 4px;
