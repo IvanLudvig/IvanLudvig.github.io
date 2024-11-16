@@ -34,7 +34,7 @@ places = {
         name: 'Alanya',
         coords: [36.54444, 31.9954],
         link: '/travel/2024/turkey',
-        zoom: 7
+        zoom: 6
     }
 };
 
