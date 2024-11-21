@@ -95,6 +95,7 @@ description: My travels
             generatePlaceConfig('South-Portugal', 6),
             generatePlaceConfig('North-Portugal', 6),
             generatePlaceConfig('Albania', 6),
+            generatePlaceConfig('Sofia'),
             generatePlaceConfig('Turkey-South', 6)
         ];
 

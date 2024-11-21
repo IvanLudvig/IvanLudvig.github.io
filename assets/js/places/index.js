@@ -58,6 +58,12 @@ let places = {
         coords: [37.9838, 23.72753],
         link: '/travel/2023/athens',
         zoom: 7
+    },
+    'Sofia': {
+        name: 'Sofia',
+        coords: [42.6977, 23.32186],
+        link: '/travel/2024/sofia',
+        zoom: 6
     }
 };
 
