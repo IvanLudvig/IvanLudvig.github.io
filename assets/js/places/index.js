@@ -64,6 +64,36 @@ let places = {
         coords: [42.6977, 23.32186],
         link: '/travel/2024/sofia',
         zoom: 6
+    },
+    'Krakow': {
+        name: 'Krakow',
+        coords: [50.06189, 19.93854],
+        link: '/travel/2024/krakow',
+        zoom: 6
+    },
+    'Wroclaw': {
+        name: 'Wrocław',
+        coords: [51.11004, 17.03199],
+        link: '/travel/2024/wroclaw',
+        zoom: 6
+    },
+    'Bratislava': {
+        name: 'Bratislava',
+        coords: [48.14859, 17.10774],
+        link: '/travel/2024/bratislava',
+        zoom: 6
+    },
+    'Bratislava': {
+        name: 'Bratislava',
+        coords: [48.14859, 17.10774],
+        link: '/travel/2024/bratislava',
+        zoom: 6
+    },
+    'Vienna': {
+        name: 'Vienna',
+        coords: [48.20806, 16.3713],
+        link: '/travel/2024/vienna',
+        zoom: 6
     }
 };
 
