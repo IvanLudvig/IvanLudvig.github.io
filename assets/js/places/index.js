@@ -87,13 +87,13 @@ let places = {
         name: 'Bratislava',
         coords: [48.14859, 17.10774],
         link: '/travel/2024/bratislava',
-        zoom: 6
+        zoom: 7
     },
     'Vienna': {
         name: 'Vienna',
         coords: [48.20806, 16.3713],
         link: '/travel/2024/vienna',
-        zoom: 6
+        zoom: 7
     }
 };
 
