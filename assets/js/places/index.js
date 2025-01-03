@@ -94,6 +94,12 @@ let places = {
         coords: [48.20806, 16.3713],
         link: '/travel/2024/vienna',
         zoom: 7
+    },
+    'Minsk': {
+        name: 'Minsk',
+        coords: [53.9006, 27.55897],
+        link: '/travel/2018/minsk',
+        zoom: 4
     }
 };
 
