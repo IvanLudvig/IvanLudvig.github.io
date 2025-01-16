@@ -100,7 +100,9 @@ description: My travels
             generatePlaceConfig('Turkey-South', 6),
             generatePlaceConfig('Bratislava'),
             generatePlaceConfig('Vienna'),
-            generatePlaceConfig('Minsk')
+            generatePlaceConfig('Minsk'),
+            generatePlaceConfig('Wroclaw'),
+            generatePlaceConfig('Krakow')
         ];
 
         countries.forEach(renderCountry);
