@@ -47,11 +47,25 @@ places = {
         coords: [28.50082, -13.86283],
         link: '/travel/2022/fuerteventura#Puerto-del-Rosario'
     },
+    'Las-Palmas': {
+        name: 'Las Palmas',
+        coords: [28.1259, -15.4263],
+        link: '/travel/2024/las-palmas',
+        zoom: 10
+    },
+    'Maspalomas': {
+        name: 'Maspalomas',
+        coords: [27.7576, -15.5962],
+        link: '/travel/2024/las-palmas#Maspalomas',
+        zoom: 10
+    }
 };
 
 cities = {
     ...cities,
     'Lanzarote': ['Arrecife', 'Famara', 'Costa-Teguise', 'Puerto-del-Carmen', 'Playa-Blanca'],
     'Fuerteventura': ['Corralejo', 'Puerto-del-Rosario'],
+    'Gran-Canaria': ['Las-Palmas', 'Maspalomas']
 };
 
+places['Gran-Canaria'] = { ...generateCityMarker('Gran-Canaria'), nested: false, zoom: 9 };

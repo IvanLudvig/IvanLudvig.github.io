@@ -102,7 +102,8 @@ description: My travels
             generatePlaceConfig('Vienna'),
             generatePlaceConfig('Minsk'),
             generatePlaceConfig('Wroclaw'),
-            generatePlaceConfig('Krakow')
+            generatePlaceConfig('Krakow'),
+            generatePlaceConfig('Gran-Canaria', 9)
         ];
 
         countries.forEach(renderCountry);
