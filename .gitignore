@@ -22,3 +22,8 @@ ehthumbs.db
 Thumbs.db
 
 .history/
+
+bin
+extensions
+gems
+specifications
