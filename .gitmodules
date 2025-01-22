@@ -1,6 +1,3 @@
-[submodule "message-retrieval-tool"]
-	path = message-retrieval-tool
-	url = https://github.com/IvanLudvig/message-retrieval-tool
 [submodule "minimalist-ripple-client"]
 	path = minimalist-ripple-client
 	url = https://github.com/IvanLudvig/minimalist-ripple-client.git
