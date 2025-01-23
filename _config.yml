@@ -5,7 +5,6 @@ author:
 description:
 
 show_excerpts: false
-google_analytics: UA-173168931-1
 
 permalink: /:categories/:title
 
@@ -67,6 +66,7 @@ minima:
 # Build settings
 theme: minima
 
+url: "https://ivanludvig.dev"
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
