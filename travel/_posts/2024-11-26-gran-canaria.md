@@ -74,6 +74,7 @@ Spanish cities are bold: they use bright contrasting colors and everything blend
     <p class="image-label">Traffic light</p>
 </center>
 
+<a id='cubic'></a>
 The city centre is new and boring. The buildings have simple shapes, which make the city feel geometric.
 <center>
     <img src="/assets/img/travel/2024/las-palmas/11.jpg" />
@@ -189,3 +190,6 @@ The adventure continues: I'm flying to Tenerife.
     <p class="image-label">Plane</p>
 </center>
 
+<a class="next" href="/travel/2024/santa-cruz">
+    Santa Cruz
+</a>

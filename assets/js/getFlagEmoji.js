@@ -1,7 +1,11 @@
 const getFlagEmoji = (countryCode) => {
-    const codePoints = countryCode
-        .toUpperCase()
-        .split('')
-        .map(char => 127397 + char.charCodeAt());
-    return String.fromCodePoint(...codePoints);
+    const countries = countryCode.split(',');
+    const codePoints = countries.map(country =>
+        country.toUpperCase()
+            .split('')
+            .map(char => 127397 + char.charCodeAt())
+            .map(codePoint => String.fromCodePoint(codePoint))
+            .join('')
+    );
+    return codePoints.join(' ');
 };

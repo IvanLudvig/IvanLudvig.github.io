@@ -10,6 +10,8 @@ const cityIcon = L.icon({
     iconSize: new L.Point(16, 24)
 });
 
+// const API_KEY = 'v_cYN-QAZtCxJsygjj7tVzjAvoPxVVPHDLngHtoH0kA';
+// const MAP_URL = `https://api.mapy.cz/v1/maptiles/basic/256/{z}/{x}/{y}?lang=en&apikey=${API_KEY}`;
 const MAP_URL = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 
 function renderMap(containerId, coords, zoom = 5) {
