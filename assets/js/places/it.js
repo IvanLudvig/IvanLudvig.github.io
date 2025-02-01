@@ -113,6 +113,18 @@ places = {
         coords: [40.62639, 14.37641],
         link: '/travel/2024/amalfi',
         zoom: 8
+    },
+    'Bardonecchia': {
+        name: 'Bardonecchia',
+        coords: [45.07555, 6.70356],
+        link: '/travel/2024/lac-vert',
+        zoom: 12
+    },
+    'Lac-Vert': {
+        name: 'Lac Vert',
+        coords: [45.07978, 6.61534],
+        link: '/travel/2024/lac-vert',
+        zoom: 12
     }
 };
 
@@ -130,7 +142,8 @@ cities = {
     'Turin': ['Goja-del-Pis', 'Almese', 'Avigliana'],
     'Sicily-East': ['Catania', 'Syracuse', 'Etna'],
     'Amalfi': ['Path-of-the-Gods', 'Positano', 'Sorrento'],
-    'Around-Naples': ['Naples', 'Pompeii', 'Amalfi']
+    'Around-Naples': ['Naples', 'Pompeii', 'Amalfi'],
+    'Lac-Vert': ['Bardonecchia', 'Lac-Vert']
 };
 
 places['Amalfi'] = generateCityMarker('Amalfi', 11, 11);
