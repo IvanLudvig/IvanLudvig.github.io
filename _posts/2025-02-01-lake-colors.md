@@ -150,7 +150,7 @@ Unexpected: among the 10 most common lake names, only two refer to color, white 
 
 Lake names are not very accurate regarding color. 
 
-Okay, I know you want to know it. Here is the color of the mentioned Lac Vert, extracted using my method of using the color of a single pixel from the satellite image. 
+Okay, I know you want to know it. Here is the color of the mentioned Lac Vert, extracted using my genius method of using the color of a single pixel from the satellite image. 
 <div class="color-block" style="background-color: rgb(43,77,78); margin-bottom: 16px;">
 </div>
 
