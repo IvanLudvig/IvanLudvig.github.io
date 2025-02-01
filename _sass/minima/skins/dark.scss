@@ -21,7 +21,7 @@ $border-color-03:       $brand-color !default;
 $table-text-color:      $text-color !default;
 $table-zebra-color:     lighten($background-color, 4%) !default;
 $table-header-bg-color: lighten($background-color, 10%) !default;
-$table-header-border:   lighten($background-color, 21%) !default;
+$table-header-border:   $background !default;
 $table-border-color:    $border-color-01 !default;
 
 
