@@ -3,7 +3,7 @@ layout: post
 title:  "Do Lake Names Reflect Their Properties?"
 date:   2025-02-01 12:00:00 +0100
 categories: tech
-description: A few months ago, I did a hike to a lake called "Lac Vert" (Green Lake) in France. It's a mountain lake located close to the Italian border. I found it remarkable how vividly green the lake was. Although the name describes its appearance well, I was still surprised.
+description: A few months ago, I did a hike to a lake called "Lac Vert" (Green Lake) in France. Although the name describes its appearance well, I was still surprised.
 image: /assets/img/lakes/lac-vert.jpg
 ---
 
@@ -32,7 +32,7 @@ A few months ago, I did a [hike](/travel/2024/lac-vert){:target="_blank"} to a l
 
 On the other hand, sometimes geographical names are misleading. I used to live in a city near Moscow called Dolgoprudny (meaning "Long Pond"). The city's name origin is not apparent upon visiting it and I think it's mildly misleading for a couple of reasons. First of all, the pond is located outside of the city bounds. Secondly, the dimensions of the "Long Pond" are 1100m x 150m, which is long, but not remarkably long. In fact, even if the pond was 100 times longer, it would still be unremarkable: there are tons of long bodies of water in the world, called rivers. The fact that it's a pond would've merely been a fun fact, like the fact that the Caspian Sea is actually a lake.
 
-Anyways, I decided to find out how accurate are lake names, regarding color. I determined the 10 most common lake names and their average colors for different countries.
+Anyways, I decided to find out how accurate lake names are regarding color. I determined the 10 most common lake names in different countries and analyzed their average colors.
 
 ## Collecting data
 > If data grew on trees, the world would be a forest
