@@ -100,6 +100,12 @@ places = {
         coords: [28.04598, -16.53631],
         link: '/travel/2024/el-medano',
         zoom: 9
+    },
+    'Almaciga': {
+        name: 'Almaciga',
+        coords: [28.57346, -16.18713],
+        link: '/travel/2024/anaga',
+        zoom: 9
     }
 };
 
@@ -110,7 +116,7 @@ cities = {
     'Gran-Canaria': ['Las-Palmas', 'Maspalomas'],
     'Around-Santa-Cruz-de-Tenerife': ['Santa-Cruz-de-Tenerife', 'San-Andres'],
     'Around-La-Orotava': ['La-Orotava', 'Puerto-de-la-Cruz'],
-    'Tenerife': ['Santa-Cruz-de-Tenerife', 'San-Andres']
+    'Tenerife': ['Santa-Cruz-de-Tenerife', 'San-Andres', 'Almaciga']
 };
 
 places['Gran-Canaria'] = { ...generateCityMarker('Gran-Canaria'), nested: false, zoom: 9 };

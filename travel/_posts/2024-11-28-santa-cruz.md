@@ -164,3 +164,7 @@ Some door have religious tiles above them, like in [Portugal](/travel/2024/faro#
 <a class="prev" href="/travel/2024/gran-canaria">
     Gran Canaria
 </a>
+
+<a class="next" href="/travel/2024/anaga">
+    Anaga
+</a>
