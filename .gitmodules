@@ -19,6 +19,6 @@
 [submodule "kmeans-webgpu"]
 	path = kmeans-webgpu
 	url = https://github.com/IvanLudvig/kmeans-webgpu.git
-[submodule "color-quantization-webgpu"]
-	path = color-quantization-webgpu
-	url = https://github.com/IvanLudvig/color-quantization-webgpu
+[submodule "image-palette-webgpu-demo"]
+	path = image-palette-webgpu
+	url = https://github.com/IvanLudvig/image-palette-webgpu-demo.git
