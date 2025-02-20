@@ -1,7 +1,7 @@
 ---
 layout: travel-post
 title:  "Puerto de la Cruz"
-date:   2024-11-2 12:00:00 +0100
+date:   2024-12-02 12:00:00 +0100
 dates: 2 Dec 2024
 categories: travel
 country: es
