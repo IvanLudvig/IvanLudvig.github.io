@@ -115,12 +115,10 @@ cities = {
     'Fuerteventura': ['Corralejo', 'Puerto-del-Rosario'],
     'Gran-Canaria': ['Las-Palmas', 'Maspalomas'],
     'Around-Santa-Cruz-de-Tenerife': ['Santa-Cruz-de-Tenerife', 'San-Andres'],
-    'Around-La-Orotava': ['La-Orotava', 'Puerto-de-la-Cruz'],
-    'Tenerife': ['Santa-Cruz-de-Tenerife', 'San-Andres', 'Almaciga']
+    'Tenerife': ['Santa-Cruz-de-Tenerife', 'San-Andres', 'Almaciga', 'Puerto-de-la-Cruz', 'La-Orotava']
 };
 
 places['Gran-Canaria'] = { ...generateCityMarker('Gran-Canaria'), nested: false, zoom: 9 };
 places['Around-Santa-Cruz-de-Tenerife'] = { ...generateCityMarker('Around-Santa-Cruz-de-Tenerife'), nested: false, zoom: 11 };
-places['Around-La-Orotava'] = { ...generateCityMarker('Around-La-Orotava'), nested: false, zoom: 11 };
 places['Tenerife'] = { ...generateCityMarker('Tenerife'), nested: false, zoom: 9 };
 

@@ -89,3 +89,7 @@ An iconic element of every touristy city is a tourist train. An amusing contrapt
     <img src="/assets/img/travel/2024/puerto-cruz/14.jpg" />
     <p class="image-label">Train</p>
 </center>
+
+<a class="prev" href="/travel/2024/teide">
+    Teide
+</a>
