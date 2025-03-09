@@ -115,7 +115,7 @@ cities = {
     'Fuerteventura': ['Corralejo', 'Puerto-del-Rosario'],
     'Gran-Canaria': ['Las-Palmas', 'Maspalomas'],
     'Around-Santa-Cruz-de-Tenerife': ['Santa-Cruz-de-Tenerife', 'San-Andres'],
-    'Tenerife': ['Santa-Cruz-de-Tenerife', 'San-Andres', 'Almaciga', 'Puerto-de-la-Cruz', 'La-Orotava']
+    'Tenerife': ['Santa-Cruz-de-Tenerife', 'San-Andres', 'Almaciga', 'Puerto-de-la-Cruz', 'La-Orotava', 'El-Medano']
 };
 
 places['Gran-Canaria'] = { ...generateCityMarker('Gran-Canaria'), nested: false, zoom: 9 };

@@ -14,7 +14,6 @@ h1, h2, h3, h4 {
     display: block;
     border: 2px black solid;
     padding: 32px 16px;
-    border-radius: 6px;
     font-size: 18px;
     font-weight: 700;
     width: fit-content;
@@ -33,20 +32,24 @@ h1, h2, h3, h4 {
 
 .next::before {
     content: ">>";
+    margin-right: 2px;
     float: left;
 }
 
 .next::after {
     content: ">>";
+    margin-left: 2px;
     float: right;
 }
 
 .prev::before {
     content: "<<";
+    margin-right: 2px;
     float: left;
 }
 
 .prev::after {
     content: "<<";
+    margin-left: 2px;
     float: right;
 }

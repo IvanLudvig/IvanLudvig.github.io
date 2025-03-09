@@ -93,3 +93,6 @@ An iconic element of every touristy city is a tourist train. An amusing contrapt
 <a class="prev" href="/travel/2024/teide">
     Teide
 </a>
+<a class="next" href="/travel/2024/el-medano">
+    El Medano
+</a>
