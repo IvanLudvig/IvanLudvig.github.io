@@ -15,19 +15,19 @@ places = {
     'Zvernec': {
         name: 'Zvërnec',
         coords: [40.51045, 19.41252],
-        link: '/travel/2024/vlore',
+        link: '/travel/2024/vlora#Zvernec',
         zoom: 12
     },
     'Himara': {
         name: 'Himarë',
         coords: [40.10347, 19.75023],
-        link: '/travel/2024/himare',
+        link: '/travel/2024/himara',
         zoom: 10
     },
     'Dhermi': {
         name: 'Dhërmi',
         coords: [40.15096, 19.64161],
-        link: '/travel/2024/himare',
+        link: '/travel/2024/himara#Dhermi',
         zoom: 12
     },
     'Berat': {
