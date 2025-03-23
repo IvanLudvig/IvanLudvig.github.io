@@ -45,3 +45,4 @@ cities = {
 };
 places['Turkey-South'] = { ...generateCityMarker('Turkey-South'), nested: true };
 
+countryCodeToMaps['tr'] = ['Istanbul', 'Antalya', 'Alanya', 'Fethiye'];
