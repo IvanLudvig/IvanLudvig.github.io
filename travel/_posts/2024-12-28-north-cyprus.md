@@ -36,7 +36,7 @@ The Christmas decorations are the same as in the [Greek half of Nicosia](/travel
     <p class="image-label">Christmas decorations</p>
 </center>
 
-Büyük Han is the largest [caravanserai](https://en.wikipedia.org/wiki/Caravanserai){:target="_blank"} (new funny word for me) on Cyprus.
+Büyük Han is the largest [caravanserai](https://en.wikipedia.org/wiki/Caravanserai){:target="_blank"} (a new funny word for me) on Cyprus.
 <center>
     <img src="/assets/img/travel/2024/north-nicosia/4.jpg" />
     <p class="image-label">Büyük Han</p>
@@ -148,6 +148,6 @@ Since [Turkey](/travel?country=tr){:target="_blank"} struggles with high inflati
     Nicosia
 </a>
 
-<a class="next" href="/travel/2024/larnaca">
-    Larnaca
+<a class="next" href="/travel/2024/rural-cyprus">
+    Rural Cyprus
 </a>
