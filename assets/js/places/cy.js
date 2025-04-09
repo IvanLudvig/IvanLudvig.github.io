@@ -48,10 +48,22 @@ places = {
         link: '/travel/2024/rural-cyprus#Episkopeo',
         zoom: 9
     },
+    'Analiontas': {
+        name: 'Analiontas',
+        coords: [34.99399, 33.28783],
+        link: '/travel/2024/rural-cyprus#Analiontas',
+        zoom: 9
+    },
     'Larnaca': {
         name: 'Larnaca',
         coords: [34.91822, 33.62006],
         link: '/travel/2022/larnaca',
+        zoom: 9
+    },
+    'Memi-Mine-Lake': {
+        name: 'Memi Mine Lake',
+        coords: [35.03768, 33.03906],
+        link: '/travel/2024/rural-cyprus#Memi-Mine-Lake',
         zoom: 9
     }
 };
@@ -60,7 +72,8 @@ cities = {
     ...cities,
     'Limassol-Paphos': ['Limassol', 'Paphos', 'Aphrodites-Rock'],
     'Cyprus': ['Limassol', 'Paphos', 'Aphrodites-Rock', 'Nicosia', 'Girne', 'Omodos', 'Pano-Lefkara', 'Larnaca'],
-    'North-Cyprus': ['Nicosia', 'Girne']
+    'North-Cyprus': ['Nicosia', 'Girne'],
+    'Rural-Cyprus': ['Omodos', 'Pano-Lefkara', 'Episkopeio', 'Analiontas', 'Memi-Mine-Lake']
 };
 
 
@@ -72,6 +85,11 @@ places['Limassol-Paphos'] = {
 
 places['North-Cyprus'] = {
     ...generateCityMarker('North-Cyprus'),
+    zoom: 9
+};
+
+places['Rural-Cyprus'] = {
+    ...generateCityMarker('Rural-Cyprus'),
     zoom: 9
 };
 
