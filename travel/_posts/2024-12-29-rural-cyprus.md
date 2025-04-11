@@ -92,7 +92,7 @@ I liked the mosaics of saints, placed in a little park with a playground.
     <p class="image-label">Mosaics</p>
 </center>
 
-Then, there's a planetarium. Thematic decorations, such as inflatable planets and spaceships, are placed right in front of the church. Is this an attempt to show Russian culture in Cyprus? Is this what Russia is about?
+Then, there's a planetarium. Thematic decorations, such as inflatable planets and spaceships, are placed right in front of the church. Is this an attempt to show Russian culture in Cyprus?
 <center>
     <img src="/assets/img/travel/2024/lefkara/9.jpg" />
     <div class="image-margin"></div>
