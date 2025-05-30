@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.image-space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eye {
+    width: 180px;
+    height: 180px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.iris {
+    width: 86px;
+    height: 86px;
+    background: #22329c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.pupil {
+    width: 42px;
+    height: 42px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.1s ease;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #293ecc;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    font-family: 'Syne', sans-serif;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    max-width: 500px;
+    font-weight: 400;
+}
+
+.description {
+    max-width: 500px;
+    margin-top: 3rem;
+    text-align: left;
+}
+
+.description p {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.links {
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #fff !important;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+        max-width: 100%;
+    }
+    
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    h3 {
+        font-size: 0.9rem;
+        margin-bottom: 0.75rem;
+        max-width: 100%;
+    }
+    
+    .eye {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .iris {
+        width: 67px;
+        height: 67px;
+    }
+    
+    .pupil {
+        width: 33px;
+        height: 33px;
+    }
+    
+    .description {
+        margin-top: 2rem;
+    }
+    
+    .links {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    h3 {
+        font-size: 0.85rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .eye {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .iris {
+        width: 57px;
+        height: 57px;
+    }
+    
+    .pupil {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .description {
+        margin-top: 1.5rem;
+        font-size: 0.9rem;
+    }
+    
+    .links {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
