@@ -6,12 +6,7 @@ title: Ivan Ludvig's Travel Blog
 <script src='/assets/js/getFlagEmoji.js'></script>
 
 <div class="home">
-  {%- if page.title -%}
-  <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
   {{ content }}
-
 
   {% if site.paginate %}
   {% assign posts = paginator.posts %}

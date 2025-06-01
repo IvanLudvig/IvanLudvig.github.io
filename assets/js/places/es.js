@@ -106,7 +106,55 @@ places = {
         coords: [28.57346, -16.18713],
         link: '/travel/2024/anaga',
         zoom: 9
-    }
+    },
+    'Valencia': {
+        name: 'Valencia',
+        coords: [39.47383, -0.37563],
+        link: '/travel/2025/valencia',
+        zoom: 6
+    },
+    'Palma': {
+        name: 'Palma',
+        coords: [39.57265, 2.65685],
+        link: '/travel/2025/mallorca',
+        zoom: 9
+    },
+    'Andratx': {
+        name: 'Andratx',
+        coords: [39.57442, 2.42025],
+        link: '/travel/2025/mallorca#Andratx',
+        zoom: 9
+    },
+    'Sant-Elm': {
+        name: 'Sant Elm',
+        coords: [39.58094, 2.35081],
+        link: '/travel/2025/mallorca#Sant-Elm',
+        zoom: 9
+    },
+    'Cadiz': {
+        name: 'Cádiz',
+        coords: [36.52101, -6.28045],
+        link: '/travel/2025/cadiz',
+        zoom: 7
+    },
+    'Cadiz-zoomed-in': {
+        name: 'Cádiz',
+        coords: [36.52101, -6.28045],
+        link: '/travel/2025/cadiz',
+        zoom: 12
+    },
+    'Seville': {
+        name: 'Seville',
+        coords: [37.38283, -5.97317],
+        link: '/travel/2025/seville',
+        zoom: 7
+    },
+    'Madrid': {
+        name: 'Madrid',
+        coords: [40.41678, -3.70379],
+        link: '/travel/2025/madrid',
+        zoom: 6
+    },
 };
 
 cities = {
@@ -115,10 +163,11 @@ cities = {
     'Fuerteventura': ['Corralejo', 'Puerto-del-Rosario'],
     'Gran-Canaria': ['Las-Palmas', 'Maspalomas'],
     'Around-Santa-Cruz-de-Tenerife': ['Santa-Cruz-de-Tenerife', 'San-Andres'],
-    'Tenerife': ['Santa-Cruz-de-Tenerife', 'San-Andres', 'Almaciga', 'Puerto-de-la-Cruz', 'La-Orotava', 'El-Medano']
+    'Tenerife': ['Santa-Cruz-de-Tenerife', 'San-Andres', 'Almaciga', 'Puerto-de-la-Cruz', 'La-Orotava', 'El-Medano'],
+    'Mallorca': ['Palma', 'Andratx', 'Sant-Elm']
 };
 
 places['Gran-Canaria'] = { ...generateCityMarker('Gran-Canaria'), nested: false, zoom: 9 };
 places['Around-Santa-Cruz-de-Tenerife'] = { ...generateCityMarker('Around-Santa-Cruz-de-Tenerife'), nested: false, zoom: 11 };
 places['Tenerife'] = { ...generateCityMarker('Tenerife'), nested: false, zoom: 9 };
-
+places['Mallorca'] = { ...generateCityMarker('Mallorca'), nested: false, zoom: 9 };

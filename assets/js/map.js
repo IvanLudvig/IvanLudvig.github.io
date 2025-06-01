@@ -14,14 +14,16 @@ const cityIcon = L.icon({
 // const MAP_URL = `https://api.mapy.cz/v1/maptiles/basic/256/{z}/{x}/{y}?lang=en&apikey=${API_KEY}`;
 const MAP_URL = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 
-function renderMap(containerId, coords, zoom = 5) {
+function renderMap(containerId, coords, zoom = 5, showPin = true) {
     const map = L.map(containerId, { attributionControl: false }).setView(coords, zoom);
     L.tileLayer(MAP_URL).addTo(map);
-    L.marker(coords, { icon: countryIcon }).addTo(map);
+    if (showPin) {
+        L.marker(coords, { icon: countryIcon }).addTo(map);
+    }
 }
 
-function renderCityMap(name) {
-    renderMap(`${name}-map`, places[name].coords, places[name]?.zoom ?? 8);
+function renderCityMap(name, showPin = true) {
+    renderMap(`${name}-map`, places[name].coords, places[name]?.zoom ?? 8, showPin);
 }
 
 const generateMarker = (point, icon, onClick) => L.marker(point.coords, { icon })

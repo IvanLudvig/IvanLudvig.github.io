@@ -1,6 +1,6 @@
 ---
 layout: travel-home
-custom-title: Ivan Ludvig's Travel Blog
+title: Ivan Ludvig's Travel Blog
 description: My travels
 ---
 
@@ -79,7 +79,7 @@ description: My travels
             generatePlaceConfig('Dubai'),
             generatePlaceConfig('Tallinn'),
             generatePlaceConfig('Around-Naples'),
-            generatePlaceConfig('Scalea-Rome', 5),
+            generatePlaceConfig('Scalea', 5),
             generatePlaceConfig('Around-Como', 7),
             generatePlaceConfig('Kazan'),
             generatePlaceConfig('Iran', 4),
@@ -106,7 +106,12 @@ description: My travels
             generatePlaceConfig('Gran-Canaria', 9),
             generatePlaceConfig('Tenerife', 9),
             generatePlaceConfig('Lac-Vert', 8),
-            generatePlaceConfig('Cyprus', 8)
+            generatePlaceConfig('Cyprus', 8),
+            generatePlaceConfig('Valencia'),
+            generatePlaceConfig('Mallorca'),
+            generatePlaceConfig('Cadiz'),
+            generatePlaceConfig('Seville'),
+            generatePlaceConfig('Madrid'),
         ];
 
         countries.forEach(renderCountry);
