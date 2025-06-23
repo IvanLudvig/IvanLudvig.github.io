@@ -50,3 +50,5 @@ cities = {
     'Shiraz': ['Shiraz', 'Persepolis'],
     'Hormuz': ['Bandar-Abbas', 'Hormuz']
 };
+
+countryCodeToMaps['ir'] = ['Tehran', 'Isfahan', 'Shiraz', 'Hormuz'];
