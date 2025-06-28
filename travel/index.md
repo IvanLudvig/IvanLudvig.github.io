@@ -112,6 +112,7 @@ description: My travels
             generatePlaceConfig('Cadiz'),
             generatePlaceConfig('Seville'),
             generatePlaceConfig('Madrid'),
+            generatePlaceConfig('Florence'),
         ];
 
         countries.forEach(renderCountry);

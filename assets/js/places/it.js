@@ -125,6 +125,12 @@ places = {
         coords: [45.07978, 6.61534],
         link: '/travel/2024/lac-vert',
         zoom: 12
+    },
+    'Florence': {
+        name: 'Florence',
+        coords: [43.77138, 11.25581],
+        link: '/travel/2025/firenze',
+        zoom: 6
     }
 };
 
