@@ -17,28 +17,10 @@ let places = {
         link: '/travel/2022/lugano',
         zoom: 6
     },
-    'Nice': {
-        name: 'Nice',
-        coords: [43.71017, 7.26195],
-        link: '/travel/2023/nice',
-        zoom: 7
-    },
     'Monaco': {
         name: 'Monaco',
         coords: [43.73841, 7.42461],
         link: '/travel/2023/monaco',
-        zoom: 11
-    },
-    'Cape-Martin': {
-        name: 'Cape Martin',
-        coords: [43.75077, 7.48388],
-        link: '/travel/2023/menton#Cape-Martin',
-        zoom: 11
-    },
-    'Menton': {
-        name: 'Menton',
-        coords: [43.77448, 7.49754],
-        link: '/travel/2023/menton',
         zoom: 11
     },
     'Ventimiglia': {
@@ -103,13 +85,7 @@ let places = {
     }
 };
 
-places['Azure-Menton'] = places['Cape-Martin'];
-places['Azure'] = places['Nice'];
-
-let cities = {
-    'Azure': ['Nice', 'Monaco', 'Cape-Martin', 'Menton', 'Ventimiglia'],
-    'Azure-Menton': ['Monaco', 'Cape-Martin', 'Menton', 'Ventimiglia'],
-}
+let cities = {};
 
 const generatePlaceConfig = (name, minZoom = 8) => ({
     ...places[name],
