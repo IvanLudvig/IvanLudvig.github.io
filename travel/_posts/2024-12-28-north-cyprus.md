@@ -67,6 +67,7 @@ Towns in Northern Cyprus are known by two names: a Turkish (Girne) and a Greek n
     <p class="image-label">Bus ride</p>
 </center>
 
+I was travelling with a Japanese girl I'd met the day before in Paphos. We were the only foreigners on the minibus. I never thought that on December 28, I'd start the day by crossing into an unrecognized republic and taking a local minibus with someone from Japan.
 <center>
     <img src="/assets/img/travel/2024/girne/3.jpg" />
     <p class="image-label">Ataturk Monument</p>
