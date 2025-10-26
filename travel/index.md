@@ -115,6 +115,7 @@ description: My travels
             generatePlaceConfig('Florence'),
             generatePlaceConfig('Paris'),
             generatePlaceConfig('Lyon'),
+            generatePlaceConfig('Liguria'),
             generatePlaceConfig('Uzice'),
         ];
 

@@ -131,6 +131,42 @@ places = {
         coords: [43.77138, 11.25581],
         link: '/travel/2025/firenze',
         zoom: 6
+    },
+    'Sori': {
+        name: 'Sori',
+        coords: [44.37198, 9.10192],
+        link: '/travel/2025/liguria',
+        zoom: 11
+    },
+    'Camogli': {
+        name: 'Camogli',
+        coords: [44.34761, 9.15695],
+        link: '/travel/2025/liguria',
+        zoom: 11
+    },
+    'St-Margherita': {
+        name: 'St Margherita Ligure',
+        coords: [44.33475, 9.21332],
+        link: '/travel/2025/liguria',
+        zoom: 11
+    },
+    'Portofino': {
+        name: 'Portofino',
+        coords: [44.30315, 9.20978],
+        link: '/travel/2025/liguria',
+        zoom: 11
+    },
+    'Zoagli': {
+        name: 'Zoagli',
+        coords: [44.33974, 9.26824],
+        link: '/travel/2025/liguria',
+        zoom: 11
+    },
+    'Sestri-Levante': {
+        name: 'Sestri Levante',
+        coords: [44.27269, 9.40945],
+        link: '/travel/2025/liguria',
+        zoom: 11
     }
 };
 
@@ -149,8 +185,11 @@ cities = {
     'Sicily-East': ['Catania', 'Syracuse', 'Etna'],
     'Amalfi': ['Path-of-the-Gods', 'Positano', 'Sorrento'],
     'Around-Naples': ['Naples', 'Pompeii', 'Amalfi'],
-    'Lac-Vert': ['Bardonecchia', 'Lac-Vert']
+    'Lac-Vert': ['Bardonecchia', 'Lac-Vert'],
+    'Liguria': ['Sori', 'Camogli', 'St-Margherita', 'Portofino', 'Zoagli', 'Sestri-Levante']
 };
 
 places['Amalfi'] = generateCityMarker('Amalfi', 11, 11);
 places['Around-Naples'] = { ...places['Naples'], nested: true };
+places['Liguria'] = generateCityMarker('Liguria', 10, 11);
+
