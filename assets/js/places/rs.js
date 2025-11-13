@@ -13,3 +13,10 @@ places = {
         zoom: 7
     },
 };
+
+cities = {
+    ...cities,
+    'Serbia': ['Belgrade', 'Uzice']
+};
+
+places['Serbia'] = { ...generateCityMarker('Serbia'), nested: true };

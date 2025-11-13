@@ -116,7 +116,7 @@ description: My travels
             generatePlaceConfig('Paris'),
             generatePlaceConfig('Lyon'),
             generatePlaceConfig('Liguria'),
-            generatePlaceConfig('Uzice'),
+            generatePlaceConfig('Serbia', 5),
         ];
 
         countries.forEach(renderCountry);
