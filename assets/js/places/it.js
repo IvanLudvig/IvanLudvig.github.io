@@ -15,7 +15,7 @@ places = {
     'Rome': {
         name: 'Rome',
         coords: [41.90278, 12.49636],
-        link: '/travel/2022/scalea#Rome',
+        link: '/travel/2025/rome',
         zoom: 6
     },
     'Scalea': {
