@@ -29,6 +29,12 @@ places = {
         coords: [45.76404, 4.83565],
         link: '/travel/2025/lyon',
         zoom: 6
+    },
+    'Bordeaux': {
+        name: 'Bordeaux',
+        coords: [44.84161, -0.58109],
+        link: '/travel/2025/bordeaux',
+        zoom: 6
     }
 };
 
