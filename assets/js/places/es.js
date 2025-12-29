@@ -155,6 +155,60 @@ places = {
         link: '/travel/2025/madrid',
         zoom: 6
     },
+    'Bilbao': {
+        name: 'Bilbao',
+        coords: [43.26337, -2.93481],
+        link: '/travel/2025/bilbao',
+        zoom: 6
+    },
+    'Gaztelugatxe': {
+        name: 'Gaztelugatxe',
+        coords: [43.447, -2.785],
+        link: '/travel/2025/bilbao#gaztelugatxe',
+        zoom: 8
+    },
+    'Donostia': {
+        name: 'Donostia',
+        coords: [43.31823, -1.9817],
+        link: '/travel/2025/donostia',
+        zoom: 6
+    },
+    'Zarautz': {
+        name: 'Zarautz',
+        coords: [43.28477, -2.17139],
+        link: '/travel/2025/donostia#zarautz',
+        zoom: 8
+    },
+    'Getaria': {
+        name: 'Getaria',
+        coords: [43.30285, -2.2046],
+        link: '/travel/2025/donostia#getaria',
+        zoom: 8
+    },
+    'Hondarribia': {
+        name: 'Hondarribia',
+        coords: [43.36862, -1.7998],
+        link: '/travel/2025/donostia#hondarribia',
+        zoom: 8
+    },
+    'Santander': {
+        name: 'Santander',
+        coords: [43.46363, -3.82264],
+        link: '/travel/2025/santander',
+        zoom: 6
+    },
+    'Gijon': {
+        name: 'Gijón',
+        coords: [43.53224, -5.66097],
+        link: '/travel/2025/gijon',
+        zoom: 6
+    },
+    'Oviedo': {
+        name: 'Oviedo',
+        coords: [43.36225, -5.84854],
+        link: '/travel/2025/oviedo',
+        zoom: 6
+    },
 };
 
 cities = {
