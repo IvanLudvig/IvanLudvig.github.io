@@ -20,6 +20,30 @@ title: Ivan Ludvig's Travel Blog
   <h2 class="post-list-heading">{{ page.list_title }}</h2>
   {%- endif -%}
 
+    {%- comment -%} Collect all unique countries {%- endcomment -%}
+    {%- assign all_countries = "" | split: "" -%}
+    {%- for post in posts -%}
+      {%- if post.categories contains "travel" and post.country -%}
+        {%- assign countries = post.country | split: "," -%}
+        {%- for country in countries -%}
+          {%- unless all_countries contains country -%}
+            {%- assign all_countries = all_countries | push: country -%}
+          {%- endunless -%}
+        {%- endfor -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- assign all_countries = all_countries | sort -%}
+
+    {%- comment -%} Country filter buttons {%- endcomment -%}
+    <div class="country-filter">
+      <button class="country-btn active" data-country="all">🌍</button>
+      {%- for country in all_countries -%}
+        <button class="country-btn" data-country="{{ country }}">
+          <script>document.write(getFlagEmoji('{{ country }}'))</script>
+        </button>
+      {%- endfor -%}
+    </div>
+
     <ul id="travel-posts-list" class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
