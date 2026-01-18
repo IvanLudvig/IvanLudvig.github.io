@@ -7,6 +7,7 @@ categories: travel
 country: pt
 description: Hiking 75km in 2 days along Portuguese coast. Porto Covo – Vila Nova de Milfontes – Almograve – Zambujeira do Mar – Odeceixe
 image: /assets/img/rota-vicentina/10.jpg
+fav: true
 ---
 
 {%- assign name = 'Rota-Vicentina' -%}

@@ -25,7 +25,7 @@ title: Ivan Ludvig's Travel Blog
       {%- for post in posts -%}
       {% if post.categories contains "travel" %}
       <li data-title="{{ post.title }}" data-cities="{{ post.cities }}" data-country="{{ post.country }}">
-        <span class="post-meta">{{ post.dates }}</span>
+        <span class="post-meta">{% if post.fav %}★ {% endif %}{{ post.dates }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }} <script>document.write(getFlagEmoji('{{post.country}}') ?? '')</script>
