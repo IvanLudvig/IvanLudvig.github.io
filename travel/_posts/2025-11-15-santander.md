@@ -135,3 +135,7 @@ Further along the coast, a desolate grey Civil War monument stands against the e
 <a class="prev" href="/travel/2025/bilbao">
     Bilbao
 </a>
+
+<a class="next" href="/travel/2025/gijon">
+    Gijón
+</a>
