@@ -38,8 +38,13 @@ document.addEventListener('DOMContentLoaded', () => {
             // Filter posts
             posts.forEach(post => {
                 const postCountries = post.getAttribute('data-country');
-                
-                if (selectedCountry === 'all' || postCountries.includes(selectedCountry)) {
+                const isFav = post.getAttribute('data-fav') === 'true';
+
+                if (selectedCountry === 'all') {
+                    post.style.display = '';
+                } else if (selectedCountry === 'fav') {
+                    post.style.display = isFav ? '' : 'none';
+                } else if (postCountries.includes(selectedCountry)) {
                     post.style.display = '';
                 } else {
                     post.style.display = 'none';

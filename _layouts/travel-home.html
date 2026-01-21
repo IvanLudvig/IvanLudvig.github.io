@@ -37,6 +37,7 @@ title: Ivan Ludvig's Travel Blog
     {%- comment -%} Country filter buttons {%- endcomment -%}
     <div class="country-filter">
       <button class="country-btn active" data-country="all">🌍</button>
+      <button class="country-btn" data-country="fav">⭐</button>
       {%- for country in all_countries -%}
         <button class="country-btn" data-country="{{ country }}">
           <script>document.write(getFlagEmoji('{{ country }}'))</script>
@@ -48,7 +49,7 @@ title: Ivan Ludvig's Travel Blog
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       {% if post.categories contains "travel" %}
-      <li data-title="{{ post.title }}" data-cities="{{ post.cities }}" data-country="{{ post.country }}">
+      <li data-title="{{ post.title }}" data-cities="{{ post.cities }}" data-country="{{ post.country }}" data-fav="{{ post.fav }}">
         <span class="post-meta">{% if post.fav %}★ {% endif %}{{ post.dates }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
