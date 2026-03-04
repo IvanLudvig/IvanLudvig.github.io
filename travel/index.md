@@ -124,6 +124,7 @@ description: My travels
             generatePlaceConfig('Bilbao'),
             generatePlaceConfig('Santander'),
             generatePlaceConfig('Gijon'),
+            generatePlaceConfig('Basque'),
         ];
 
         countries.forEach(renderCountry);

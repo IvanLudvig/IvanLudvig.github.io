@@ -164,31 +164,31 @@ places = {
     'Gaztelugatxe': {
         name: 'Gaztelugatxe',
         coords: [43.447, -2.785],
-        link: '/travel/2025/bilbao#gaztelugatxe',
+        link: '/travel/2025/basque#Gaztelugatxe',
         zoom: 8
     },
     'Donostia': {
         name: 'Donostia',
         coords: [43.31823, -1.9817],
-        link: '/travel/2025/donostia',
+        link: '/travel/2025/basque#Donostia',
         zoom: 6
     },
     'Zarautz': {
         name: 'Zarautz',
         coords: [43.28477, -2.17139],
-        link: '/travel/2025/donostia#zarautz',
+        link: '/travel/2025/basque#Zarautz',
         zoom: 8
     },
     'Getaria': {
         name: 'Getaria',
         coords: [43.30285, -2.2046],
-        link: '/travel/2025/donostia#getaria',
+        link: '/travel/2025/basque#Getaria',
         zoom: 8
     },
     'Hondarribia': {
         name: 'Hondarribia',
         coords: [43.36862, -1.7998],
-        link: '/travel/2025/donostia#hondarribia',
+        link: '/travel/2025/basque#Hondarribia',
         zoom: 8
     },
     'Santander': {
@@ -218,10 +218,12 @@ cities = {
     'Gran-Canaria': ['Las-Palmas', 'Maspalomas'],
     'Around-Santa-Cruz-de-Tenerife': ['Santa-Cruz-de-Tenerife', 'San-Andres'],
     'Tenerife': ['Santa-Cruz-de-Tenerife', 'San-Andres', 'Almaciga', 'Puerto-de-la-Cruz', 'La-Orotava', 'El-Medano'],
-    'Mallorca': ['Palma', 'Andratx', 'Sant-Elm']
+    'Mallorca': ['Palma', 'Andratx', 'Sant-Elm'],
+    'Basque': ['Gaztelugatxe', 'Zarautz', 'Getaria', 'Donostia', 'Hondarribia']
 };
 
 places['Gran-Canaria'] = { ...generateCityMarker('Gran-Canaria'), nested: false, zoom: 9 };
 places['Around-Santa-Cruz-de-Tenerife'] = { ...generateCityMarker('Around-Santa-Cruz-de-Tenerife'), nested: false, zoom: 11 };
 places['Tenerife'] = { ...generateCityMarker('Tenerife'), nested: false, zoom: 9 };
 places['Mallorca'] = { ...generateCityMarker('Mallorca'), nested: false, zoom: 9 };
+places['Basque'] = { ...generateCityMarker('Basque'), name: 'Basque Coast', link: '/travel/2025/basque', nested: true, zoom: 9 };

@@ -132,8 +132,8 @@ Further along the coast, a desolate grey Civil War monument stands against the e
     <p class="image-label">Monumento a los Caídos</p>
 </center>
 
-<a class="prev" href="/travel/2025/bilbao">
-    Bilbao
+<a class="prev" href="/travel/2025/basque">
+    Basque Coast
 </a>
 
 <a class="next" href="/travel/2025/gijon">
