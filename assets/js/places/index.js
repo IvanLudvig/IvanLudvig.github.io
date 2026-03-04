@@ -11,12 +11,6 @@ let places = {
         link: '/travel/2022/tallinn',
         zoom: 6
     },
-    'Lugano': {
-        name: 'Lugano',
-        coords: [46.00367, 8.95105],
-        link: '/travel/2022/lugano',
-        zoom: 6
-    },
     'Monaco': {
         name: 'Monaco',
         coords: [43.73841, 7.42461],
