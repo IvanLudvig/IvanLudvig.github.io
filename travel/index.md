@@ -116,6 +116,7 @@ description: My travels
             generatePlaceConfig('Paris'),
             generatePlaceConfig('Lyon'),
             generatePlaceConfig('Liguria'),
+            generatePlaceConfig('Bergamo'),
             generatePlaceConfig('Serbia', 5),
             generatePlaceConfig('Montenegrin-Coast', 7),
             generatePlaceConfig('Basel'),

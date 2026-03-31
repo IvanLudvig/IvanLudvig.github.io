@@ -167,7 +167,13 @@ places = {
         coords: [44.27269, 9.40945],
         link: '/travel/2025/liguria',
         zoom: 11
-    }
+    },
+    'Bergamo': {
+        name: 'Bergamo',
+        coords: [45.69419, 9.67074],
+        link: '/travel/2022/bergamo',
+        zoom: 7
+    },
 };
 
 places['Turin-1'] = places['Turin'];
