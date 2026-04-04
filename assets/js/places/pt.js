@@ -71,6 +71,36 @@ places = {
         coords: [41.54544, -8.4265],
         link: '/travel/2024/braga',
         zoom: 8
+    },
+    'Ponta-Delgada': {
+        name: 'Ponta Delgada',
+        coords: [37.73942, -25.66867],
+        link: '/travel/2025/sao-miguel#Ponta-Delgada',
+        zoom: 10
+    },
+    'Sete-Cidades': {
+        name: 'Sete Cidades',
+        coords: [37.85894, -25.79449],
+        link: '/travel/2025/sao-miguel#Sete-Cidades',
+        zoom: 10
+    },
+    'Mosteiros': {
+        name: 'Mosteiros',
+        coords: [37.89043, -25.82075],
+        link: '/travel/2025/sao-miguel#Mosteiros',
+        zoom: 10
+    },
+    'Vila-Franca': {
+        name: 'Vila Franca do Campo',
+        coords: [37.71564, -25.43445],
+        link: '/travel/2025/sao-miguel#Vila-Franca',
+        zoom: 10
+    },
+    'Furnas': {
+        name: 'Furnas',
+        coords: [37.77606, -25.31042],
+        link: '/travel/2025/sao-miguel#Furnas',
+        zoom: 10
     }
 };
 
@@ -79,10 +109,12 @@ cities = {
     'Around-Lisbon': ['Lisbon', 'Cascais'],
     'Rota-Vicentina': ['Porto-Covo', 'Vila-Nova-de-Milfontes', 'Almograve', 'Zambujeira-do-Mar', 'Odeceixe'],
     'South-Portugal': ['Around-Lisbon', 'Rota-Vicentina', 'Lagos', 'Faro'],
-    'North-Portugal': ['Porto', 'Braga']
+    'North-Portugal': ['Porto', 'Braga'],
+    'Sao-Miguel': ['Ponta-Delgada', 'Sete-Cidades', 'Mosteiros', 'Vila-Franca', 'Furnas']
 };
 
 places['Rota-Vicentina'] = generateCityMarker('Rota-Vicentina', 9, 8);
 places['Around-Lisbon'] = { ...places['Lisbon'], minZoom: 7 };
 places['South-Portugal'] = { ...generateCityMarker('South-Portugal'), nested: true };
 places['North-Portugal'] = { ...generateCityMarker('North-Portugal'), nested: true };
+places['Sao-Miguel'] = { ...generateCityMarker('Sao-Miguel', 10, 9), link: '/travel/2025/sao-miguel' };
