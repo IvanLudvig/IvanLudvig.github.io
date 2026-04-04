@@ -288,7 +288,7 @@ After visiting the lake, I hitchhiked back to Ponta Delgada. I waited 40min for 
     <p class="image-label">Hitchhiking</p>
 </center>
 
-After a week, I left the lonely isolated green island. Lush and alive but alone in the middle of the ocean. 
+After a week, I left the isolated green island. Lush and alive but alone in the middle of the ocean. 
 
 <a class="prev" href="/travel/2025/gijon">
     Gijón

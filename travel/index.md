@@ -4,7 +4,7 @@ title: Ivan Ludvig's Travel Blog
 description: My travels
 ---
 
-<div id="map" style="height: 480px; width: 100%; margin-bottom: 36px; margin-top: -15px; border-radius: 6px;">
+<div id="map" style="height: 480px; max-height: 40vh; width: 100%; margin-bottom: 36px; margin-top: -15px; border-radius: 6px;">
 </div>
 
 <script>
@@ -67,7 +67,7 @@ description: My travels
         L.tileLayer(MAP_URL).addTo(map);
         maps.map(renderCountry);
     } else {
-        var map = L.map('map', {attributionControl: false}).setView([52, 22], 3);
+        var map = L.map('map', {attributionControl: false}).setView([47, 14], 3);
         L.tileLayer(MAP_URL).addTo(map);
 
         const countries = [
@@ -126,6 +126,7 @@ description: My travels
             generatePlaceConfig('Santander'),
             generatePlaceConfig('Gijon'),
             generatePlaceConfig('Basque'),
+            generatePlaceConfig('Sao-Miguel', 9),
         ];
 
         countries.forEach(renderCountry);
