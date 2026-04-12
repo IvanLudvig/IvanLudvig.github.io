@@ -120,6 +120,7 @@ description: My travels
             generatePlaceConfig('Serbia', 5),
             generatePlaceConfig('Montenegrin-Coast', 7),
             generatePlaceConfig('Basel'),
+            generatePlaceConfig('Trieste'),
             generatePlaceConfig('Rome'),
             generatePlaceConfig('Bordeaux'),
             generatePlaceConfig('Bilbao'),

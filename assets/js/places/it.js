@@ -171,8 +171,14 @@ places = {
     'Bergamo': {
         name: 'Bergamo',
         coords: [45.69419, 9.67074],
-        link: '/travel/2022/bergamo',
+        link: '/travel/2025/bergamo',
         zoom: 7
+    },
+    'Trieste': {
+        name: 'Trieste',
+        coords: [45.65083, 13.76744],
+        link: '/travel/2025/trieste',
+        zoom: 6
     },
 };
 
