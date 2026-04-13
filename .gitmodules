@@ -22,3 +22,6 @@
 [submodule "image-palette-webgpu-demo"]
 	path = image-palette-webgpu
 	url = https://github.com/IvanLudvig/image-palette-webgpu-demo.git
+[submodule "nca-webgpu"]
+	path = nca-webgpu
+	url = https://github.com/IvanLudvig/nca-webgpu
