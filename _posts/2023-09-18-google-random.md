@@ -6,6 +6,30 @@ categories: tech
 image: /assets/img/google-rng/google.png
 ---
 
+<style>
+    .shield-container {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+</style>
+
+<div class="shield-container">
+    <a
+        href="https://github.com/IvanLudvig/google-rng-hack"
+        target="_blank"
+    >
+        <img
+            src="https://img.shields.io/badge/GitHub-24292f.svg?logo=github&style=flat-square"
+            alt="GitHub"
+        >
+    </a>
+</div>
+
+> Numbers are wrong? See [Part 2](/tech/google-random-v2).
+
 One of the most widely used random number generators must be the one built into Google. But how random is it? Can you rely on it for your daily dose of entropy? 
 <center>
     <img src="{{site.baseurl}}/assets/img/google-rng/google.png" />
@@ -163,7 +187,7 @@ Finally, we can predict the unpredictable. I have set the limits to `min = 1` an
 <iframe width="90%" height="400" src="https://www.youtube.com/embed/iw0sJTmulSw?si=GI1RzjrGbNqqM1j1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 
-As a web developer interested in cryptocurrency, I have heard about `Math.random()` being unsafe, and today I finally saw and tested a specific example proving this fact. Conclusion: please be aware that the Google random number generator is an unreliable source of entropy, especially for people familiar with bitwise operations.
+As a web developer interested in cryptography, I have heard about `Math.random()` being unsafe, and today I finally saw and tested a specific example proving this fact. Conclusion: please be aware that the Google random number generator is an unreliable source of entropy, especially for people familiar with bitwise operations.
 
 Code: [https://github.com/IvanLudvig/google-rng-hack](https://github.com/IvanLudvig/google-rng-hack)
 
