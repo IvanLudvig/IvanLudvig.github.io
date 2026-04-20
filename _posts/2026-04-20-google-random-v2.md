@@ -4,6 +4,7 @@ title:  "Hacking Google Random Number Generator (Part 2)"
 date:   2026-04-20 12:00:00 +0100
 categories: tech
 image: /assets/img/google-rng/two-milk.png
+description: Predicting Math.random() in V8 engine by recovering xorshift128+ state with Z3
 ---
 
 <style>
