@@ -4,6 +4,12 @@ title: My Work
 permalink: /work/
 ---
 
+- [Ethereum Blockie Search](https://blockie-search.ivanludvig.dev){:target="_blank"} (React, Web3): tool to generate Ethereum addresses with specific patterns in their Blockie identicons, 2025
+
+<img src="/assets/img/work/blockie-search.png">
+
+<br/>
+
 - [MSc Thesis: Langevin Particle Swarm Optimization with Friction-Based Communication](https://webthesis.biblio.polito.it/secure/36334/1/tesi.pdf){:target="_blank"} (Machine Learning, Applied Mathematics, Statistical Physics, GPU programming, wgpu), [Code](https://github.com/IvanLudvig/swarm_wgpu){:target="_blank"}, 2025
 
 <img src="/assets/img/work/thesis.png" style="border: 1px solid black" >
@@ -69,8 +75,6 @@ permalink: /work/
 - Souldev Network (React, TypeScript, Tailwind, Responsive web design, Blockchain integration, Web3), 2023
 
 <img src="/assets/img/work/souldev0.png">
-
-<img src="/assets/img/work/souldev1.png">
 
 <br/>
 
