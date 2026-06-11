@@ -4,7 +4,7 @@ title:  "Neural Cellular Automata with WebGPU"
 date:   2026-06-10 12:00:00 +0100
 categories: tech
 description: A WebGPU demo of Growing Neural Cellular Automata. Each cell runs inference through a shared pretrained neural network entirely in compute shaders
-image: 
+image: /assets/img/work/nca-webgpu-cactus.png
 ---
 
 <style>
