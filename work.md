@@ -4,6 +4,20 @@ title: My Work
 permalink: /work/
 ---
 
+- [Neural Cellular Automata with WebGPU](/tech/neural-ca-webgpu){:target="_blank"} (ML, WebGPU): Growing and self-repairing neural CA in WebGPU compute shaders, 2026
+
+<center>
+    <img src="/assets/img/work/nca-webgpu-cactus.png" style="max-width: 480px;">
+</center>
+
+<br/>
+
+- [Hacking Google Random Number Generator](/tech/google-random-v2){:target="_blank"} (Python, Z3), [Code](https://github.com/IvanLudvig/google-rng-hack){:target="_blank"}, 2023 & 2026
+
+<img src="/assets/img/work/google-rng-hack.png" style="border: 1px solid black" >
+
+<br/>
+
 - [Ethereum Blockie Search](https://blockie-search.ivanludvig.dev){:target="_blank"} (React, Web3): tool to generate Ethereum addresses with specific patterns in their Blockie identicons, 2025
 
 <img src="/assets/img/work/blockie-search.png">
@@ -55,12 +69,6 @@ permalink: /work/
 <center>
     <img src="/assets/img/work/guess-word.png" width="360px">
 </center>
-
-<br/>
-
-- [Hacking Google Random Number Generator](/tech/google-random){:target="_blank"} (Python, Z3), [Code](https://github.com/IvanLudvig/google-rng-hack){:target="_blank"}, 2023
-
-<img src="/assets/img/work/google-rng-hack.png" style="border: 1px solid black" >
 
 <br/>
 

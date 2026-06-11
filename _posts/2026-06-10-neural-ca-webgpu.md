@@ -3,7 +3,7 @@ layout: post
 title:  "Neural Cellular Automata with WebGPU"
 date:   2026-06-10 12:00:00 +0100
 categories: tech
-description: A WebGPU demo of Growing Neural Cellular Automata — each cell in a 40×40 grid runs inference through a shared pretrained neural network entirely in compute shaders
+description: A WebGPU demo of Growing Neural Cellular Automata. Each cell runs inference through a shared pretrained neural network entirely in compute shaders
 image: 
 ---
 
@@ -74,7 +74,7 @@ image:
     <img src="/assets/img/work/nca-webgpu-cactus.png" alt="NCA cactus growth stages" class="growth-img" />
 </center>
 
-A WebGPU demo of [Growing Neural Cellular Automata](https://doi.org/10.23915/distill.00023) (Mordvintsev et al., 2020). Each cell in a 40x40 grid is a compute shader thread running a shared pretrained neural network to compute its next state. The CA grows from a single seed cell and self-repairs when damaged.
+A WebGPU demo of [Growing Neural Cellular Automata](https://doi.org/10.23915/distill.00023) (Mordvintsev et al., 2020). Each cell in a 40x40 grid runs a shared pretrained neural network in a compute shader to update its state. The CA grows from a single seed cell and self-repairs when damaged.
 
 ### Cell State and Perception
 
