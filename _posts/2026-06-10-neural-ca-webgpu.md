@@ -49,7 +49,7 @@ image:
 
 <div class="shield-container">
     <a
-        href="https://github.com/IvanLudvig/nca-webgpu"
+        href="https://github.com/IvanLudvig/neural-ca-webgpu"
         target="_blank"
     >
         <img
