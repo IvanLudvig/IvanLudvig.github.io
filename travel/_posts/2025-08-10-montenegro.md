@@ -130,6 +130,6 @@ Herceg Novi is a bright, pleasant town. It seems calm during the day, but there 
     Uzice
 </a>
 
-<a class="next" href="/travel/2025/basel">
-    Basel
+<a class="next" href="/travel/2025/bih">
+    BiH
 </a>
