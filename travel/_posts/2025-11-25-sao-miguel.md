@@ -293,3 +293,7 @@ After a week, I left the isolated green island. Lush and alive but alone in the 
 <a class="prev" href="/travel/2025/gijon">
     Gijón
 </a>
+
+<a class="next" href="/travel/2025/porto">
+    Porto
+</a>

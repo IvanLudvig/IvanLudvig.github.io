@@ -92,8 +92,12 @@ description: My travels
             generatePlaceConfig('Budapest'),
             generatePlaceConfig('Athens'),
             generatePlaceConfig('Sicily-East', 6),
-            generatePlaceConfig('South-Portugal', 6),
-            generatePlaceConfig('North-Portugal', 6),
+            generatePlaceConfig('Around-Lisbon', 8),
+            generatePlaceConfig('Lagos', 6),
+            generatePlaceConfig('Faro', 6),
+            generatePlaceConfig('Porto', 6),
+            generatePlaceConfig('Braga', 6),
+            generatePlaceConfig('Rota-Vicentina', 8),
             generatePlaceConfig('Albania', 6),
             generatePlaceConfig('North-Macedonia', 6),
             generatePlaceConfig('Sofia'),
@@ -129,6 +133,8 @@ description: My travels
             generatePlaceConfig('Gijon'),
             generatePlaceConfig('Basque'),
             generatePlaceConfig('Sao-Miguel', 9),
+            generatePlaceConfig('Coimbra-Figueira'),
+            generatePlaceConfig('Guimaraes'),
         ];
 
         countries.forEach(renderCountry);

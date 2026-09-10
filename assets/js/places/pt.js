@@ -101,6 +101,24 @@ places = {
         coords: [37.77606, -25.31042],
         link: '/travel/2025/sao-miguel#Furnas',
         zoom: 10
+    },
+    'Coimbra': {
+        name: 'Coimbra',
+        coords: [40.20331, -8.41025],
+        link: '/travel/2025/coimbra',
+        zoom: 7
+    },
+    'Figueira-da-Foz': {
+        name: 'Figueira da Foz',
+        coords: [40.15213, -8.85758],
+        link: '/travel/2025/coimbra#Figueira-da-Foz',
+        zoom: 7
+    },
+    'Guimaraes': {
+        name: 'Guimarães',
+        coords: [41.44253, -8.29178],
+        link: '/travel/2025/guimaraes',
+        zoom: 7
     }
 };
 
@@ -109,8 +127,9 @@ cities = {
     'Around-Lisbon': ['Lisbon', 'Cascais'],
     'Rota-Vicentina': ['Porto-Covo', 'Vila-Nova-de-Milfontes', 'Almograve', 'Zambujeira-do-Mar', 'Odeceixe'],
     'South-Portugal': ['Around-Lisbon', 'Rota-Vicentina', 'Lagos', 'Faro'],
-    'North-Portugal': ['Porto', 'Braga'],
-    'Sao-Miguel': ['Ponta-Delgada', 'Sete-Cidades', 'Mosteiros', 'Vila-Franca', 'Furnas']
+    'North-Portugal': ['Porto', 'Braga', 'Guimaraes'],
+    'Sao-Miguel': ['Ponta-Delgada', 'Sete-Cidades', 'Mosteiros', 'Vila-Franca', 'Furnas'],
+    'Coimbra-Figueira': ['Coimbra', 'Figueira-da-Foz']
 };
 
 places['Rota-Vicentina'] = generateCityMarker('Rota-Vicentina', 9, 8);
@@ -118,3 +137,4 @@ places['Around-Lisbon'] = { ...places['Lisbon'], minZoom: 7 };
 places['South-Portugal'] = { ...generateCityMarker('South-Portugal'), nested: true };
 places['North-Portugal'] = { ...generateCityMarker('North-Portugal'), nested: true };
 places['Sao-Miguel'] = { ...generateCityMarker('Sao-Miguel', 10, 9), link: '/travel/2025/sao-miguel' };
+places['Coimbra-Figueira'] = { ...generateCityMarker('Coimbra-Figueira', 8, 7), link: '/travel/2025/coimbra' };
