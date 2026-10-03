@@ -180,6 +180,18 @@ places = {
         link: '/travel/2025/trieste',
         zoom: 6
     },
+    'Orsomarso': {
+        name: 'Orsomarso',
+        coords: [39.79908, 15.90818],
+        link: '/travel/2025/orsomarso',
+        zoom: 7
+    },
+    'Paola': {
+        name: 'Paola',
+        coords: [39.36013, 16.04099],
+        link: '/travel/2026/paola',
+        zoom: 7
+    }
 };
 
 places['Turin-1'] = places['Turin'];
