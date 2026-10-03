@@ -135,6 +135,7 @@ description: My travels
             generatePlaceConfig('Sao-Miguel', 9),
             generatePlaceConfig('Coimbra-Figueira'),
             generatePlaceConfig('Guimaraes'),
+            generatePlaceConfig('Warsaw'),
         ];
 
         countries.forEach(renderCountry);
