@@ -20,24 +20,24 @@ The second island I visited was Fuerteventura. It is not only more deserted than
 Corralejo is the main resort town on the island.
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/1.jpg" />
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/2.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/1.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/2.jpg" />
     </div>
     <p class="image-label">Streets of Corralejo</p>
 </center>
 The town is close to a big desert. I love that desert.
 <center>
-<img src="{{site.baseurl}}/assets/img/fuerteventura/3.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/3.jpg" />
 <p class="image-label">
 </p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/fuerteventura/4.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/4.jpg" />
 <p class="image-label">
 </p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/fuerteventura/5.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/5.jpg" />
 <p class="image-label">
 </p>
 </center>
@@ -45,15 +45,15 @@ The town is close to a big desert. I love that desert.
 It was windy. But that's kinda good because you don't feel boiling in the sun. And I love the desert. So vast, empty with no one around. Seems endless when you walk over a dune just to find another one. Awesome. I felt like in a movie wandering there.
 
 <center>
-<img src="{{site.baseurl}}/assets/img/fuerteventura/6.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/6.jpg" />
 <p class="image-label">
 </p>
 </center>
 
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/9.jpg" />
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/10.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/9.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/10.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
@@ -61,8 +61,8 @@ It was windy. But that's kinda good because you don't feel boiling in the sun. A
 If you walk through the desert long enough, you may find yourself on the beach. Sometimes I walked an hour, sometimes two. But I eventually came to the sea. The blue water nicely contrasts the yellow sand. It's a really big beach with wind and waves. Lots of surfers and kitesurfers in this place.
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/7.jpg" />
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/8.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/7.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/8.jpg" />
     </div>
     <p class="image-label">Lots of kitesurfers on the beach</p>
 </center>
@@ -72,31 +72,31 @@ I don't get surfing. From my observations, they spend most of the time looking f
 The beaches have round structures made from rocks that are used to hide from the wind.
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/11.jpg" />
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/12.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/11.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/12.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
 
 If you walk from Corallejo along the coast to the East, you will find more deserted land, but not that deserty. Rather boring and lifeless.
 <center>
-<img src="{{site.baseurl}}/assets/img/fuerteventura/13.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/13.jpg" />
 <p class="image-label">
 </p>
 </center>
 Also, a beach with popcorn sand.
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/14.jpg" />
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/15.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/14.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/15.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
 Weird place.
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/16.jpg" />
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/17.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/16.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/17.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
@@ -109,14 +109,14 @@ The capital of Fuerteventura is Puerto del Rosario. Came here on my way to the a
 
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/18.jpg" />
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/19.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/18.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/19.jpg" />
     </div>
     <p class="image-label">Let's go by bus</p>
 </center>
 The town is soulless.
 <center>
-<img src="{{site.baseurl}}/assets/img/fuerteventura/20.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/20.jpg" />
 <p class="image-label">
 Bus station
 </p>
@@ -126,8 +126,8 @@ The city is full of weird monuments and has a bottomless pit in the middle of th
 
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/21.jpg" />
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/22.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/21.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/22.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
@@ -135,13 +135,13 @@ The city is full of weird monuments and has a bottomless pit in the middle of th
 A little bit nicer in the center.
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/23.jpg" />
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/24.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/23.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/24.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/fuerteventura/25.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/25.jpg" />
 <p class="image-label">
 Flag of Gran Canaria on the left and you know the rest
 </p>
@@ -150,8 +150,8 @@ Flag of Gran Canaria on the left and you know the rest
 The beach is pretty decent for a city.
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/29.jpg" />
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/26.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/29.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/26.jpg" />
     </div>
     <p class="image-label">
     </p>
@@ -159,8 +159,8 @@ The beach is pretty decent for a city.
 
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/28.jpg" />
-        <img src="{{site.baseurl}}/assets/img/fuerteventura/27.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/28.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/fuerteventura/27.jpg" />
     </div>
     <p class="image-label">
     You can take a surfboard this big on the plane with you straight from the beach

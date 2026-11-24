@@ -12,7 +12,7 @@ country: ru
 
 Я летал в Калининград в июне. Полет из Москвы идиотский по идиотским причинам, занимает 2,5 часа (раньше был 1,5 часа). Единственный плюс такого маршрута я узнал при полете назад.
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/0.png" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/0.png" />
 <p class="image-label">
 </p>
 </center>
@@ -25,32 +25,32 @@ country: ru
 
 Калиниград не такой большой город.
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/1.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/1.jpg" />
 <p class="image-label">
 </p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/2.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/2.jpg" />
 <p class="image-label">
 </p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/3.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/3.jpg" />
 <p class="image-label">
 Синагога
 </p>
 </center>
 Встречается старая немецкая архитектура, но её не слишком много.
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/5.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/5.jpg" />
 <p class="image-label">
 </p>
 </center>
 
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/7.jpg" />
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/6.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/7.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/6.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
@@ -58,35 +58,35 @@ country: ru
 В городе есть порт. Я люблю порты.
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/8.jpg" />
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/9.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/8.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/9.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
 
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/10.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/10.jpg" />
 <p class="image-label">
 </p>
 </center>
 
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/12.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/12.jpg" />
 <p class="image-label">
 </p>
 </center>
 
 Я шёл вдоль железной дороги и пил апельсиновый сок из литровой бутылки. Вскоре я узнал, что в Калининградской области Солнце тоже садится.
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/13.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/13.jpg" />
 <p class="image-label">
 </p>
 </center>
 
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/14.jpg" />
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/15.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/14.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/15.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
@@ -97,22 +97,22 @@ country: ru
 На следующий день поехал в курортный город Зеленоградск. 
 <center>
     <div class="side-by-side-lp">
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/16.jpg" />
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/17.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/16.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/17.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
 
 Много людей.
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/18.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/18.jpg" />
 <p class="image-label">
 </p>
 </center>
 
 Солнечный летний день. На пляже никто не купается.
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/19.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/19.jpg" />
 <p class="image-label">
 </p>
 </center>
@@ -122,7 +122,7 @@ country: ru
 {%- include travel-place-title.html -%}
 В Зеленоградске долго задерживаться не стал и поехал на Куршскую косу. Куршская коса – это полоса земли, окруженная водой: с одной стороны Балтийским морем и Куршским заливом с другой.
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/1.png" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/1.png" />
 <p class="image-label">
 Я был здесь
 </p>
@@ -131,66 +131,66 @@ country: ru
 Туда нечастно ходят автобусы из Зеленоградска.
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/20.jpg" />
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/21.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/20.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/21.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
 Сама коса состоит из песчаных дюн. По самым большим дюнам (высота Эфа) ходить нельзя, можно только по дорожкам.
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/22.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/22.jpg" />
 <p class="image-label">
 </p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/23.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/23.jpg" />
 <p class="image-label">
 </p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/24.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/24.jpg" />
 <p class="image-label">
 Вид на Куршский залив
 </p>
 </center>
 На берегу Балтийского моря никто из людей не купался, было 5 июня. Вода действительно холодная, но я решил поплавать. Залез в воду, через 3 минуты понял, что к температуре воды я не привыкаю и надо выйти, иначе я умру. Понравилось.
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/25.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/25.jpg" />
 <p class="image-label">
 </p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/26.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/26.jpg" />
 <p class="image-label">
 </p>
 </center>
 Приятно гулять вдоль моря.
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/27.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/27.jpg" />
 <p class="image-label">
 </p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/29.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/29.jpg" />
 <p class="image-label">
 </p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/30.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/30.jpg" />
 <p class="image-label">
 </p>
 </center>
 Я был там, где не ступала нога человека.
 <center>
-<img src="{{site.baseurl}}/assets/img/kaliningrad/31.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/31.jpg" />
 <p class="image-label">
 </p>
 </center>
 
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/32.jpg" />
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/33.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/32.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/33.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
@@ -199,11 +199,11 @@ country: ru
 <center>
     <div class="side-by-side">
     <div>
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/34.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/34.jpg" />
     <p class="image-label">Куршская Коса</p>
     </div>
     <div>
-        <img src="{{site.baseurl}}/assets/img/kaliningrad/35.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/35.jpg" />
     <p class="image-label">Таллинн</p>
     </div>
     </div>
@@ -211,11 +211,11 @@ country: ru
 <center>
     <div class="side-by-side">
         <div>
-            <img src="{{site.baseurl}}/assets/img/kaliningrad/36.jpg" />
+            <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/36.jpg" />
             <p class="image-label">Корабли</p>
         </div>
         <div>
-            <img src="{{site.baseurl}}/assets/img/kaliningrad/37.jpg" />
+            <img src="{{site.baseurl}}/assets/img/travel/2022/ru/kaliningrad/37.jpg" />
             <p class="image-label">Москва</p>
         </div>
     </div>

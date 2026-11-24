@@ -101,7 +101,7 @@ The cliffs along the coastline around Santander are perfect for a walk. Tankers 
 
 <center>
     <img src="/assets/img/travel/2025/es/santander/18.jpg" />
-    <p class="image-label">Could you see a face here?</p>
+    <p class="image-label">Do you see a face here?</p>
 </center>
 
 The beach has a nice colour palette, whether it's sunny or not.

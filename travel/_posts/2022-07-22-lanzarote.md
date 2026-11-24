@@ -31,34 +31,34 @@ Thank god I don't collect and carry useless shit and all my stuff fits into Ryan
 
 Arrecife, the capital of Lanzarote, turned out to be a pretty boring place, where most of the people are locals. Nobody on the streets at night except giant tropical cockroaches. In the background you can see volcanoes. We'll get there.
 <center>
-<img src="{{site.baseurl}}/assets/img/lanzarote/1.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/1.jpg" />
 <p class="image-label">
 </p>
 </center>
 The city beach looks alluring and tropical, but it's a mediocre place for swimming. It's rocky and shallow.
 <center >
-<img src="{{site.baseurl}}/assets/img/lanzarote/2.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/2.jpg" />
 <p class="image-label">
 </p>
 </center>
 The city architecture mostly looks soulless and bland.
  <center>
-<img src="{{site.baseurl}}/assets/img/lanzarote/21.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/21.jpg" />
 <p class="image-label"></p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/lanzarote/3.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/3.jpg" />
 <p class="image-label">The only nice building in Arrecife</p>
 </center>
 However it is compensated by cheap beer.
 <center>
     <div class="side-by-side">
         <div>
-            <img src="{{site.baseurl}}/assets/img/lanzarote/20.jpg" />
+            <img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/20.jpg" />
             <p class="image-label">Who the hell lives here??</p>
         </div>
         <div>
-            <img src="{{site.baseurl}}/assets/img/lanzarote/17.jpg" />
+            <img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/17.jpg" />
             <p class="image-label">Cheap</p>
         </div>
     </div>
@@ -67,29 +67,29 @@ However it is compensated by cheap beer.
 <h3 id='Volcanoes'>Volcanoes</h3>
 The island has ~~dozens~~ hundreds of volcanoes. No life there, just volcanic wasteland. How unusual though. Sometimes feels like another planet. 
 <center>
-<img src="{{site.baseurl}}/assets/img/lanzarote/4.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/4.jpg" />
 <p class="image-label">
 Who the hell lives here??
 </p>
 </center>
 I climbed volcanoes near Mancha Blanca & walked along their craters.
 <center>
-<img src="{{site.baseurl}}/assets/img/lanzarote/5.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/5.jpg" />
 <p class="image-label">
 </p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/lanzarote/6.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/6.jpg" />
 <p class="image-label">
 </p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/lanzarote/7.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/7.jpg" />
 <p class="image-label"> Find at least 2 people here
 </p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/lanzarote/8.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/8.jpg" />
 <p class="image-label">
 </p>
 </center>
@@ -100,32 +100,32 @@ I climbed volcanoes near Mancha Blanca & walked along their craters.
 
 In the North of the island there's a town called Famara, where surfers come to spend their holidays. It's a dusty town but feels more authentic than any other place on the island.
 <center>
-<img src="{{site.baseurl}}/assets/img/lanzarote/9.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/9.jpg" />
 <p class="image-label">
 </p>
 </center>
 <center>
-<img src="{{site.baseurl}}/assets/img/lanzarote/10.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/10.jpg" />
 <p class="image-label">
 </p>
 </center>
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/lanzarote/11.jpg" />
-        <img src="{{site.baseurl}}/assets/img/lanzarote/14.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/11.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/14.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/lanzarote/13.jpg" />
-        <img src="{{site.baseurl}}/assets/img/lanzarote/12.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/13.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/12.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
 Dusty town.
 <center>
-<img src="{{site.baseurl}}/assets/img/lanzarote/15.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/15.jpg" />
 <p class="image-label">
 </p>
 </center>
@@ -136,7 +136,7 @@ Dusty town.
 
 I saw this wrecked ship near Costa Teguise. Nothing else to see.
 <center>
-<img src="{{site.baseurl}}/assets/img/lanzarote/16.jpg" />
+<img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/16.jpg" />
 <p class="image-label">
 </p>
 </center>
@@ -149,8 +149,8 @@ Puerto del Carmen is the main resort town in Lanzarote. The people you find here
 It has a nicely designed shopping centre. 
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/lanzarote/19.jpg" />
-        <img src="{{site.baseurl}}/assets/img/lanzarote/22.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/19.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/22.jpg" />
     </div>
     <p class="image-label">Be careful: you might get trapped in Zara</p>
 </center>
@@ -162,16 +162,16 @@ It has a nicely designed shopping centre.
 Playa Blanca is another popular resort town. I liked the beaches here the most. Finally a good damn beach with sand and without rocks. 
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/lanzarote/26.jpg" />
-        <img src="{{site.baseurl}}/assets/img/lanzarote/25.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/26.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/25.jpg" />
     </div>
     <p class="image-label"></p>
 </center>
 The good thing about Playa Blanca is that you can take a ferry to [Fuerteventura](/travel/2022/fuerteventura.html). That's what I did. The ferry costs a whopping €20.
 <center>
     <div class="side-by-side">
-        <img src="{{site.baseurl}}/assets/img/lanzarote/23.jpg" />
-        <img src="{{site.baseurl}}/assets/img/lanzarote/24.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/23.jpg" />
+        <img src="{{site.baseurl}}/assets/img/travel/2022/es/lanzarote/24.jpg" />
     </div>
     <p class="image-label">Bye bye, Lanzarote</p>
 </center>
